@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Cala dei Balcani | Wedding Photos Salento, Puglia</title>
+  <meta name="description" content="Explore the photo gallery of Cala dei Balcani: weddings, the panoramic terrace, the 16th-century Saracen Tower, authentic Salentine cuisine and the breathtaking Adriatic landscape of Puglia.">
+  <meta name="keywords" content="wedding photos Puglia, Cala dei Balcani gallery, Salento wedding photography, Saracen Tower photos, Adriatic wedding, luxury wedding images Italy">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.caladeibalcani.it/en/gallery.html">
+  <link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/galleria.html">
+  <link rel="alternate" hreflang="en" href="https://www.caladeibalcani.it/en/gallery.html">
+  <link rel="alternate" hreflang="fr" href="https://www.caladeibalcani.it/fr/galerie.html">
+  <link rel="alternate" hreflang="es" href="https://www.caladeibalcani.it/es/galeria.html">
+  <link rel="alternate" hreflang="de" href="https://www.caladeibalcani.it/de/galerie.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.caladeibalcani.it/galleria.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gallery — Cala dei Balcani | Wedding &amp; Venue Photos, Salento Puglia">
+  <meta property="og:description" content="Discover weddings, landscapes, the Saracen Tower, Salentine cuisine and the Adriatic coast through the Cala dei Balcani photo gallery.">
+  <meta property="og:url" content="https://www.caladeibalcani.it/en/gallery.html">
+  <meta property="og:image" content="https://www.caladeibalcani.it/img/og-gallery.jpg">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:site_name" content="Cala dei Balcani">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ImageGallery",
+    "name": "Cala dei Balcani Gallery",
+    "description": "Photo gallery of Cala dei Balcani luxury wedding venue in Salento, Puglia — weddings, the Saracen Tower, cuisine and the Adriatic landscape.",
+    "url": "https://www.caladeibalcani.it/en/gallery.html",
+    "image": "https://www.caladeibalcani.it/img/og-gallery.jpg",
+    "author": {
+      "@type": "Organization",
+      "name": "La Torre Saracena S.r.l.",
+      "url": "https://www.caladeibalcani.it"
+    }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Lato:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* Gallery-specific styles */
+    .gallery-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+      margin: 2.5rem 0 2.5rem;
+    }
+    .gallery-filter-btn {
+      background: transparent;
+      border: 1px solid var(--color-gold, #b8960c);
+      color: var(--color-gold, #b8960c);
+      padding: 0.5rem 1.5rem;
+      font-family: 'Lato', sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background 0.25s, color 0.25s;
+      border-radius: 2px;
+    }
+    .gallery-filter-btn.is-active,
+    .gallery-filter-btn:hover {
+      background: var(--color-gold, #b8960c);
+      color: #fff;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.75rem;
+    }
+    @media (max-width: 768px) {
+      .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 480px) {
+      .gallery-grid { grid-template-columns: 1fr; }
+    }
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      aspect-ratio: 4/3;
+      cursor: pointer;
+      border-radius: 2px;
+    }
+    .gallery-item--tall { aspect-ratio: 3/4; }
+    .gallery-item--wide { grid-column: span 2; aspect-ratio: 16/9; }
+    .gallery-item__placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 1rem;
+      color: rgba(255,255,255,0.7);
+      transition: transform 0.5s ease;
+    }
+    .gallery-item:hover .gallery-item__placeholder { transform: scale(1.05); }
+    .gallery-item__overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0);
+      transition: background 0.3s;
+      display: flex;
+      align-items: flex-end;
+      padding: 1rem;
+    }
+    .gallery-item:hover .gallery-item__overlay { background: rgba(0,0,0,0.3); }
+    .gallery-item__caption {
+      color: #fff;
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      font-family: 'Lato', sans-serif;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity 0.3s, transform 0.3s;
+    }
+    .gallery-item:hover .gallery-item__caption { opacity: 1; transform: translateY(0); }
+    .gallery-item[data-hidden="true"] { display: none; }
+
+    /* Placeholder colour swatches per category */
+    .gallery-item[data-category="weddings"] .gallery-item__placeholder { background: linear-gradient(135deg, #c9a87c 0%, #e8d5b0 50%, #a07850 100%); }
+    .gallery-item[data-category="venue"] .gallery-item__placeholder { background: linear-gradient(135deg, #6b8fa8 0%, #9bb8cc 50%, #4a7290 100%); }
+    .gallery-item[data-category="tower"] .gallery-item__placeholder { background: linear-gradient(135deg, #2c3e6b 0%, #1a2545 50%, #0d1a3a 100%); }
+    .gallery-item[data-category="cuisine"] .gallery-item__placeholder { background: linear-gradient(135deg, #7a4f2e 0%, #c4813a 50%, #5c3a1e 100%); }
+    .gallery-item[data-category="nature"] .gallery-item__placeholder { background: linear-gradient(135deg, #2e6b4f 0%, #5a9e7a 50%, #1e4a35 100%); }
+  </style>
+</head>
+<body>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="/en/" class="nav__logo" aria-label="Cala dei Balcani — Home">Cala dei <span>Balcani</span></a>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav__menu" role="list">
+        <li><a href="/en/">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="venue.html">The Venue</a></li>
+        <li><a href="weddings.html">Weddings</a></li>
+        <li><a href="tower.html">The Tower</a></li>
+        <li><a href="cuisine.html">Cuisine</a></li>
+        <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav__right">
+        <nav class="nav__lang" aria-label="Select language">
+          <a href="/galleria.html" hreflang="it">IT</a>
+          <a href="/en/gallery.html" class="active" hreflang="en">EN</a>
+          <a href="/fr/galerie.html" hreflang="fr">FR</a>
+          <a href="/es/galeria.html" hreflang="es">ES</a>
+          <a href="/de/galerie.html" hreflang="de">DE</a>
+        </nav>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-hero" aria-labelledby="gallery-hero-heading">
+    <span class="eyebrow fade-up">Images of Salento</span>
+    <h1 id="gallery-hero-heading" class="fade-up fade-up-d1">Gallery</h1>
+    <span class="subtitle fade-up fade-up-d2">Weddings · Venue · Tower · Cuisine · Nature</span>
+    <p class="fade-up fade-up-d3">A visual journey through the world of Cala dei Balcani.</p>
+  </header>
+
+  <main>
+    <nav aria-label="Breadcrumb" class="container">
+      <div class="breadcrumb"><a href="/en/">Home</a><span>›</span><span aria-current="page">Gallery</span></div>
+    </nav>
+
+    <!-- GALLERY SECTION -->
+    <section class="section" aria-labelledby="gallery-intro">
+      <div class="container">
+        <div class="intro text-center">
+          <p class="eyebrow fade-up">Every Image a Story</p>
+          <h2 id="gallery-intro" class="fade-up fade-up-d1">Moments That Last Forever</h2>
+          <div class="divider divider--center fade-up fade-up-d1"></div>
+          <p class="lead fade-up fade-up-d2">Browse our gallery to discover the many faces of Cala dei Balcani — from intimate wedding ceremonies against the backdrop of the Adriatic to the golden light of Salento evenings, the majesty of the Saracen Tower at night, and the extraordinary colours of a cuisine rooted in this extraordinary land.</p>
+        </div>
+
+        <!-- FILTER BUTTONS -->
+        <div class="gallery-filters" role="group" aria-label="Filter gallery by category">
+          <button class="gallery-filter-btn is-active" data-filter="all">All</button>
+          <button class="gallery-filter-btn" data-filter="weddings">Weddings</button>
+          <button class="gallery-filter-btn" data-filter="venue">The Venue</button>
+          <button class="gallery-filter-btn" data-filter="tower">The Tower</button>
+          <button class="gallery-filter-btn" data-filter="cuisine">Cuisine</button>
+          <button class="gallery-filter-btn" data-filter="nature">Nature</button>
+        </div>
+
+        <!-- GALLERY GRID -->
+        <div class="gallery-grid" id="gallery-grid" role="list">
+
+          <!-- Weddings -->
+          <div class="gallery-item gallery-item--wide fade-up" data-category="weddings" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Wedding ceremony on the panoramic terrace overlooking the Adriatic Sea">
+              <span>Ceremony on the Terrace</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">Wedding Ceremony</span></div>
+          </div>
+          <div class="gallery-item fade-up" data-category="weddings" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Bridal couple with Saracen Tower and cobalt sea behind them">
+              <span>The First Kiss</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">Weddings</span></div>
+          </div>
+          <div class="gallery-item gallery-item--tall fade-up fade-up-d1" data-category="weddings" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Bride in white gown standing by the Saracen Tower at sunset">
+              <span>Bridal Portrait</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">Weddings</span></div>
+          </div>
+          <div class="gallery-item fade-up fade-up-d1" data-category="weddings" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Wedding reception table set with white hydrangeas and candles on the panoramic terrace">
+              <span>Reception Table Setting</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">Weddings</span></div>
+          </div>
+          <div class="gallery-item fade-up fade-up-d2" data-category="weddings" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Guests celebrating at a wedding dinner at Cala dei Balcani">
+              <span>Celebration</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">Weddings</span></div>
+          </div>
+          <div class="gallery-item fade-up" data-category="weddings" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="First dance under the stars with the illuminated Saracen Tower in the background">
+              <span>First Dance</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">Weddings</span></div>
+          </div>
+
+          <!-- Venue -->
+          <div class="gallery-item gallery-item--tall fade-up" data-category="venue" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Panoramic terrace of Cala dei Balcani at golden hour overlooking the Adriatic">
+              <span>The Panoramic Terrace</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">The Venue</span></div>
+          </div>
+          <div class="gallery-item gallery-item--wide fade-up fade-up-d1" data-category="venue" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="View from the terrace — crystal-clear Adriatic waters, limestone cliffs, summer afternoon">
+              <span>The Adriatic View</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">The Venue</span></div>
+          </div>
+          <div class="gallery-item fade-up" data-category="venue" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Mediterranean garden with centuries-old oak trees and aromatic plants">
+              <span>The Mediterranean Garden</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">The Venue</span></div>
+          </div>
+          <div class="gallery-item fade-up fade-up-d1" data-category="venue" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Detail of ancient limestone pathway through the garden of Cala dei Balcani">
+              <span>Limestone Pathways</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">The Venue</span></div>
+          </div>
+          <div class="gallery-item fade-up fade-up-d2" data-category="venue" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Evening light on the terrace — tables set, candles lit, sea glittering below">
+              <span>Evening Terrace</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">The Venue</span></div>
+          </div>
+
+          <!-- Tower -->
+          <div class="gallery-item gallery-item--wide fade-up" data-category="tower" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="The Saracen Tower of Cala dei Balcani illuminated in cobalt blue against the night sky">
+              <span>The Tower by Night</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">The Saracen Tower</span></div>
+          </div>
+          <div class="gallery-item gallery-item--tall fade-up fade-up-d1" data-category="tower" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="The Saracen Tower in full — truncated cone form, leccese stone, brilliant against a blue sky">
+              <span>The Tower by Day</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">The Saracen Tower</span></div>
+          </div>
+          <div class="gallery-item fade-up" data-category="tower" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Detail of the 16th-century leccese stone masonry of the Saracen Tower">
+              <span>Historic Masonry</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">The Tower</span></div>
+          </div>
+          <div class="gallery-item fade-up fade-up-d1" data-category="tower" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Wedding couple photographed with the cobalt-illuminated tower at dusk">
+              <span>Tower &amp; Couple Portrait</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">The Tower</span></div>
+          </div>
+
+          <!-- Cuisine -->
+          <div class="gallery-item fade-up" data-category="cuisine" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Fresh Adriatic octopus slow-braised in terracotta — polpo alla pignata">
+              <span>Polpo alla Pignata</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">Cuisine</span></div>
+          </div>
+          <div class="gallery-item fade-up fade-up-d1" data-category="cuisine" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Sea urchins served fresh on ice with lemon and toasted bread — ricci di mare">
+              <span>Ricci di Mare</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">Cuisine</span></div>
+          </div>
+          <div class="gallery-item fade-up fade-up-d2" data-category="cuisine" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Caciocavallo podolico cheese with local honey, walnuts and friselle bread">
+              <span>Caciocavallo &amp; Friselle</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">Cuisine</span></div>
+          </div>
+          <div class="gallery-item gallery-item--wide fade-up" data-category="cuisine" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Wedding banquet table laden with Salentine seafood, antipasti and local wines at sunset">
+              <span>The Wedding Banquet</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">Cuisine</span></div>
+          </div>
+          <div class="gallery-item fade-up fade-up-d1" data-category="cuisine" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Mediterranean red prawns served raw as crudo with Salentine olive oil and sea salt">
+              <span>Gamberi Rossi</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">Cuisine</span></div>
+          </div>
+
+          <!-- Nature -->
+          <div class="gallery-item gallery-item--wide fade-up" data-category="nature" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Sunrise over the Adriatic Sea from the cliffs of Santa Cesarea Terme — turquoise waters, golden light">
+              <span>Adriatic Sunrise</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">Nature</span></div>
+          </div>
+          <div class="gallery-item gallery-item--tall fade-up fade-up-d1" data-category="nature" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Ancient olive tree in the Salentine landscape near Santa Cesarea Terme">
+              <span>Ancient Olive</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">Nature</span></div>
+          </div>
+          <div class="gallery-item fade-up" data-category="nature" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Wild rosemary and cistus growing on the limestone cliffs of the Salentine coast">
+              <span>Coastal Herbs</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">Nature</span></div>
+          </div>
+          <div class="gallery-item fade-up fade-up-d1" data-category="nature" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="The extraordinary clarity of the Adriatic waters below the cliffs of Cala dei Balcani">
+              <span>Crystal Waters</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">Nature</span></div>
+          </div>
+          <div class="gallery-item fade-up fade-up-d2" data-category="nature" role="listitem">
+            <div class="gallery-item__placeholder" aria-label="Centuries-old oak trees in the garden of Cala dei Balcani — querce centenarie">
+              <span>Centenarian Oaks</span>
+            </div>
+            <div class="gallery-item__overlay"><span class="gallery-item__caption">Nature</span></div>
+          </div>
+
+        </div>
+        <!-- END GALLERY GRID -->
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-banner">
+      <span class="eyebrow">Experience It in Person</span>
+      <h2>No Gallery Can Replace Being Here</h2>
+      <p>Photographs capture light and composition, but they cannot capture the sound of the Adriatic below the terrace, the scent of rosemary in the evening air, or the feeling of standing beside a five-hundred-year-old tower. Contact us to arrange a visit and discover Cala dei Balcani for yourself.</p>
+      <a href="contact.html" class="btn btn--gold">Arrange a Visit</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand">Cala dei <span>Balcani</span></div>
+        <p class="footer__desc">A magical place suspended in time, where the Adriatic Sea embraces the ancient history of Salento. The exclusive luxury wedding venue in Puglia.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook" rel="noopener">f</a>
+          <a href="#" aria-label="Instagram" rel="noopener">ig</a>
+          <a href="#" aria-label="YouTube" rel="noopener">yt</a>
+        </div>
+      </div>
+      <div>
+        <h5>Navigation</h5>
+        <ul class="footer__links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="venue.html">The Venue</a></li>
+          <li><a href="weddings.html">Weddings</a></li>
+          <li><a href="tower.html">The Saracen Tower</a></li>
+          <li><a href="cuisine.html">Cuisine</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Information</h5>
+        <ul class="footer__links">
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul class="footer__links">
+          <li>Via Roma, 5</li>
+          <li>73020 Santa Cesarea Terme (LE)</li>
+          <li>Puglia, Italy</li>
+          <li><a href="tel:+393349985447">+39 334 998 5447</a></li>
+          <li><a href="mailto:info@caladeibalcani.com">info@caladeibalcani.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2024 La Torre Saracena S.r.l. · VAT 02522480751 · Via Roma, 5 · 73020 Santa Cesarea Terme (LE) · Puglia, Italy</p>
+      <nav class="nav__lang" aria-label="Available languages">
+        <a href="/" hreflang="it">IT</a>
+        <a href="/en/" hreflang="en">EN</a>
+        <a href="/fr/" hreflang="fr">FR</a>
+        <a href="/es/" hreflang="es">ES</a>
+        <a href="/de/" hreflang="de">DE</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../js/main.js" defer></script>
+  <script>
+    // Gallery filter logic
+    (function () {
+      var btns = document.querySelectorAll('.gallery-filter-btn');
+      var items = document.querySelectorAll('.gallery-grid .gallery-item');
+      btns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var filter = this.getAttribute('data-filter');
+          btns.forEach(function (b) { b.classList.remove('is-active'); });
+          this.classList.add('is-active');
+          items.forEach(function (item) {
+            if (filter === 'all' || item.getAttribute('data-category') === filter) {
+              item.removeAttribute('data-hidden');
+            } else {
+              item.setAttribute('data-hidden', 'true');
+            }
+          });
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
