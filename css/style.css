@@ -152,24 +152,24 @@ p  { color: var(--text-mid); line-height: 1.85; }
 .nav__menu {
   display: flex; gap: 0; align-items: center;
   max-width: var(--max-w); margin: 0 auto; padding: 0 24px;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .nav__menu a {
-  color: rgba(255,255,255,.88); font-size: .72rem;
+  color: rgba(255,255,255,.88); font-size: .88rem;
   letter-spacing: .1em; text-transform: uppercase; font-weight: 400;
-  transition: color var(--tr); position: relative; padding: 9px 14px;
+  transition: color var(--tr); position: relative; padding: 10px 8px;
   display: block; white-space: nowrap;
 }
 .nav__menu a::after {
-  content: ''; position: absolute; bottom: 0; left: 14px; right: 14px;
+  content: ''; position: absolute; bottom: 0; left: 8px; right: 8px;
   height: 1px; background: var(--gold);
   transform: scaleX(0); transition: transform var(--tr);
 }
 .nav__menu a:hover::after, .nav__menu a.active::after { transform: scaleX(1); }
 .nav__menu a:hover, .nav__menu a.active { color: var(--gold); }
 .nav__menu--secondary a {
-  font-size: .65rem; color: rgba(255,255,255,.65);
-  padding: 7px 12px; letter-spacing: .08em;
+  font-size: .78rem; color: rgba(255,255,255,.65);
+  padding: 8px 8px; letter-spacing: .08em;
 }
 .nav__menu--secondary a:hover { color: var(--gold-light); }
 
@@ -180,18 +180,26 @@ p  { color: var(--text-mid); line-height: 1.85; }
 }
 .hero__bg {
   position: absolute; inset: 0;
-  background-image: url('https://www.caladeibalcani.it/wp-content/uploads/slider/cache/51a571ee053f28a2e666491cee8d477a/Sam-Megan-2865-scaled.jpg');
-  background-size: cover;
-  background-position: center top;
+  background-color: #0c1a2e;
+  overflow: hidden;
+}
+.hero__video-iframe {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 177.78vh; height: 56.25vw;
+  min-width: 100%; min-height: 100%;
+  border: none; pointer-events: none; z-index: 0;
 }
 .hero__bg::before {
-  content: ''; position: absolute; inset: 0;
+  content: ''; position: absolute; inset: 0; z-index: 1;
   background:
     radial-gradient(ellipse at 25% 55%, rgba(196,162,74,.12) 0%, transparent 55%),
-    radial-gradient(ellipse at 75% 25%, rgba(21,51,90,.6) 0%, transparent 50%);
+    radial-gradient(ellipse at 75% 25%, rgba(21,51,90,.6) 0%, transparent 50%),
+    rgba(7,15,30,.38);
 }
 .hero__bg::after {
-  content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 200px;
+  content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 200px; z-index: 2;
   background: linear-gradient(to top, rgba(7,15,30,.8), transparent);
 }
 .hero__content {
