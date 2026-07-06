@@ -1,0 +1,41 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.caladeibalcani.it/sitemap.xml
+
+# Allow all AI crawlers for AI search visibility
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing
+User-agent: bingbot
+Allow: /
+
+# Block only admin paths (none currently)
+Disallow: /.paperflow-runtime/

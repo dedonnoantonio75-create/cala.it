@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galleria Fotografica — Matrimoni, Luoghi, Cucina | Cala dei Balcani, Salento</title>
+  <meta name="description" content="Galleria fotografica di Cala dei Balcani: matrimoni di lusso, la Torre Saracena, i giardini mediterranei, la cucina salentina, i tramonti sul mare Adriatico. Scopri la bellezza del Salento.">
+  <meta name="keywords" content="galleria foto Cala dei Balcani, foto matrimoni Salento, immagini Torre Saracena, foto location lusso Puglia, gallery wedding Salento">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.caladeibalcani.it/galleria.html">
+  <link rel="alternate" hreflang="it"        href="https://www.caladeibalcani.it/galleria.html">
+  <link rel="alternate" hreflang="en"        href="https://www.caladeibalcani.it/en/gallery.html">
+  <link rel="alternate" hreflang="fr"        href="https://www.caladeibalcani.it/fr/galerie.html">
+  <link rel="alternate" hreflang="es"        href="https://www.caladeibalcani.it/es/galeria.html">
+  <link rel="alternate" hreflang="de"        href="https://www.caladeibalcani.it/de/galerie.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.caladeibalcani.it/galleria.html">
+  <meta property="og:title"       content="Galleria — Cala dei Balcani">
+  <meta property="og:description" content="Immagini di matrimoni, luoghi e cucina di Cala dei Balcani, Santa Cesarea Terme, Salento.">
+  <meta property="og:url"         content="https://www.caladeibalcani.it/galleria.html">
+  <meta property="og:image"       content="https://www.caladeibalcani.it/img/og-galleria.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Lato:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .gallery-full { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; }
+    .gallery-full .gi { aspect-ratio: 4/3; overflow: hidden; cursor: pointer; position: relative; }
+    .gallery-full .gi--tall { grid-row: span 2; aspect-ratio: auto; }
+    .gallery-full .gi--wide { grid-column: span 2; }
+    .gi__bg { width: 100%; height: 100%; transition: transform .6s ease; }
+    .gi:hover .gi__bg { transform: scale(1.07); }
+    .gi__cap {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      background: linear-gradient(to top, rgba(12,26,46,.85), transparent);
+      padding: 20px 16px 14px;
+      color: rgba(255,255,255,.9); font-size: .78rem; letter-spacing: .1em;
+      text-transform: uppercase; opacity: 0; transition: opacity var(--tr);
+    }
+    .gi:hover .gi__cap { opacity: 1; }
+    .filter-bar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 32px; }
+    .filter-btn {
+      padding: 8px 20px; font-size: .72rem; letter-spacing: .12em; text-transform: uppercase;
+      border: 1px solid var(--border); background: transparent; color: var(--text-mid);
+      cursor: pointer; font-family: var(--font-body); transition: all var(--tr); font-weight: 700;
+    }
+    .filter-btn.active, .filter-btn:hover { background: var(--navy); color: var(--white); border-color: var(--navy); }
+  </style>
+</head>
+<body>
+<nav class="nav" role="navigation" aria-label="Navigazione principale">
+  <div class="nav__inner">
+    <a href="/" class="nav__logo">Cala dei <span>Balcani</span></a>
+    <button class="nav__toggle" aria-label="Apri menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav__menu" role="list">
+      <li><a href="/">Home</a></li>
+      <li><a href="chi-siamo.html">Chi Siamo</a></li>
+      <li><a href="il-luogo.html">Il Luogo</a></li>
+      <li><a href="matrimoni.html">Matrimoni</a></li>
+      <li><a href="la-torre.html">La Torre</a></li>
+      <li><a href="cucina.html">Cucina</a></li>
+      <li><a href="galleria.html">Galleria</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul>
+    <div class="nav__right">
+      <nav class="nav__lang" aria-label="Seleziona lingua">
+        <a href="/"   class="active" hreflang="it">IT</a>
+        <a href="en/" hreflang="en">EN</a>
+        <a href="fr/" hreflang="fr">FR</a>
+        <a href="es/" hreflang="es">ES</a>
+        <a href="de/" hreflang="de">DE</a>
+      </nav>
+    </div>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <span class="eyebrow">Immagini</span>
+  <h1>Galleria</h1>
+  <span class="subtitle">La bellezza di Cala dei Balcani in ogni scatto</span>
+  <p>Matrimoni, luoghi, cucina, tramonti sul mare Adriatico</p>
+</header>
+
+<main>
+  <nav aria-label="Breadcrumb" class="container">
+    <div class="breadcrumb">
+      <a href="/">Home</a><span>›</span><span aria-current="page">Galleria</span>
+    </div>
+  </nav>
+
+  <section class="section" aria-labelledby="galleria-heading">
+    <div class="container">
+      <div class="text-center mb-5 fade-up">
+        <span class="eyebrow">Le Nostre Immagini</span>
+        <h2 id="galleria-heading">Un Mondo da Scoprire</h2>
+        <div class="divider divider--center"></div>
+        <p style="max-width:600px;margin:0 auto">Ogni immagine racconta una storia: un matrimonio vissuto con passione, un tramonto sul mare Adriatico, un piatto preparato con amore.</p>
+      </div>
+
+      <div class="filter-bar" role="navigation" aria-label="Filtra per categoria">
+        <button class="filter-btn active" data-filter="all">Tutto</button>
+        <button class="filter-btn" data-filter="matrimoni">Matrimoni</button>
+        <button class="filter-btn" data-filter="luogo">Il Luogo</button>
+        <button class="filter-btn" data-filter="torre">La Torre</button>
+        <button class="filter-btn" data-filter="cucina">Cucina</button>
+        <button class="filter-btn" data-filter="natura">Natura</button>
+      </div>
+
+      <!-- Gallery grid -->
+      <div class="gallery-full fade-up" role="list">
+
+        <div class="gi gi--tall" role="listitem" data-cat="matrimoni">
+          <div class="gi__bg gi--1" style="height:100%;min-height:600px"></div>
+          <div class="gi__cap">Cerimonia Civile in Terrazza</div>
+        </div>
+
+        <div class="gi" role="listitem" data-cat="luogo">
+          <div class="gi__bg gi--2" style="height:100%;min-height:300px"></div>
+          <div class="gi__cap">Vista sul Mare Adriatico</div>
+        </div>
+
+        <div class="gi" role="listitem" data-cat="torre">
+          <div class="gi__bg gi--5" style="height:100%;min-height:300px"></div>
+          <div class="gi__cap">La Torre Saracena al Tramonto</div>
+        </div>
+
+        <div class="gi" role="listitem" data-cat="cucina">
+          <div class="gi__bg gi--4" style="height:100%;min-height:300px"></div>
+          <div class="gi__cap">Polpo al Caciocavallo Podolico</div>
+        </div>
+
+        <div class="gi" role="listitem" data-cat="natura">
+          <div class="gi__bg gi--3" style="height:100%;min-height:300px"></div>
+          <div class="gi__cap">Il Giardino Mediterraneo</div>
+        </div>
+
+        <div class="gi" role="listitem" data-cat="matrimoni">
+          <div class="gi__bg" style="background:linear-gradient(145deg,#2d0a28 0%,#5a1a50 50%,#7a2868 100%);height:100%;min-height:300px"></div>
+          <div class="gi__cap">Allestimento Floreale — Ortensie Bianche</div>
+        </div>
+
+        <div class="gi" role="listitem" data-cat="luogo">
+          <div class="gi__bg" style="background:linear-gradient(145deg,#041530 0%,#0a2a55 50%,#0e3570 100%);height:100%;min-height:300px"></div>
+          <div class="gi__cap">La Terrazza al Chiaro di Luna</div>
+        </div>
+
+        <div class="gi gi--wide" role="listitem" data-cat="matrimoni">
+          <div class="gi__bg" style="background:linear-gradient(145deg,#1a0a0a 0%,#3a1818 50%,#5a2828 100%);height:100%;min-height:300px"></div>
+          <div class="gi__cap">Il Primo Ballo degli Sposi</div>
+        </div>
+
+        <div class="gi" role="listitem" data-cat="torre">
+          <div class="gi__bg" style="background:linear-gradient(145deg,#0a0a30 0%,#1818608 50%,#2028a0 100%);height:100%;min-height:300px"></div>
+          <div class="gi__cap">La Torre Illuminata di Blu Cobalto</div>
+        </div>
+
+        <div class="gi" role="listitem" data-cat="cucina">
+          <div class="gi__bg" style="background:linear-gradient(145deg,#201008 0%,#402018 50%,#603030 100%);height:100%;min-height:300px"></div>
+          <div class="gi__cap">Gamberi del Mediterraneo</div>
+        </div>
+
+        <div class="gi" role="listitem" data-cat="natura">
+          <div class="gi__bg" style="background:linear-gradient(145deg,#082808 0%,#185018 50%,#207820 100%);height:100%;min-height:300px"></div>
+          <div class="gi__cap">Querce Centenarie del Giardino</div>
+        </div>
+
+        <div class="gi" role="listitem" data-cat="matrimoni">
+          <div class="gi__bg" style="background:linear-gradient(145deg,#101028 0%,#202060 50%,#3030a0 100%);height:100%;min-height:300px"></div>
+          <div class="gi__cap">Cena di Gala al Tramonto</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner" aria-labelledby="cta-galleria-heading">
+    <span class="eyebrow">Scrivi la Tua Storia</span>
+    <h2 id="cta-galleria-heading">Il Prossimo Scatto Potrebbe Essere il Tuo</h2>
+    <p>Immagina le vostre fotografie in questo scenario straordinario. Contattaci per iniziare a pianificare il vostro matrimonio a Cala dei Balcani.</p>
+    <a href="contatti.html" class="btn btn--gold">Inizia a Pianificare</a>
+  </section>
+</main>
+
+<footer>
+  <div class="footer__grid">
+    <div><div class="footer__brand">Cala dei <span>Balcani</span></div><p class="footer__desc">Un luogo magico sospeso nel tempo, dove il mare Adriatico abbraccia la storia millenaria del Salento.</p><div class="footer__social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">ig</a><a href="#" aria-label="YouTube">yt</a></div></div>
+    <div><h5>Navigazione</h5><ul class="footer__links"><li><a href="chi-siamo.html">Chi Siamo</a></li><li><a href="il-luogo.html">Il Luogo</a></li><li><a href="matrimoni.html">Matrimoni</a></li><li><a href="la-torre.html">La Torre</a></li><li><a href="cucina.html">Cucina</a></li><li><a href="galleria.html">Galleria</a></li></ul></div>
+    <div><h5>Informazioni</h5><ul class="footer__links"><li><a href="faq.html">FAQ</a></li><li><a href="contatti.html">Contatti</a></li><li><a href="#">Privacy Policy</a></li></ul></div>
+    <div><h5>Contatti</h5><ul class="footer__links"><li>Via Roma, 5</li><li>73020 Santa Cesarea Terme (LE)</li><li><a href="tel:+393349985447">+39 334 998 5447</a></li><li><a href="mailto:info@caladeibalcani.com">info@caladeibalcani.com</a></li></ul></div>
+  </div>
+  <div class="footer__bottom">
+    <p>© 2024 La Torre Saracena S.r.l. · P.IVA 02522480751 · Via Roma, 5 · 73020 Santa Cesarea Terme (LE)</p>
+    <nav class="nav__lang"><a href="/" hreflang="it">IT</a><a href="en/" hreflang="en">EN</a><a href="fr/" hreflang="fr">FR</a><a href="es/" hreflang="es">ES</a><a href="de/" hreflang="de">DE</a></nav>
+  </div>
+</footer>
+<script src="js/main.js" defer></script>
+<script>
+  // Gallery filter
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      document.querySelectorAll('.gallery-full .gi').forEach(item => {
+        if (filter === 'all' || item.dataset.cat === filter) {
+          item.style.display = '';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
+</body>
+</html>
