@@ -104,6 +104,21 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.caladeibalcani.it/de/faq.html"/>
   </url>
 
+  <url>
+    <loc>https://www.caladeibalcani.it/rivivi-il-tuo-si.html</loc>
+    <lastmod>2024-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/rivivi-il-tuo-si.html"/>
+  </url>
+  <url>
+    <loc>https://www.caladeibalcani.it/matrimoni-internazionali.html</loc>
+    <lastmod>2024-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/matrimoni-internazionali.html"/>
+  </url>
+
   <!-- ══ ENGLISH ══ -->
   <url>
     <loc>https://www.caladeibalcani.it/en/</loc>
