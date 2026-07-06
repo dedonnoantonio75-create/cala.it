@@ -3,7 +3,6 @@
 // ── Navigation ──
 const nav = document.querySelector('.nav');
 const navToggle = document.querySelector('.nav__toggle');
-const navMenu  = document.querySelector('.nav__menu');
 
 if (nav) {
   const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 50);
@@ -11,17 +10,23 @@ if (nav) {
   onScroll();
 }
 
-if (navToggle && navMenu) {
+const navRows = document.querySelectorAll('.nav__row');
+
+if (navToggle && navRows.length) {
   navToggle.addEventListener('click', () => {
-    const open = navMenu.classList.toggle('open');
-    document.body.style.overflow = open ? 'hidden' : '';
-    navToggle.setAttribute('aria-expanded', String(open));
+    let anyOpen = false;
+    navRows.forEach(row => {
+      row.classList.toggle('open');
+      if (row.classList.contains('open')) anyOpen = true;
+    });
+    navToggle.setAttribute('aria-expanded', String(anyOpen));
   });
-  navMenu.querySelectorAll('a').forEach(a => {
-    a.addEventListener('click', () => {
-      navMenu.classList.remove('open');
-      document.body.style.overflow = '';
-      navToggle.setAttribute('aria-expanded', 'false');
+  navRows.forEach(row => {
+    row.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navRows.forEach(r => r.classList.remove('open'));
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
     });
   });
 }

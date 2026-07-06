@@ -118,6 +118,27 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/matrimoni-internazionali.html"/>
   </url>
+  <url>
+    <loc>https://www.caladeibalcani.it/azienda-agricola.html</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/azienda-agricola.html"/>
+  </url>
+  <url>
+    <loc>https://www.caladeibalcani.it/blog.html</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/blog.html"/>
+  </url>
+  <url>
+    <loc>https://www.caladeibalcani.it/area-privata.html</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/area-privata.html"/>
+  </url>
 
   <!-- ══ ENGLISH ══ -->
   <url>

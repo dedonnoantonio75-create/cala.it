@@ -86,35 +86,47 @@
 
 <!-- ── NAVIGATION ── -->
 <nav class="nav" role="navigation" aria-label="Navigazione principale">
-  <div class="nav__inner">
-    <a href="/" class="nav__logo" aria-label="Cala dei Balcani — Homepage">Cala dei <span>Balcani</span></a>
-    <button class="nav__toggle" aria-label="Apri menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
+  <!-- TOP BAR: logo + lang -->
+  <div class="nav__top">
+    <a href="/" class="nav__logo" aria-label="Cala dei Balcani — Homepage">
+      <img src="https://www.caladeibalcani.it/wp-content/uploads/2021/03/logo-cala-dei-balcani-nuovo-ristorante-per-ricevimenti-santa-cesarea-terme-lecce-salento-puglia-italia-2-180x49.png" alt="Cala dei Balcani" width="180" height="49" loading="lazy">
+    </a>
+    <div class="nav__right">
+      <nav class="nav__lang" aria-label="Seleziona lingua">
+        <a href="/"   class="active" hreflang="it">IT</a>
+        <a href="en/" hreflang="en">EN</a>
+        <a href="fr/" hreflang="fr">FR</a>
+        <a href="es/" hreflang="es">ES</a>
+        <a href="de/" hreflang="de">DE</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Apri menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <!-- ROW 1: primary pages -->
+  <div class="nav__row nav__row--primary">
     <ul class="nav__menu" role="list">
       <li><a href="/">Home</a></li>
-      <li><a href="chi-siamo.html">Chi Siamo</a></li>
-      <li><a href="il-luogo.html">Il Luogo</a></li>
+      <li><a href="chi-siamo.html">La Storia</a></li>
+      <li><a href="il-luogo.html">Location</a></li>
       <li><a href="matrimoni.html">Matrimoni</a></li>
       <li><a href="la-torre.html">La Torre</a></li>
       <li><a href="cucina.html">Cucina</a></li>
-      <li><a href="galleria.html">Galleria</a></li>
       <li><a href="testimonianze.html">Testimonianze</a></li>
-      <li><a href="salento.html">Salento</a></li>
-      <li><a href="rivivi-il-tuo-si.html">Rivivi il Tuo Sì</a></li>
-      <li><a href="matrimoni-internazionali.html">Matrimoni Internazionali</a></li>
-      <li><a href="faq.html">FAQ</a></li>
-      <li><a href="contatti.html">Contatti</a></li>
+      <li><a href="galleria.html">Gallery</a></li>
+      <li><a href="rivivi-il-tuo-si.html">Rivivi il Tuo S&#236;</a></li>
     </ul>
-    <div class="nav__right">
-      <nav class="nav__lang" aria-label="Seleziona lingua">
-        <a href="/"     class="active" hreflang="it" aria-label="Italiano">IT</a>
-        <a href="en/"   hreflang="en" aria-label="English">EN</a>
-        <a href="fr/"   hreflang="fr" aria-label="Français">FR</a>
-        <a href="es/"   hreflang="es" aria-label="Español">ES</a>
-        <a href="de/"   hreflang="de" aria-label="Deutsch">DE</a>
-      </nav>
-    </div>
+  </div>
+  <!-- ROW 2: secondary pages -->
+  <div class="nav__row nav__row--secondary">
+    <ul class="nav__menu nav__menu--secondary" role="list">
+      <li><a href="matrimoni-internazionali.html">International &amp; Cozy Wedding</a></li>
+      <li><a href="area-privata.html">Area Privata</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+      <li><a href="salento.html">Salento</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="azienda-agricola.html">A. Agricola</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul>
   </div>
 </nav>
 
@@ -131,6 +143,45 @@
     </div>
   </div>
   <div class="hero__scroll" aria-hidden="true">Scopri</div>
+</section>
+
+<!-- ── VIDEO HERO ── -->
+<section class="section section--navy video-section" aria-labelledby="video-hero-heading" style="padding:0">
+  <div style="position:relative;background:var(--navy)">
+    <div class="container" style="padding-top:60px;padding-bottom:60px">
+      <div class="text-center mb-4 fade-up">
+        <span class="eyebrow">Scopri Cala dei Balcani</span>
+        <h2 id="video-hero-heading" style="color:var(--white)">La Magia in un Video</h2>
+        <div class="divider divider--center"></div>
+      </div>
+      <div style="display:grid;grid-template-columns:3fr 2fr;gap:32px;align-items:center" class="fade-up">
+        <div style="position:relative;aspect-ratio:16/9;border-radius:4px;overflow:hidden;box-shadow:0 16px 64px rgba(0,0,0,.5)">
+          <iframe
+            src="https://www.youtube.com/embed?listType=user_uploads&list=UCCk85WqM5Q-0o2hzOO_bpnw&index=1"
+            title="Cala dei Balcani — Location Matrimoni Salento"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            style="position:absolute;inset:0;width:100%;height:100%"
+          ></iframe>
+        </div>
+        <div style="padding:1rem">
+          <span class="eyebrow">Video Testimonianze</span>
+          <h3 style="color:var(--white);margin-bottom:1rem">Voci di Sposi Felici</h3>
+          <p style="color:rgba(255,255,255,.72)">Ogni matrimonio a Cala dei Balcani è una storia unica. Guardate i video delle nostre coppie e lasciatevi ispirare dalla magia di questo luogo straordinario.</p>
+          <div style="margin-top:1.5rem;display:flex;gap:12px;flex-wrap:wrap">
+            <a href="https://www.youtube.com/@cala-dei-balcani" target="_blank" rel="noopener" class="btn btn--gold" style="font-size:.72rem">Vedi tutti i Video</a>
+            <a href="testimonianze.html" class="btn btn--outline" style="font-size:.72rem">Testimonianze</a>
+          </div>
+          <div style="margin-top:2rem;display:flex;gap:16px">
+            <a href="https://www.facebook.com/caladeibalcani/" target="_blank" rel="noopener" style="color:rgba(255,255,255,.55);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;transition:color var(--tr)" onmouseover="this.style.color='#c4a24a'" onmouseout="this.style.color='rgba(255,255,255,.55)'">Facebook</a>
+            <a href="https://www.instagram.com/cala_dei_balcani/" target="_blank" rel="noopener" style="color:rgba(255,255,255,.55);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;transition:color var(--tr)" onmouseover="this.style.color='#c4a24a'" onmouseout="this.style.color='rgba(255,255,255,.55)'">Instagram</a>
+            <a href="https://www.youtube.com/@cala-dei-balcani" target="_blank" rel="noopener" style="color:rgba(255,255,255,.55);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;transition:color var(--tr)" onmouseover="this.style.color='#c4a24a'" onmouseout="this.style.color='rgba(255,255,255,.55)'">YouTube</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- ── INTRO ── -->
