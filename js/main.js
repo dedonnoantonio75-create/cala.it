@@ -70,6 +70,41 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
   });
 })();
 
+// ── Slideshow ──
+function initSlideshow(el) {
+  const track = el.querySelector('.slideshow__track');
+  const slides = el.querySelectorAll('.slideshow__slide');
+  const dots = el.querySelectorAll('.slideshow__dot');
+  const total = slides.length;
+  if (total < 2) return;
+  let cur = 0, timer, startX = 0;
+
+  function goTo(n) {
+    cur = (n + total) % total;
+    track.style.transform = `translateX(-${cur * 100}%)`;
+    dots.forEach((d, i) => d.classList.toggle('active', i === cur));
+  }
+  function next() { goTo(cur + 1); }
+  function prev() { goTo(cur - 1); }
+  function startAuto() { timer = setInterval(next, 4500); }
+  function resetAuto() { clearInterval(timer); startAuto(); }
+
+  el.querySelector('.slideshow__next')?.addEventListener('click', () => { next(); resetAuto(); });
+  el.querySelector('.slideshow__prev')?.addEventListener('click', () => { prev(); resetAuto(); });
+  dots.forEach((d, i) => d.addEventListener('click', () => { goTo(i); resetAuto(); }));
+
+  // Touch swipe
+  el.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
+  el.addEventListener('touchend', e => {
+    const dx = e.changedTouches[0].clientX - startX;
+    if (Math.abs(dx) > 40) { dx < 0 ? next() : prev(); resetAuto(); }
+  }, { passive: true });
+
+  goTo(0);
+  startAuto();
+}
+document.querySelectorAll('.slideshow').forEach(initSlideshow);
+
 // ── Contact form (basic validation) ──
 const form = document.querySelector('.contact-form');
 if (form) {
