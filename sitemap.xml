@@ -5,7 +5,7 @@
   <!-- ══ ITALIANO (lingua principale) ══ -->
   <url>
     <loc>https://www.caladeibalcani.it/</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="it"        href="https://www.caladeibalcani.it/"/>
@@ -17,7 +17,7 @@
   </url>
   <url>
     <loc>https://www.caladeibalcani.it/chi-siamo.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/chi-siamo.html"/>
@@ -28,7 +28,7 @@
   </url>
   <url>
     <loc>https://www.caladeibalcani.it/il-luogo.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/il-luogo.html"/>
@@ -39,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.caladeibalcani.it/matrimoni.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/matrimoni.html"/>
@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://www.caladeibalcani.it/la-torre.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/la-torre.html"/>
@@ -61,7 +61,7 @@
   </url>
   <url>
     <loc>https://www.caladeibalcani.it/cucina.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/cucina.html"/>
@@ -72,7 +72,7 @@
   </url>
   <url>
     <loc>https://www.caladeibalcani.it/galleria.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/galleria.html"/>
@@ -83,7 +83,7 @@
   </url>
   <url>
     <loc>https://www.caladeibalcani.it/contatti.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/contatti.html"/>
@@ -94,7 +94,7 @@
   </url>
   <url>
     <loc>https://www.caladeibalcani.it/faq.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/faq.html"/>
@@ -105,15 +105,31 @@
   </url>
 
   <url>
+    <loc>https://www.caladeibalcani.it/testimonianze.html</loc>
+    <lastmod>2026-07-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/testimonianze.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.caladeibalcani.it/testimonianze.html"/>
+  </url>
+  <url>
+    <loc>https://www.caladeibalcani.it/salento.html</loc>
+    <lastmod>2026-07-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/salento.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.caladeibalcani.it/salento.html"/>
+  </url>
+  <url>
     <loc>https://www.caladeibalcani.it/rivivi-il-tuo-si.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/rivivi-il-tuo-si.html"/>
   </url>
   <url>
     <loc>https://www.caladeibalcani.it/matrimoni-internazionali.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/matrimoni-internazionali.html"/>
@@ -143,65 +159,65 @@
   <!-- ══ ENGLISH ══ -->
   <url>
     <loc>https://www.caladeibalcani.it/en/</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url><loc>https://www.caladeibalcani.it/en/about.html</loc><lastmod>2024-07-01</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.caladeibalcani.it/en/venue.html</loc><lastmod>2024-07-01</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.caladeibalcani.it/en/weddings.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.caladeibalcani.it/en/tower.html</loc><lastmod>2024-07-01</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.caladeibalcani.it/en/cuisine.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.caladeibalcani.it/en/gallery.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://www.caladeibalcani.it/en/contact.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.caladeibalcani.it/en/faq.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.caladeibalcani.it/en/about.html</loc><lastmod>2026-07-07</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.caladeibalcani.it/en/venue.html</loc><lastmod>2026-07-07</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.caladeibalcani.it/en/weddings.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.caladeibalcani.it/en/tower.html</loc><lastmod>2026-07-07</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.caladeibalcani.it/en/cuisine.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.caladeibalcani.it/en/gallery.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.caladeibalcani.it/en/contact.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.caladeibalcani.it/en/faq.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
 
   <!-- ══ FRANÇAIS ══ -->
   <url>
     <loc>https://www.caladeibalcani.it/fr/</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url><loc>https://www.caladeibalcani.it/fr/qui-nous-sommes.html</loc><lastmod>2024-07-01</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.caladeibalcani.it/fr/le-lieu.html</loc><lastmod>2024-07-01</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.caladeibalcani.it/fr/mariages.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.caladeibalcani.it/fr/la-tour.html</loc><lastmod>2024-07-01</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.caladeibalcani.it/fr/cuisine.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.caladeibalcani.it/fr/galerie.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://www.caladeibalcani.it/fr/contact.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.caladeibalcani.it/fr/faq.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.caladeibalcani.it/fr/qui-nous-sommes.html</loc><lastmod>2026-07-07</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.caladeibalcani.it/fr/le-lieu.html</loc><lastmod>2026-07-07</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.caladeibalcani.it/fr/mariages.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.caladeibalcani.it/fr/la-tour.html</loc><lastmod>2026-07-07</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.caladeibalcani.it/fr/cuisine.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.caladeibalcani.it/fr/galerie.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.caladeibalcani.it/fr/contact.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.caladeibalcani.it/fr/faq.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
 
   <!-- ══ ESPAÑOL ══ -->
   <url>
     <loc>https://www.caladeibalcani.it/es/</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url><loc>https://www.caladeibalcani.it/es/quienes-somos.html</loc><lastmod>2024-07-01</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.caladeibalcani.it/es/el-lugar.html</loc><lastmod>2024-07-01</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.caladeibalcani.it/es/bodas.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.caladeibalcani.it/es/la-torre.html</loc><lastmod>2024-07-01</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.caladeibalcani.it/es/cocina.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.caladeibalcani.it/es/galeria.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://www.caladeibalcani.it/es/contacto.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.caladeibalcani.it/es/faq.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.caladeibalcani.it/es/quienes-somos.html</loc><lastmod>2026-07-07</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.caladeibalcani.it/es/el-lugar.html</loc><lastmod>2026-07-07</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.caladeibalcani.it/es/bodas.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.caladeibalcani.it/es/la-torre.html</loc><lastmod>2026-07-07</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.caladeibalcani.it/es/cocina.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.caladeibalcani.it/es/galeria.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.caladeibalcani.it/es/contacto.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.caladeibalcani.it/es/faq.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
 
   <!-- ══ DEUTSCH ══ -->
   <url>
     <loc>https://www.caladeibalcani.it/de/</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url><loc>https://www.caladeibalcani.it/de/ueber-uns.html</loc><lastmod>2024-07-01</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.caladeibalcani.it/de/der-ort.html</loc><lastmod>2024-07-01</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.caladeibalcani.it/de/hochzeiten.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.caladeibalcani.it/de/der-turm.html</loc><lastmod>2024-07-01</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.caladeibalcani.it/de/kueche.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.caladeibalcani.it/de/galerie.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://www.caladeibalcani.it/de/kontakt.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.caladeibalcani.it/de/faq.html</loc><lastmod>2024-07-01</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.caladeibalcani.it/de/ueber-uns.html</loc><lastmod>2026-07-07</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.caladeibalcani.it/de/der-ort.html</loc><lastmod>2026-07-07</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.caladeibalcani.it/de/hochzeiten.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.caladeibalcani.it/de/der-turm.html</loc><lastmod>2026-07-07</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.caladeibalcani.it/de/kueche.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.caladeibalcani.it/de/galerie.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.caladeibalcani.it/de/kontakt.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.caladeibalcani.it/de/faq.html</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
 
 </urlset>

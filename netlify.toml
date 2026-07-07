@@ -1,0 +1,73 @@
+[build]
+  publish = "."
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# ── Clean URL redirects ──────────────────────────────────────────────────────
+
+# IT root index
+[[redirects]]
+  from = "/it/"
+  to = "/"
+  status = 301
+
+# EN home
+[[redirects]]
+  from = "/en"
+  to = "/en/"
+  status = 301
+
+# FR home
+[[redirects]]
+  from = "/fr"
+  to = "/fr/"
+  status = 301
+
+# ES home
+[[redirects]]
+  from = "/es"
+  to = "/es/"
+  status = 301
+
+# DE home
+[[redirects]]
+  from = "/de"
+  to = "/de/"
+  status = 301
+
+# ── Security headers ─────────────────────────────────────────────────────────
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(self)"
+
+# ── Cache static assets ──────────────────────────────────────────────────────
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# ── Sitemap / robots fresh ───────────────────────────────────────────────────
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
