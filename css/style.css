@@ -645,7 +645,7 @@ footer h5 {
 }
 .slideshow__dot.active { background: var(--gold); transform: scale(1.3); }
 
-/* Caption overlay */
+/* Caption overlay — bottom-aligned (internal pages) */
 .slideshow__caption {
   position: absolute; bottom: 0; left: 0; right: 0; z-index: 5;
   background: linear-gradient(to top, rgba(7,15,30,.88) 0%, rgba(7,15,30,.4) 55%, transparent 100%);
@@ -673,6 +673,39 @@ footer h5 {
 }
 .slideshow__caption-cta:hover { background: #d4b25a; transform: translateY(-1px); }
 
+/* Caption — centered hero style (home page, matches caladeibalcani.it original) */
+.slideshow__caption--center {
+  inset: 0; bottom: 0;
+  background: rgba(7,15,30,.38);
+  padding: 40px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 14px;
+}
+.slideshow__caption--center .slideshow__caption-title {
+  font-size: 2.1rem; font-weight: 700;
+  letter-spacing: .14em; text-transform: uppercase;
+  text-shadow: 0 2px 24px rgba(0,0,0,.55);
+}
+.slideshow__caption--center .slideshow__caption-desc {
+  font-family: var(--font-italic); font-style: italic;
+  font-size: 1.05rem; color: rgba(255,255,255,.92);
+  line-height: 1.6; max-width: 640px;
+  text-shadow: 0 1px 12px rgba(0,0,0,.45);
+}
+.slideshow__caption--center .slideshow__caption-cta {
+  background: transparent; color: #fff;
+  border: 2px solid rgba(255,255,255,.82);
+  border-radius: 40px; padding: 12px 36px;
+  font-size: .75rem; letter-spacing: .18em;
+  margin-top: 6px;
+}
+.slideshow__caption--center .slideshow__caption-cta:hover {
+  background: rgba(255,255,255,.15); transform: none;
+}
+
 /* ── SLIDESHOW GRID: multiple slideshows side by side ── */
 .slideshow-grid {
   display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
@@ -684,9 +717,12 @@ footer h5 {
   .slideshow__caption { padding: 32px 20px 14px; flex-direction: column; align-items: flex-start; gap: 10px; }
   .slideshow__caption-title { font-size: 1.1rem; }
   .slideshow__dots { bottom: 48px; }
+  .slideshow__caption--center .slideshow__caption-title { font-size: 1.4rem; }
+  .slideshow__caption--center .slideshow__caption-desc { font-size: .9rem; }
 }
 @media (max-width: 768px) {
   .slideshow-grid { grid-template-columns: 1fr; }
   .slideshow__prev, .slideshow__next { width: 36px; height: 36px; font-size: 1rem; }
   .slideshow__slide { height: 240px; }
+  .slideshow__caption--center .slideshow__caption-desc { display: none; }
 }
