@@ -11,6 +11,8 @@
   --gold:        #c4a24a;
   --gold-light:  #d4b566;
   --gold-dark:   #a88835;
+  --sand:        #C2B499;
+  --sand-dark:   #b0a085;
   --cream:       #f9f6f0;
   --cream-dark:  #f0ebe0;
   --white:       #ffffff;
@@ -81,6 +83,11 @@ p  { color: var(--text-mid); line-height: 1.85; }
 .section--navy  { background: var(--navy); }
 .section--navy h1, .section--navy h2, .section--navy h3 { color: var(--white); }
 .section--navy p { color: rgba(255,255,255,.78); }
+.section--sand  { background: var(--sand); }
+.section--sand h1, .section--sand h2, .section--sand h3 { color: var(--navy); }
+.section--sand p { color: rgba(12,26,46,.75); }
+.section--sand .eyebrow { color: var(--navy); opacity: .65; }
+.section--sand .divider { background: var(--navy); opacity: .25; }
 
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
 .grid-3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 32px; }
@@ -404,20 +411,20 @@ p  { color: var(--text-mid); line-height: 1.85; }
 /* ── STATS ── */
 .stats {
   display: grid; grid-template-columns: repeat(4,1fr);
-  background: var(--navy);
+  background: var(--sand);
 }
 .stat {
   padding: 52px 32px; text-align: center;
-  border-right: 1px solid rgba(255,255,255,.08);
+  border-right: 1px solid rgba(12,26,46,.15);
 }
 .stat:last-child { border-right: none; }
 .stat__number {
   font-family: var(--font-head); font-size: 2.8rem;
-  color: var(--gold); font-weight: 400; line-height: 1; margin-bottom: .5rem;
+  color: var(--navy); font-weight: 400; line-height: 1; margin-bottom: .5rem;
 }
 .stat__label {
   font-size: .72rem; letter-spacing: .15em;
-  text-transform: uppercase; color: rgba(255,255,255,.5);
+  text-transform: uppercase; color: rgba(12,26,46,.6);
 }
 
 /* ── FORM ── */
@@ -503,18 +510,21 @@ details.faq-item .faq-answer { max-height: none; overflow: visible; padding-bott
 
 /* ── BANNER CTA ── */
 .cta-banner {
-  background-color: var(--navy);
+  background-color: var(--sand);
   background-image: url('https://www.caladeibalcani.com/wp-content/uploads/2026/04/133961716_10224484946421498_989410546601605502_n-1024x683.webp');
   background-size: cover; background-position: center;
   padding: 72px 24px; text-align: center; position: relative; overflow: hidden;
 }
 .cta-banner::before {
   content: ''; position: absolute; inset: 0;
-  background: linear-gradient(135deg, rgba(7,15,30,.82) 0%, rgba(21,36,64,.82) 100%);
+  background: rgba(194,180,153,.9);
 }
-.cta-banner h2 { color: var(--white); position: relative; margin-bottom: 1rem; }
-.cta-banner p  { color: rgba(255,255,255,.72); position: relative; margin-bottom: 2rem; }
+.cta-banner h2 { color: var(--navy); position: relative; margin-bottom: 1rem; }
+.cta-banner p  { color: rgba(12,26,46,.72); position: relative; margin-bottom: 2rem; }
+.cta-banner .eyebrow { color: rgba(12,26,46,.6); position: relative; }
 .cta-banner .btn { position: relative; }
+.cta-banner .btn--outline { border-color: var(--navy); color: var(--navy); }
+.cta-banner .btn--outline:hover { background: var(--navy); color: var(--white); border-color: var(--navy); }
 
 /* ── FOOTER ── */
 footer {
