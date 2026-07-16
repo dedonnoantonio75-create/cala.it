@@ -105,9 +105,18 @@ function initSlideshow(el) {
 }
 document.querySelectorAll('.slideshow').forEach(initSlideshow);
 
-// ── Contact form (basic validation) ──
-const form = document.querySelector('.contact-form');
-if (form) {
+// ── Contact forms (Netlify Forms AJAX) ──
+const SUCCESS_MSG = {
+  it: 'Grazie per il messaggio. Vi risponderemo entro 24 ore.',
+  en: 'Thank you for your message. We will get back to you within 24 hours.',
+  fr: 'Merci pour votre message. Nous vous répondrons dans les 24 heures.',
+  es: 'Gracias por su mensaje. Le responderemos en menos de 24 horas.',
+  de: 'Vielen Dank für Ihre Nachricht. Wir melden uns innerhalb von 24 Stunden.',
+};
+const pageLang = (document.documentElement.lang || 'it').slice(0, 2);
+const successText = SUCCESS_MSG[pageLang] || SUCCESS_MSG.it;
+
+document.querySelectorAll('form[data-netlify="true"]').forEach(form => {
   form.addEventListener('submit', e => {
     e.preventDefault();
     const required = form.querySelectorAll('[required]');
@@ -116,8 +125,22 @@ if (form) {
       el.style.borderColor = el.value.trim() ? '' : 'red';
       if (!el.value.trim()) valid = false;
     });
-    if (valid) {
-      form.innerHTML = '<p style="color:var(--gold);font-family:var(--font-italic);font-style:italic;font-size:1.2rem;text-align:center;padding:40px 0">Grazie per il messaggio. Vi risponderemo entro 24 ore.</p>';
-    }
+    if (!valid) return;
+
+    const btn = form.querySelector('button[type="submit"]');
+    if (btn) btn.disabled = true;
+
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(new FormData(form)).toString(),
+    })
+      .then(() => {
+        form.innerHTML = `<p style="color:var(--gold);font-family:var(--font-italic);font-style:italic;font-size:1.2rem;text-align:center;padding:40px 0">${successText}</p>`;
+      })
+      .catch(() => {
+        if (btn) btn.disabled = false;
+        alert(successText);
+      });
   });
-}
+});

@@ -131,7 +131,8 @@
         <p>Francesco Urso ou un membre de notre équipe vous répondra personnellement dans les 24 heures avec une première réponse sur les disponibilités et les possibilités pour votre projet.</p>
 
         <!-- Formulaire de contact -->
-        <form action="#" method="POST" novalidate style="margin-top: 2rem;" aria-label="Formulaire de contact">
+        <form action="#" method="POST" novalidate style="margin-top: 2rem;" aria-label="Formulaire de contact" name="contact-fr" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact-fr">
           <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
             <div>
               <label for="prenom" style="display:block; font-size:0.85rem; margin-bottom:0.35rem; font-weight:600; text-transform:uppercase; letter-spacing:0.05em;">Prénom *</label>
@@ -267,15 +268,14 @@
       <div class="divider divider--center"></div>
       <p class="lead">Cala dei Balcani est situé sur la côte adriatique du Salento, à 50 km au sud-est de Lecce, 70 km de l'aéroport de Brindisi et 160 km de Bari.</p>
     </div>
-    <div class="fade-up" style="background: rgba(0,0,0,0.05); height: 400px; display:flex; align-items:center; justify-content:center; border-radius: 4px; position:relative; overflow:hidden;">
-      <noscript>
-        <p>Via Roma, 5 — 73020 Santa Cesarea Terme (LE) — Puglia, Italie</p>
-      </noscript>
-      <div style="text-align:center; padding: 2rem;">
-        <p style="font-size:1.1rem; margin-bottom:1rem;">Via Roma, 5 — 73020 Santa Cesarea Terme (LE)</p>
-        <p style="color:var(--text-muted,#666); margin-bottom:1.5rem;">Coordonnées GPS : 40.0267° N, 18.4594° E</p>
-        <a href="https://maps.google.com/?q=Via+Roma+5+Santa+Cesarea+Terme+Lecce+Italy" target="_blank" rel="noopener" class="btn btn--dark">Ouvrir dans Google Maps</a>
-      </div>
+    <div class="map-wrapper fade-up">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3032!2d18.459!3d40.027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zVmlhIFJvbWEgNSwgU2FudGEgQ2VzYXJlYSBUZXJtZQ!5e0!3m2!1sfr!2sit!4v1700000000000"
+        title="Carte — Cala dei Balcani, Via Roma 5, Santa Cesarea Terme (LE), Puglia, Italie"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        aria-label="Carte montrant la localisation de Cala dei Balcani">
+      </iframe>
     </div>
   </div>
 </section>
@@ -300,9 +300,9 @@
       <div class="footer__brand">Cala dei <span>Balcani</span></div>
       <p class="footer__desc">Un lieu magique suspendu dans le temps, où la mer Adriatique embrasse l'histoire millénaire du Salento. Le lieu exclusif pour les mariages de luxe en Puglia, avec la Tour Sarrasine historique du XVIe siècle.</p>
       <div class="footer__social">
-        <a href="#" aria-label="Facebook" rel="noopener">f</a>
-        <a href="#" aria-label="Instagram" rel="noopener">ig</a>
-        <a href="#" aria-label="YouTube" rel="noopener">yt</a>
+        <a href="https://www.facebook.com/caladeibalcani/" target="_blank" rel="noopener" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="https://www.instagram.com/cala_dei_balcani/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        <a href="https://www.youtube.com/@cala-dei-balcani" target="_blank" rel="noopener" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.4 19.54C5.12 20 12 20 12 20s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#fff"/></svg></a>
       </div>
     </div>
     <div>
@@ -338,7 +338,7 @@
     </div>
   </div>
   <div class="footer__bottom">
-    <p>© 2024 La Torre Saracena S.r.l. · P.IVA 02522480751 · Via Roma, 5 · 73020 Santa Cesarea Terme (LE) · Puglia, Italie</p>
+    <p>© 2026 La Torre Saracena S.r.l. · P.IVA 02522480751 · Via Roma, 5 · 73020 Santa Cesarea Terme (LE) · Puglia, Italie</p>
     <nav class="nav__lang" aria-label="Langues disponibles">
       <a href="/"    hreflang="it">IT</a>
       <a href="/en/" hreflang="en">EN</a>
