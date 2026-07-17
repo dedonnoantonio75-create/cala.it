@@ -53,6 +53,7 @@
       <li><a href="galleria.html">Gallery</a></li>
       <li><a href="faq.html">FAQ</a></li>
       <li><a href="contatti.html">Contatti</a></li>
+      <li><a href="https://www.caladeibalcani.info" target="_blank" rel="noopener" class="nav__cta-item">Parti da qui</a></li>
     </ul>
   </div>
 </nav>
@@ -82,122 +83,69 @@
     </div>
   </section>
 
-  <!-- Video Testimonianze -->
-  <section class="section section--navy" aria-labelledby="video-testi-page-heading" style="padding:80px 0">
+  <!-- ── VIDEO RECENSIONI: CAROSELLO DINAMICO ── -->
+  <section class="section section--navy" aria-labelledby="video-carousel-heading" style="padding:80px 0">
     <div class="container">
       <div class="text-center mb-4 fade-up">
         <span class="eyebrow">Video Recensioni</span>
-        <h2 id="video-testi-page-heading" style="color:var(--white)">Voci di Sposi Felici</h2>
+        <h2 id="video-carousel-heading" style="color:var(--white)">Le Voci dei Nostri Sposi</h2>
         <div class="divider divider--center"></div>
-        <p style="color:rgba(255,255,255,.72);max-width:600px;margin:0 auto">Le emozioni dei matrimoni a Cala dei Balcani, in parole e immagini delle coppie che hanno scelto questo luogo unico.</p>
+        <p style="color:rgba(255,255,255,.72);max-width:600px;margin:0 auto">12 coppie reali raccontano il loro matrimonio a Cala dei Balcani. Scorri le storie o guarda i video.</p>
       </div>
 
-      <!-- Video principale -->
-      <div style="display:grid;grid-template-columns:3fr 2fr;gap:32px;align-items:center;margin-bottom:3rem" class="fade-up">
-        <div style="position:relative;aspect-ratio:16/9;border-radius:4px;overflow:hidden;box-shadow:0 16px 64px rgba(0,0,0,.5)">
-          <iframe src="https://www.youtube.com/embed/hQsG5s8cidM" title="Testimonianza Cala dei Balcani — Video Recensione"
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen style="position:absolute;inset:0;width:100%;height:100%"></iframe>
-        </div>
-        <div style="padding:1rem">
-          <span class="eyebrow">Le Nostre Coppie Raccontano</span>
-          <h3 style="color:var(--white);margin-bottom:1rem">Un luogo che non si dimentica</h3>
-          <p style="color:rgba(255,255,255,.72)">Ogni coppia porta con sé una storia unica. Qui trovate le testimonianze autentiche di chi ha vissuto il giorno più bello della vita a Cala dei Balcani.</p>
-          <div style="margin-top:1.5rem;display:flex;gap:12px;flex-wrap:wrap">
-            <a href="https://www.youtube.com/@cala-dei-balcani" target="_blank" rel="noopener" class="btn btn--gold" style="font-size:.82rem">Tutti i Video YouTube</a>
+      <!-- Carousel -->
+      <div class="vid-carousel fade-up" aria-label="Carosello video recensioni">
+        <!-- Video player / thumbnail (left) -->
+        <div class="vid-carousel__media">
+          <div class="vid-carousel__thumb-wrap" id="vidThumbWrap">
+            <img id="vidThumb" src="" alt="" loading="lazy" class="vid-carousel__thumb">
+            <button class="vid-carousel__play" id="vidPlayBtn" aria-label="Guarda il video">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="56" height="56" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="rgba(12,26,46,.65)"/><polygon points="9.5 7 18 12 9.5 17" fill="#c4a24a"/></svg>
+            </button>
+          </div>
+          <div class="vid-carousel__iframe-wrap" id="vidIframeWrap" hidden>
+            <iframe id="vidIframe" src="" title="Video recensione Cala dei Balcani"
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
           </div>
         </div>
-      </div>
 
-      <!-- Griglia altri video -->
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px" class="fade-up">
-        <!-- Video 2 -->
-        <div style="position:relative;aspect-ratio:16/9;border-radius:4px;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,.4)">
-          <iframe src="https://www.youtube.com/embed/?list=UU&listType=user_uploads&origin=https://www.caladeibalcani.it"
-            title="Testimonianze Cala dei Balcani — Canale YouTube"
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen style="position:absolute;inset:0;width:100%;height:100%"
-            loading="lazy"></iframe>
-        </div>
-        <!-- Placeholder canale YouTube -->
-        <a href="https://www.youtube.com/@cala-dei-balcani" target="_blank" rel="noopener"
-          style="display:flex;flex-direction:column;align-items:center;justify-content:center;aspect-ratio:16/9;border-radius:4px;border:2px dashed rgba(196,162,74,.3);background:rgba(255,255,255,.04);text-decoration:none;transition:.3s"
-          onmouseover="this.style.background='rgba(196,162,74,.08)'" onmouseout="this.style.background='rgba(255,255,255,.04)'">
-          <svg width="48" height="48" viewBox="0 0 24 24" fill="var(--gold)" style="margin-bottom:1rem" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.4 19.54C5.12 20 12 20 12 20s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#fff"/></svg>
-          <p style="color:var(--gold);font-size:.82rem;letter-spacing:.15em;text-transform:uppercase;font-weight:700;margin:0">Vedi tutti i video</p>
-          <p style="color:rgba(255,255,255,.45);font-size:.78rem;margin:.5rem 0 0">Sul canale YouTube ufficiale</p>
-        </a>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Testimonianza 1: Vanessa & Omar -->
-  <section class="section section--cream" aria-labelledby="testi-vanessa">
-    <div class="container">
-      <div class="grid-2" style="align-items:start;gap:60px">
-        <div class="fade-up">
-          <span class="eyebrow">Coppia Internazionale</span>
-          <h2 id="testi-vanessa">Vanessa &amp; Omar</h2>
-          <p style="color:var(--gold);font-family:var(--font-italic);font-style:italic;font-size:1rem;margin-bottom:1rem">Lei spagnola, lui salentino &mdash; due culture, un unico scenario magico</p>
-          <div class="divider divider--left"></div>
-          <p style="line-height:1.9">Per Vanessa e Omar, Cala dei Balcani &egrave; stata la scelta perfetta per unire due culture in un unico scenario magico. Un matrimonio definito dagli invitati come &ldquo;divertente e dinamico&rdquo;.</p>
-          <ul style="margin:1.5rem 0;list-style:none;padding:0;display:flex;flex-direction:column;gap:.75rem">
-            <li style="display:flex;gap:.75rem;align-items:flex-start"><span style="color:var(--gold);font-size:1.1rem;flex-shrink:0">&#10003;</span><span style="line-height:1.6"><strong>Cerimonia Civile sotto la Torre Saracena</strong> &mdash; uno scambio di anelli emozionante</span></li>
-            <li style="display:flex;gap:.75rem;align-items:flex-start"><span style="color:var(--gold);font-size:1.1rem;flex-shrink:0">&#10003;</span><span style="line-height:1.6"><strong>Antipasti in Corte</strong> &mdash; un secondo ambiente che sembrava &ldquo;un altro posto&rdquo; pur essendo nella stessa struttura</span></li>
-            <li style="display:flex;gap:.75rem;align-items:flex-start"><span style="color:var(--gold);font-size:1.1rem;flex-shrink:0">&#10003;</span><span style="line-height:1.6"><strong>Festa Notturna</strong> &mdash; conclusa con discoteca, open bar e buffet di pizzette e pasticciotti</span></li>
-            <li style="display:flex;gap:.75rem;align-items:flex-start"><span style="color:var(--gold);font-size:1.1rem;flex-shrink:0">&#10003;</span><span style="line-height:1.6"><strong>Network Fornitori Locali</strong> &mdash; design, fiori, grafica coordinati dalla struttura. Fondamentale per chi organizza dall&rsquo;estero</span></li>
-            <li style="display:flex;gap:.75rem;align-items:flex-start"><span style="color:var(--gold);font-size:1.1rem;flex-shrink:0">&#10003;</span><span style="line-height:1.6"><strong>Cucina Salentina d&rsquo;Eccellenza</strong> &mdash; gestione impeccabile di allergie e intolleranze con piatti alternativi per ogni esigenza</span></li>
-          </ul>
-          <blockquote style="border-left:3px solid var(--gold);padding-left:1.25rem;font-family:var(--font-italic);font-style:italic;color:var(--navy);line-height:1.7">
-            &ldquo;Uno Staff che coccola: ci siamo sentiti costantemente seguiti. Durante il servizio, siamo entrati con estremo piacere in cucina per ringraziare personalmente ogni membro del team.&rdquo;
-          </blockquote>
-        </div>
-        <div class="fade-right fade-up-d1">
-          <img src="img/matrimonio-cala-dei-balcani-santa-cesarea-terme.png"
-               alt="Matrimonio Cala dei Balcani" loading="lazy"
-               style="width:100%;border-radius:4px;box-shadow:0 8px 40px rgba(12,26,46,.2);margin-bottom:1.5rem">
-          <div style="background:var(--navy);color:#fff;border-radius:4px;padding:1.5rem">
-            <div style="display:flex;gap:8px;margin-bottom:1rem">
-              <span style="color:#f4c430;font-size:1.2rem">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-            </div>
-            <p style="font-family:var(--font-italic);font-style:italic;font-size:1.05rem;line-height:1.7;color:#fff">&ldquo;Un matrimonio definito dagli invitati come divertente e dinamico, reso possibile dalla pazienza e dalla professionalit&agrave; di Francesco e di tutta la squadra di Cala dei Balcani.&rdquo;</p>
-            <p style="color:var(--gold);font-size:.8rem;margin-top:.75rem;letter-spacing:.08em">— Vanessa &amp; Omar</p>
+        <!-- Text (right) -->
+        <div class="vid-carousel__text">
+          <span class="eyebrow" style="color:var(--gold)">Video Recensione</span>
+          <h3 class="vid-carousel__name" id="vidName" style="color:#fff;margin:.5rem 0 1rem;font-size:1.4rem"></h3>
+          <p class="vid-carousel__desc" id="vidDesc" style="color:rgba(255,255,255,.75);line-height:1.8;font-size:.95rem"></p>
+          <div style="margin-top:1.5rem;display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+            <a id="vidYtLink" href="#" target="_blank" rel="noopener" class="btn btn--gold" style="font-size:.8rem">Guarda su YouTube</a>
           </div>
         </div>
+
+        <!-- Navigation -->
+        <div class="vid-carousel__nav">
+          <button class="vid-carousel__arrow vid-carousel__arrow--prev" onclick="vidSlide(-1)" aria-label="Video precedente">&#8592;</button>
+          <div class="vid-carousel__dots" id="vidDots"></div>
+          <button class="vid-carousel__arrow vid-carousel__arrow--next" onclick="vidSlide(1)" aria-label="Video successivo">&#8594;</button>
+        </div>
+        <p class="vid-carousel__counter" id="vidCounter" style="color:rgba(255,255,255,.45);text-align:center;font-size:.8rem;margin-top:.5rem"></p>
+      </div>
+
+      <div style="text-align:center;margin-top:2.5rem">
+        <a href="https://www.youtube.com/@cala-dei-balcani" target="_blank" rel="noopener" class="btn btn--outline" style="font-size:.82rem">Tutti i video sul canale YouTube</a>
       </div>
     </div>
   </section>
 
-  <!-- Testimonianza 2: Cristina & Pedro -->
-  <section class="section" aria-labelledby="testi-cristina">
-    <div class="container">
-      <div class="grid-2" style="align-items:start;gap:60px">
-        <div class="fade-up">
-          <div style="background:var(--gold);color:var(--navy);border-radius:4px;padding:1.5rem;margin-bottom:1.5rem">
-            <div style="display:flex;gap:8px;margin-bottom:1rem">
-              <span style="font-size:1.2rem">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-            </div>
-            <p style="font-family:var(--font-italic);font-style:italic;font-size:1.05rem;line-height:1.7">&ldquo;Cala dei Balcani al 100% consigliato a sposi che hanno tanti ospiti che vengono dall&rsquo;estero. Professionali, attenti, e capaci di creare una magia irripetibile.&rdquo;</p>
-            <p style="font-size:.8rem;margin-top:.75rem;letter-spacing:.08em">— Cristina &amp; Pedro, da Dubai</p>
-          </div>
-          <img src="img/cala-dei-balcani-location-matrimoni-wedding-salento-lecce-.jpg"
-               alt="Matrimonio Cala dei Balcani" loading="lazy"
-               style="width:100%;border-radius:4px;box-shadow:0 8px 40px rgba(12,26,46,.2)">
-        </div>
-        <div class="fade-right fade-up-d1">
-          <span class="eyebrow">Da Dubai al Salento</span>
-          <h2 id="testi-cristina">Cristina &amp; Pedro</h2>
-          <p style="color:var(--gold);font-family:var(--font-italic);font-style:italic;font-size:1rem;margin-bottom:1rem">Una coppia che vive a Dubai ha scelto Cala dei Balcani per il matrimonio civile vista mare in Salento</p>
-          <div class="divider divider--left"></div>
-          <p style="line-height:1.9">Questa &egrave; la storia di Cristina e Pedro, una coppia che vive a Dubai e ha scelto Cala dei Balcani per celebrare il proprio matrimonio civile vista mare in Salento. Organizzare un matrimonio da lontano, in un Paese straniero, pu&ograve; sembrare una sfida enorme.</p>
-          <p style="margin-top:1.2rem;line-height:1.9">Cala dei Balcani ha reso tutto semplice e indimenticabile. Cristina e Pedro consigliano Cala dei Balcani al 100% a sposi che hanno tanti ospiti che vengono dall&rsquo;estero, per la professionalit&agrave; e la capacit&agrave; di gestire ogni dettaglio con cura e passione.</p>
-          <ul style="margin:1.5rem 0;list-style:none;padding:0;display:flex;flex-direction:column;gap:.75rem">
-            <li style="display:flex;gap:.75rem;align-items:flex-start"><span style="color:var(--gold);font-size:1.1rem;flex-shrink:0">&#10003;</span><span style="line-height:1.6"><strong>Matrimonio civile vista mare</strong> &mdash; Cala dei Balcani &egrave; Casa Comunale</span></li>
-            <li style="display:flex;gap:.75rem;align-items:flex-start"><span style="color:var(--gold);font-size:1.1rem;flex-shrink:0">&#10003;</span><span style="line-height:1.6"><strong>Ospiti internazionali</strong> &mdash; assistenza completa per chi arriva dall&rsquo;estero</span></li>
-            <li style="display:flex;gap:.75rem;align-items:flex-start"><span style="color:var(--gold);font-size:1.1rem;flex-shrink:0">&#10003;</span><span style="line-height:1.6"><strong>Organizzazione da remoto</strong> &mdash; supporto costante dalla prima videochiamata al giorno del s&igrave;</span></li>
-          </ul>
-        </div>
+  <!-- ── TESTIMONIANZE SCRITTE: ACCORDION ── -->
+  <section class="section section--cream" aria-labelledby="testi-scritte-heading" style="padding:80px 0">
+    <div class="container" style="max-width:860px">
+      <div class="text-center mb-5 fade-up">
+        <span class="eyebrow">Testimonianze Scritte</span>
+        <h2 id="testi-scritte-heading">Le Parole dei Nostri Sposi</h2>
+        <div class="divider divider--center"></div>
+        <p style="color:var(--text-mid);max-width:600px;margin:0 auto">Ogni storia &egrave; unica. Leggi le testimonianze di chi ha scelto Cala dei Balcani per il giorno pi&ugrave; importante della propria vita.</p>
+      </div>
+
+      <div class="testi-accordion" id="testiAccordion">
       </div>
     </div>
   </section>
@@ -327,5 +275,221 @@
   </div>
 </footer>
 <script src="js/main.js" defer></script>
+<style>
+/* ── VIDEO CAROUSEL ── */
+.vid-carousel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 0 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.vid-carousel__media { grid-column: 1; grid-row: 1 / 2; }
+.vid-carousel__text  { grid-column: 2; grid-row: 1 / 2; display: flex; flex-direction: column; justify-content: center; }
+.vid-carousel__nav   { grid-column: 1 / 3; grid-row: 2; display: flex; justify-content: center; align-items: center; gap: 16px; margin-top: 24px; }
+
+.vid-carousel__thumb-wrap {
+  position: relative; aspect-ratio: 16/9; border-radius: 6px; overflow: hidden;
+  box-shadow: 0 12px 48px rgba(0,0,0,.55); cursor: pointer;
+}
+.vid-carousel__thumb { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .4s ease; }
+.vid-carousel__thumb-wrap:hover .vid-carousel__thumb { transform: scale(1.03); }
+.vid-carousel__play {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  background: none; border: none; cursor: pointer; transition: transform .2s;
+}
+.vid-carousel__play:hover { transform: scale(1.1); }
+.vid-carousel__iframe-wrap {
+  position: relative; aspect-ratio: 16/9; border-radius: 6px; overflow: hidden;
+  box-shadow: 0 12px 48px rgba(0,0,0,.55);
+}
+.vid-carousel__iframe-wrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none; }
+
+.vid-carousel__arrow {
+  background: rgba(196,162,74,.15); border: 1px solid rgba(196,162,74,.4); color: var(--gold);
+  width: 44px; height: 44px; border-radius: 50%; font-size: 1.2rem; cursor: pointer;
+  transition: .2s; display: flex; align-items: center; justify-content: center;
+}
+.vid-carousel__arrow:hover { background: var(--gold); color: var(--navy); }
+
+.vid-carousel__dots { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; max-width: 300px; }
+.vid-dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: rgba(196,162,74,.25); border: 1px solid rgba(196,162,74,.4);
+  cursor: pointer; transition: .2s;
+}
+.vid-dot.active { background: var(--gold); border-color: var(--gold); }
+
+@media (max-width: 700px) {
+  .vid-carousel { grid-template-columns: 1fr; }
+  .vid-carousel__media { grid-column: 1; grid-row: 1; }
+  .vid-carousel__text  { grid-column: 1; grid-row: 2; padding-top: 20px; }
+  .vid-carousel__nav   { grid-column: 1; grid-row: 3; }
+}
+
+/* ── TESTIMONIAL ACCORDION ── */
+.testi-accordion { display: flex; flex-direction: column; gap: 8px; }
+.testi-accordion-item { border-radius: 4px; overflow: hidden; border: 1px solid rgba(12,26,46,.1); }
+.testi-accordion-btn {
+  width: 100%; display: flex; justify-content: space-between; align-items: center;
+  padding: 16px 20px; background: var(--navy); border: none; cursor: pointer;
+  text-align: left; gap: 16px;
+}
+.testi-accordion-btn:hover { background: #112240; }
+.testi-accordion-name {
+  color: #fff; font-family: var(--font-display); font-size: 1rem; font-weight: 500;
+  letter-spacing: .02em; line-height: 1.3;
+}
+.testi-accordion-icon {
+  color: var(--gold); font-size: 1.4rem; font-weight: 300; flex-shrink: 0;
+  width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
+  border: 1px solid rgba(196,162,74,.4); border-radius: 50%; transition: .2s;
+}
+.testi-accordion-btn[aria-expanded="true"] .testi-accordion-icon { transform: rotate(45deg); }
+.testi-accordion-body {
+  background: var(--cream); padding: 0 20px;
+  max-height: 0; overflow: hidden; transition: max-height .35s ease, padding .35s ease;
+}
+.testi-accordion-body.open { max-height: 1200px; padding: 20px 20px; }
+.testi-accordion-body p { color: var(--text-mid); line-height: 1.85; font-size: .95rem; margin: 0; }
+</style>
+<script>
+(function() {
+  var videos = [
+    { id: 'pnJpDQlk7yM', name: 'Vanessa &amp; Omar', desc: 'Coppia internazionale che ha voluto unire due culture nel Salento. Cerimonia civile sotto la Torre Saracena, antipasto in corte, festa notturna con open bar. Un matrimonio &ldquo;divertente e dinamico&rdquo; grazie allo staff che coccola.' },
+    { id: 'viq_YFUdHFg', name: 'Cristina &amp; Pedro', desc: 'Da Dubai al Salento: l&rsquo;organizzazione &egrave; stata gestita con serenit&agrave; grazie allo staff eccezionale. L&rsquo;effetto wow all&rsquo;arrivo ha superato ogni aspettativa. Consigliato al 100% a sposi con ospiti dall&rsquo;estero.' },
+    { id: 'jNXaXFYp1qA', name: 'Vanessa &amp; Filippo', desc: 'Matrimonio serale e magia salentina: rito al tramonto, bellezza naturale del paesaggio, cena perfetta e incredibile sotto la pergotenda con illuminazione spettacolare.' },
+    { id: 'ULW7Zuw45dc', name: 'Ludovica &amp; Emanuele', desc: 'Matrimonio familiare e semplice: la scelta della location sul mare e l&rsquo;organizzazione interna hanno trasformato un grande evento in una giornata serena e indimenticabile.' },
+    { id: 'SA8tLOLUsvk', name: 'Ludovica &amp; Ferdinando', desc: 'Amore a prima vista per la vista sulla Torre Saracena con il mare. Un&rsquo;emozione &ldquo;folgorante&rdquo; all&rsquo;arrivo, confermata dall&rsquo;atmosfera magica di tutta la giornata.' },
+    { id: 'XVSwjSKQMGs', name: 'Ilaria &amp; Roberto', desc: 'Coccolati e senza stress: grazie a Ivana e a tutto lo staff, Ilaria ha vissuto il matrimonio con due bambini &ldquo;molto serenamente&rdquo;, fidandosi ciecamente del team.' },
+    { id: 'OB7VLZ7tDjc', name: 'Francesca &amp; Michael', desc: 'A casa, con vista sul Salento. Michael cercava una piscina, ha trovato la roccia, la pineta e il mare. Un posto caratteristico, emozionante fin dall&rsquo;aperitivo sulla Torre.' },
+    { id: 'Xdunjui8xfE', name: 'Muriel &amp; Alessandro', desc: 'Muriel si &egrave; commossa appena ha visto la location. Eleganza, natura, ariosit&agrave;: tutto ha superato le aspettative. Gli ospiti stranieri erano entusiasti, soprattutto del cibo.' },
+    { id: 'wQafxAiHf_A', name: 'Margherita &amp; Fabio', desc: 'Amore al primo sguardo: la magnifica Torre Saracena e la vista mare mozzafiato. Un&rsquo;esperienza &ldquo;top&rdquo;, con sposi &ldquo;super coccolati&rdquo; in ogni angolo dell&rsquo;evento.' },
+    { id: '55Xu7Mxoap0', name: 'Diego ed Eleonora', desc: '&ldquo;Cala &egrave; casa&rdquo;: sposi da Malta. Colpo di fulmine e accoglienza calorosa. Gestione impeccabile a distanza grazie a Ivana. Location stupenda su tre livelli, dinamica e indimenticabile.' },
+    { id: 'D1mEuC6g1xY', name: 'Aldo ed Elisabetta', desc: 'Un sogno diventato realt&agrave;. Staff super professionale che si prende cura di ogni dettaglio, anche delle esigenze alimentari. Banchetto lodato per la qualit&agrave; e l&rsquo;abbondanza, definite &ldquo;al dir poco eccellenti&rdquo;.' },
+    { id: 'hGqqlWnxxww', name: 'Matteo &amp; Cristina', desc: 'Emozione a 360&deg;, gestione totale e ospiti soddisfatti. Lo staff offre supporto completo e discreto: i due sposi hanno vissuto la giornata in completa serenit&agrave;, senza doversi preoccupare di nulla.' }
+  ];
+
+  var current = 0;
+  var thumbWrap = document.getElementById('vidThumbWrap');
+  var iframeWrap = document.getElementById('vidIframeWrap');
+  var iframe = document.getElementById('vidIframe');
+  var thumb = document.getElementById('vidThumb');
+  var name = document.getElementById('vidName');
+  var desc = document.getElementById('vidDesc');
+  var ytLink = document.getElementById('vidYtLink');
+  var counter = document.getElementById('vidCounter');
+  var dotsEl = document.getElementById('vidDots');
+
+  // Build dots
+  videos.forEach(function(v, i) {
+    var d = document.createElement('button');
+    d.className = 'vid-dot' + (i === 0 ? ' active' : '');
+    d.setAttribute('aria-label', 'Video ' + (i+1));
+    d.addEventListener('click', function() { goTo(i); });
+    dotsEl.appendChild(d);
+  });
+
+  function goTo(idx) {
+    current = (idx + videos.length) % videos.length;
+    render();
+  }
+
+  function render() {
+    var v = videos[current];
+    // Reset to thumbnail
+    thumbWrap.hidden = false;
+    iframeWrap.hidden = true;
+    iframe.src = '';
+    thumb.src = 'https://img.youtube.com/vi/' + v.id + '/maxresdefault.jpg';
+    thumb.onerror = function() { thumb.src = 'https://img.youtube.com/vi/' + v.id + '/hqdefault.jpg'; };
+    thumb.alt = 'Video recensione ' + v.name.replace(/&amp;/g, '&').replace(/&rsquo;/g, "'").replace(/&egrave;/g, 'è').replace(/&ldquo;/g,'').replace(/&rdquo;/g,'');
+    name.innerHTML = v.name;
+    desc.innerHTML = v.desc;
+    ytLink.href = 'https://www.youtube.com/watch?v=' + v.id;
+    counter.textContent = (current + 1) + ' / ' + videos.length;
+    // Dots
+    var dots = dotsEl.querySelectorAll('.vid-dot');
+    dots.forEach(function(d, i) { d.classList.toggle('active', i === current); });
+  }
+
+  // Play button
+  document.getElementById('vidPlayBtn').addEventListener('click', function() {
+    var v = videos[current];
+    iframe.src = 'https://www.youtube.com/embed/' + v.id + '?autoplay=1&rel=0';
+    thumbWrap.hidden = true;
+    iframeWrap.hidden = false;
+  });
+
+  window.vidSlide = function(dir) { goTo(current + dir); };
+
+  // Init
+  render();
+
+  // ── ACCORDION TESTIMONIANZE ──
+  var testimonials = [
+    { name: 'Sposi Licia e Jacopo', text: 'Cibo eccezionale, amicizia e Salento\n\nSono passati pochi giorni dal nostro matrimonio alla Cala dei Balcani e non smetto di pensare alla giornata meravigliosa che questo posto ci ha regalato. Lo staff è fantastico, indescrivibile.\nParlando dei mesi precedenti al matrimonio, voglio sottolineare l\'estrema disponibilità e cura nei dettagli di Francesco, Ivana e il Sig. Modesto. Con loro abbiamo affrontato ogni piccolo e grande intoppo e ci hanno aiutato ad organizzare tutto.\nParlando del giorno del matrimonio, siamo stati coccolati e viziati da tutto lo staff con una menzione in particolare per Roberto che è stato il nostro angelo custode. Il loro obiettivo è di far passare una giornata meravigliosa agli sposi e agli ospiti. Affidatevi a loro, perché sono eccezionali, perché il posto è da togliere il fiato, indescrivibile, perché il cibo è di livello superiore (dall\'antipasto ai dolci).\nBravi bravi bravi, non abbiamo trovato solo il luogo ideale dove sposarci ma anche dei nuovi amici.' },
+    { name: 'Valentina e Sergio', text: 'La location più bella del Salento\n\nCala dei Balcani è una cornice da fiaba sulla costa più bella del Salento. È incantevole e suggestiva, una location perfetta per realizzare il proprio matrimonio.\nTutto lo staff è super gentile e professionale: Francesco, che ci ha accolto fin dal primo momento e ci ha fatto sentire a "casa", con lui si è instaurato immediatamente un legame di grande affetto, semplice e vero, come se ci conoscessimo da sempre; Ivana, con la sua dolcezza, pazienza e maestria nelle composizioni; Roberto, l\'angelo custode che quel giorno ha seguito ogni nostro passo; Modesto, Franco, chef Adolfo e tutto lo staff al completo nessuno escluso.\nI nostri ospiti sono rimasti entusiasti della meravigliosa vista sul mare, dell\'ottimo cibo e della eccellente professionalità e cortesia.\nCon voi ogni nostro desiderio è diventato realtà, ogni nostra richiesta è stata soddisfatta… siete stati aiuto conforto e sorriso, siete famiglia per noi!\nCala dei Balcani farà sempre parte del nostro cuore perché è lì che è cominciato il nostro viaggio insieme…\nImmensamente grazie' },
+    { name: 'Domenica e Matteo', text: 'Ci sono luoghi che ti restano nel cuore, e poi c\'è la Cala dei Balcani, che ti entra nell\'anima. È lì che il 22 giugno abbiamo celebrato il nostro matrimonio, con rito civile sulla Torre Saracena, sospesa tra cielo e mare, in un\'atmosfera che sembrava scritta apposta per noi.\n\nAbbiamo scelto la \'Cala\' (noi la chiamiamo affettuosamente così) non solo per la sua bellezza, ma anche per l\'incredibile squadra che ci ha accompagnato sia in questo giorno indimenticabile, che nei mesi precedenti di organizzazione.' },
+    { name: 'Emil e Lucia', text: 'Non solo matrimonio\n\nCala dei Balcani offre una location fresca e ventilata, immersa nel verde e con una vista spettacolare sul Mediterraneo. Grazie alla dinamicità di Cala, la nostra festa di matrimonio si é potuta snodare su quattro ambienti diversi, dal prato intorno alla torre per l\'aperitivo, al pergolato della villa per la cena, la terrazza per il dolce ed infine gli interni della villa che sono stati utilizzati per ballare.' },
+    { name: 'Sara ed Enrico', text: 'La nostra favola\n\nAbbiamo celebrato il nostro matrimonio a Cala dei Balcani il 6 maggio 2025 ed è andata meglio di quanto ci potessimo aspettare. Dal primo contatto con Modesto che ci ha "raccontato" tutta la location, dal sopralluogo con Roberto che ci ha fatto innamorare di quel posto in un giorno di pioggia, dalla chiacchierata con Ivana per parlare di tutto l\'allestimento della zona torre dove avremmo celebrato il rito civile e poi via via tutta l\'organizzazione del banchetto con Francesco fino al giorno stesso... è stato tutto perfetto.' },
+    { name: 'Alessandra e Domenico', text: 'Matrimonio da sogno a Cala dei Balcani\n\nAbbiamo scelto Cala dei Balcani come location per il nostro matrimonio, e non potevamo fare scelta migliore. Ogni dettaglio è stato curato alla perfezione, con una professionalità impeccabile in tutte le fasi della giornata: dalla preparazione all\'accoglienza, dalla cerimonia al ricevimento fino al taglio della torta. Ci siamo sentiti accompagnati e seguiti con grande cura e attenzione.' },
+    { name: 'Federica e Pasquale', text: 'Incantevole\n\nIl 23 agosto 2025, nella magica cornice di Cala dei Balcani, abbiamo vissuto un sogno a occhi aperti. Il tramonto sul mare ci ha regalato un\'atmosfera da favola, resa ancora più speciale dall\'attenzione e dalla cura di Francesco (il responsabile), Roberto (il maitre), Ivana ("la Wedding Planner) e tutto il resto dello staff. Nonostante il rischio di pioggia, hanno fatto di tutto per permetterci di vivere la giornata all\'esterno.' },
+    { name: 'Gloria e Alessio', text: 'Matrimonio Indimenticabile\n\nLa Cala dei Balcani ti fa innamorare a prima vista! È stata la prima ed ultima struttura che abbiamo visitato per il nostro matrimonio. La zona dedicata al rito civile è semplicemente mozzafiato. Per non parlare di tutte le aree esterne, dal buffet sotto la grande quercia al pergolato illuminato per la cena, fino ad arrivare al terrazzo panoramico per buffet di frutta/dolce. La cornice naturale è favolosa e il personale è gentilissimo e di ottima professionalità.' },
+    { name: 'Giada e Andrea', text: 'Matrimonio autentico\n\nDal primo istante in cui siamo entrati, abbiamo percepito un\'atmosfera speciale: calda, accogliente, autentica, con una vista mozzafiato. Non è stato solo un pranzo di nozze, ma un vero viaggio nei sapori e nelle emozioni. Ogni piatto è preparato con cura e amore, e ogni dettaglio pensato per farci sentire coccolati. Il personale è stato straordinario: gentile, premuroso e sempre presente senza mai essere invadente.' },
+    { name: 'Manuela e Simone', text: 'Un matrimonio indimenticabile in una location da sogno\n\nAbbiamo scelto questa location per il nostro matrimonio e non avremmo potuto desiderare di meglio. Sin dal primo sopralluogo abbiamo capito che sarebbe stato il posto perfetto per celebrare un giorno così speciale, e le nostre aspettative sono state ampiamente superate. Tutto è stato curato nei minimi dettagli: l\'organizzazione, la gestione degli spazi, la cucina deliziosa e lo staff sempre disponibile e professionale.' },
+    { name: 'Giorgia e Alessio (23 Dicembre)', text: 'Abbiamo deciso di vivere il nostro matrimonio in questa location. È stata un\'esperienza unica su tutti i punti di vista. Abbiamo deciso, nonostante struttura prettamente estiva, di puntare ugualmente su di essa. Ci siamo sposati il 23 dicembre e grazie alla professionalità ed alla dedizione di tutti la riuscita dell\'evento è stata unica. Ci tenevamo molto all\'atmosfera natalizia, e vi possiamo assicurare che siamo rimasti piacevolmente sorpresi.' },
+    { name: 'Antonella e Mirco (11 Settembre)', text: 'Che dire di Cala dei Balcani… qualsiasi parola non rende abbastanza giustizia alle emozioni che ci hanno fatto vivere. Vi abbiamo scoperto per caso e sin dal primo incontro ci avete trasmesso passione, attenzione, dedizione, professionalità. Siete stati la prima struttura che abbiamo visitato e non abbiamo avuto esitazioni sulla scelta. Per usare le parole di un\'invitata, è stato un viaggio nella bellezza.' },
+    { name: 'Lucrezia e Graziano (2 Settembre)', text: 'Siamo stati davvero felici di aver scelto di festeggiare il nostro matrimonio qui. Il servizio è stato impeccabile con uno staff attento e sempre disponibile. Pranzo eccellente dall\'inizio alla fine, con ottime proposte anche per i menù alternativi per celiaci, vegetariani, o altre esigenze. L\'organizzazione curata fin nel minimo dettaglio dall\'esperienza di Ivana e Francesco ha contribuito a rendere il nostro giorno speciale davvero indimenticabile.' },
+    { name: 'Alessandra e Vito (26 Luglio)', text: 'La Cala ci ha subito colpito per la sua magia, la sua atmosfera romantica e il panorama mozzafiato! Ma questo è minimo rispetto a tutto ciò che abbiamo apprezzato e per il quale siamo immensamente grati! Francesco è stato il nostro punto di riferimento costante, la signora Ivana una presenza calda e accogliente, il Direttore competente e cortese, tutto lo staff qualificato. Tutto è stato al di sopra di ogni aspettativa.' },
+    { name: 'Sonya e Sergio (20 Luglio)', text: 'Io e mio marito abbiamo scelto la Cala dei Balcani per festeggiare il nostro matrimonio giorno 20 luglio 2021. Pensare a quel giorno ci riempie il cuore di gioia! Minacciava pioggia, ma Francesco ed Ivana hanno saputo gestire già nei giorni precedenti le nostre ansie, rassicurandoci del fatto che tutto sarebbe stato comunque perfetto! Il tempo poi ci ha graziati, anzi la giornata è stata bellissima.' },
+    { name: 'Sara e Giacomo (3 Ottobre)', text: 'Alla cala dei Balcani realizzi il matrimonio dei tuoi sogni! Dall\'inizio fino alla fine vieni seguito con pazienza e cura, da tutto il personale ognuno secondo la propria competenza! La location è un posto incantevole, molto curata e ben tenuta. La vista sulla torre lascia senza fiato, il percorso per arrivarci altrettanto! La sala è molto bella, rustica ma allo stesso tempo elegante.' },
+    { name: 'Giorgio e Stefania (24 Luglio)', text: 'Trovare una location per il nostro matrimonio credevo fosse più difficile, e invece non appena abbiamo visto Cala dei Balcani e conosciuto tutto lo staff, è stato subito Amore. La location è magica, immersa nel verde e con una splendida vista sul mare. Quando ci siamo andati la prima volta abbiamo subito bloccato la data.' },
+    { name: 'Dalila e Diego (11 Luglio)', text: 'Che dire? È stato un sogno dall\'inizio alla fine. Il matrimonio è stata una favola e l\'organizzazione si è dimostrata all\'altezza da ogni punto di vista. Francesco si è dimostrato sempre disponibilissimo, supportandoci nelle decisioni e consigliandoci per far sì che quel giorno fosse meraviglioso. Il posto è bellissimo, un vero incanto.' },
+    { name: 'Vanessa e Alexandre', text: 'Le lieu est si beau en lui-même qu\'il y a peu besoin de décoration. Les invités étaient particulièrement impressionnés par la richesse du lieu puisqu\'à chaque étape de la soirée nous changions d\'endroit (tour avec vue sur mer, salle faite de pietra leccese, rooftop…). La qualité (et la quantité !) du repas a surpassé nos attentes, tout était exquis. Enfin, la qualité du service était très appréciée par tous nos invités.' },
+    { name: 'Federico e Maria Chiara (8 settembre)', text: 'Location magica\n\nAbbiamo scelto questa struttura per celebrare il nostro matrimonio, e non avremmo potuto fare scelta migliore! La cerimonia si è svolta presso la torre saracena che grazie all\'allestimento curato nei minimi particolari e con la vista Mare unica e mozzafiato ha reso il rito civile semplicemente perfetto. Dopo la cerimonia, l\'antipasto sotto il pergolato illuminato, con uno sfondo romantico indimenticabile.' },
+    { name: 'Marica e Andrea (13 Luglio)', text: 'Cala dei Balcani è stata amore a prima vista. Ci siamo innamorati di questa struttura solo guardandone le foto. Una volta vista di persona ha poi totalmente catturato i nostri cuori! Vista mare impagabile, staff eccezionale, cibo squisito sopra ogni aspettativa… E poi la magia di un posto stupendo in ogni singolo angolo. Francesco e Ivana sono diventati dei pezzi di cuore.' },
+    { name: 'Raissa e Mike (5 Luglio)', text: 'Senza dubbio, il nostro matrimonio presso il ristorante \'cala dei Balcani\' è stato un evento indimenticabile, reso perfetto grazie alla splendida location e all\'eccezionale servizio offerto dallo staff. L\'atmosfera elegante e accogliente del locale ha creato il contesto ideale per celebrare questo momento speciale. Dal primo incontro fino alla fine dell\'evento, il personale si è dimostrato estremamente professionale.' },
+    { name: 'Dalila e Gianpiero (26 Aprile)', text: 'La scelta della location credo sia la cosa più difficile durante l\'organizzazione del matrimonio! Il luogo della cerimonia e della festa farà l\'80% del ricordo di quel giorno. Personalmente abbiamo scelto cala dei Balcani per la sua unicità sia come luogo fisico che come organizzazione degli spazi e dei vari momenti. Ci siamo sposati nella chiesa del paese e dopo la messa i nostri ospiti sono stati accompagnati a Cala rimanendo tutti stupefatti.' },
+    { name: 'Chiara e Antonio (24 Luglio)', text: 'Siamo stati assolutamente incantati dal ristorante che abbiamo scelto per il nostro matrimonio! Fin dall\'inizio, lo staff si è dimostrato incredibilmente attento e professionale, rendendo la pianificazione del nostro giorno speciale molto più semplice e piacevole. La location era semplicemente perfetta: elegante, accogliente e con un\'atmosfera romantica che ha conquistato tutti i nostri ospiti.' },
+    { name: 'Carmen e Davide (21 Agosto)', text: 'La Cala dei Balcani è stato amore a prima vista.. location incantevole, immersa nella natura con vista di Santa Cesarea Terme dalla torre saracena, ricca di storia dove abbiamo percepito tanto il senso dei valori e la passione nel curare ogni minimo dettaglio. La sala in puro stile salentino, il sentiero, la terrazza belvedere tutto magnifico.' },
+    { name: 'Kirsten e Joseph', text: 'There just aren\'t enough words to do the Cala dei Balcani justice. It goes without saying that the entire venue and all its locations are absolutely breathtaking, and as soon as we visited we knew we\'d found something really special. The staff are all experienced professionals and genuinely kind people who always made us feel heard and at ease.' },
+    { name: 'Bethany and Mark', text: 'Mark and I have chosen this venue that is enchanting… we suggest it to everyone who wants to live their wedding day as a fairy tale. From the first moment we let Emanuela advise us, she is always ready to stand by you and help you in your choices, always ready to support you.' },
+    { name: 'Lizzie e Alex', text: 'We discovered you by chance and from the first videocall Emanuela transferred us all the best possible emotions that made us fall in love with the idea of getting married at Cala dei Balcani and we decided to choose it without feeling the need to search anywhere else. Our wedding had to be celebrated in the magnificent Cala dei Balcani.' },
+    { name: 'Kate and Michael', text: 'Let\'s start by saying that Cala dei Balcani will always have a place of our hearts. The venue is enchanting overlooking Santa Cesarea Terme a small characteristic village in the South of Italy with a transparent blue sea. Behind this you have a picturesque ancient tower: the Torre Saracena. The staff is superb — professional, warm and attentive.' },
+    { name: 'Sophia and Luciano', text: 'We took an appointment for a video call almost by chance and it was love at first sight. Dreamlike venue, breath taking view, everything well-kept in each detail … we found what we were looking for. Our goal was to leave our guest in awe and we succeeded in this.' },
+    { name: 'Stefania e Pascal (28.07.2024)', text: 'Wir durften wir den schönsten Tag in unserem Leben in der zauberhaften Location Cala dei Balcani in Santa Cesarea Terme feiern. Von der ersten Sekunde an fühlten wir uns nicht nur willkommen, sondern wirklich umsorgt. Das Team war mit ganzem Herzen bei der Sache und jeder einzelne Mitarbeiter hat alles daran gesetzt, dass unser Fest zu einem unvergesslichen Erlebnis für uns und unsere Gäste wurde.' }
+  ];
+
+  var accordion = document.getElementById('testiAccordion');
+
+  testimonials.forEach(function(t, i) {
+    var item = document.createElement('div');
+    item.className = 'testi-accordion-item fade-up';
+    item.innerHTML =
+      '<button class="testi-accordion-btn" aria-expanded="false" onclick="toggleAccordion(' + i + ')">' +
+        '<span class="testi-accordion-name">' + escHtml(t.name) + '</span>' +
+        '<span class="testi-accordion-icon" aria-hidden="true">+</span>' +
+      '</button>' +
+      '<div class="testi-accordion-body" id="taBody' + i + '">' +
+        '<p>' + escHtml(t.text).replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br>') + '</p>' +
+      '</div>';
+    accordion.appendChild(item);
+  });
+
+  window.toggleAccordion = function(idx) {
+    var btn = accordion.children[idx].querySelector('.testi-accordion-btn');
+    var body = document.getElementById('taBody' + idx);
+    var isOpen = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+    body.classList.toggle('open', !isOpen);
+  };
+
+  function escHtml(str) {
+    return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+})();
+</script>
 </body>
 </html>

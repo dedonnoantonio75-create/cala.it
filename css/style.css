@@ -184,6 +184,21 @@ p  { color: var(--text-mid); line-height: 1.85; }
 }
 .nav__menu--secondary a:hover { color: var(--gold-light); }
 
+/* "Parti da qui" CTA button in nav */
+.nav__cta-item {
+  background: var(--gold) !important;
+  color: var(--navy) !important;
+  border-radius: 3px;
+  padding: 7px 14px !important;
+  font-weight: 700 !important;
+  font-size: .8rem !important;
+  letter-spacing: .1em;
+  margin-left: 4px;
+  white-space: nowrap;
+}
+.nav__cta-item:hover { background: var(--gold-light,#d4b05a) !important; color: var(--navy) !important; }
+.nav__cta-item::after { display: none !important; }
+
 /* ── HERO ── */
 .hero {
   position: relative; height: 100vh; min-height: 620px;
@@ -490,6 +505,28 @@ details.faq-item[open] .faq-question::after { transform: rotate(45deg); }
 details.faq-item .faq-answer { max-height: none; overflow: visible; padding-bottom: 22px; }
 .faq-answer p, .faq-answer ul { font-size: .95rem; line-height: 1.75; }
 .faq-answer ul { padding-left: 1.5rem; margin: .5rem 0; }
+
+/* ── FAQ STATIC BOX ── */
+.faq-box {
+  background: var(--cream);
+  border-left: 4px solid var(--gold);
+  border-radius: 4px;
+  padding: 1.5rem 1.75rem;
+}
+.faq-box__q {
+  font-family: var(--font-display);
+  color: var(--navy);
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 .75rem;
+  line-height: 1.5;
+}
+.faq-box__a {
+  color: var(--text-mid);
+  line-height: 1.8;
+  font-size: .95rem;
+  margin: 0;
+}
 
 /* ── BREADCRUMB ── */
 .breadcrumb {
