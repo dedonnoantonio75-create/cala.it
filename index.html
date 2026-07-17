@@ -64,16 +64,7 @@
     "sameAs": [
       "https://www.facebook.com/caladeibalcani",
       "https://www.instagram.com/caladeibalcani"
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Maria Cristina Urso"
-    },
-    "employee": {
-      "@type": "Person",
-      "name": "Francesco Urso",
-      "jobTitle": "Direttore"
-    }
+    ]
   }
   </script>
 
@@ -81,6 +72,95 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Lato:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    .hero__tagline {
+      font-family: var(--font-italic);
+      font-style: italic;
+      font-size: clamp(1.15rem, 2.6vw, 1.6rem);
+      color: #fff;
+      text-shadow: 0 2px 16px rgba(0,0,0,.85), 0 1px 4px rgba(0,0,0,.95);
+      max-width: 760px;
+      line-height: 1.65;
+      margin: 1.25rem auto 0;
+      font-weight: 400;
+      letter-spacing: .01em;
+    }
+    /* Storybrand migliorato con foto */
+    .storybrand-split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+      margin-bottom: 3rem;
+    }
+    @media (max-width: 860px) {
+      .storybrand-split { grid-template-columns: 1fr; gap: 32px; }
+    }
+    .storybrand-photo-stack {
+      position: relative;
+    }
+    .storybrand-photo-stack img:first-child {
+      width: 100%;
+      border-radius: 4px;
+      box-shadow: 0 8px 48px rgba(12,26,46,.18);
+    }
+    .storybrand-photo-stack img:last-child {
+      position: absolute;
+      bottom: -28px;
+      right: -28px;
+      width: 42%;
+      border-radius: 4px;
+      border: 4px solid #fff;
+      box-shadow: 0 8px 32px rgba(12,26,46,.22);
+    }
+    @media (max-width: 860px) {
+      .storybrand-photo-stack img:last-child { display: none; }
+    }
+    .bivio-block {
+      background: var(--navy);
+      border-radius: 6px;
+      padding: 2.5rem 3rem;
+      margin: 3rem 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .bivio-block::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold));
+    }
+    .bivio-choice {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin: 1.5rem 0;
+    }
+    @media (max-width: 640px) {
+      .bivio-choice { grid-template-columns: 1fr; }
+      .bivio-block { padding: 2rem 1.5rem; }
+    }
+    .bivio-choice-item {
+      background: rgba(255,255,255,.05);
+      border: 1px solid rgba(196,162,74,.2);
+      border-radius: 4px;
+      padding: 1.25rem 1.5rem;
+    }
+    .bivio-choice-item strong {
+      color: var(--gold);
+      display: block;
+      margin-bottom: .5rem;
+      font-size: 1rem;
+      letter-spacing: .04em;
+    }
+    .bivio-choice-item p {
+      color: rgba(255,255,255,.7);
+      font-size: .9rem;
+      line-height: 1.6;
+      margin: 0;
+    }
+  </style>
 </head>
 <body>
 
@@ -102,7 +182,7 @@
       <button class="nav__toggle" aria-label="Apri menu" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
   </div>
-  <!-- PRIMARY NAV: 7 voci -->
+  <!-- PRIMARY NAV -->
   <div class="nav__row nav__row--primary">
     <ul class="nav__menu" role="list">
       <li><a href="index.html">Home</a></li>
@@ -127,137 +207,9 @@
   <div class="hero__content">
     <span class="eyebrow">Santa Cesarea Terme · Salento · Puglia</span>
     <h1>CALA DEI BALCANI</h1>
-    <p class="hero__desc" style="font-family:var(--font-italic);font-style:italic">Villa esclusiva con vista dominante sul mare del Salento dove ogni coppia vive un percorso che si scopre livello dopo livello, senza mai sapere esattamente cosa troverà al passo successivo.</p>
-    <div class="hero__cta">
-      <a href="matrimoni.html" class="btn btn--gold">Scopri i Matrimoni</a>
-      <a href="contatti.html" class="btn btn--outline">Richiedi Informazioni</a>
-    </div>
+    <p class="hero__tagline">Villa esclusiva con vista dominante sul mare del Salento dove ogni coppia vive un percorso che si scopre livello dopo livello, senza mai sapere esattamente cosa troverà al passo successivo.</p>
   </div>
   <div class="hero__scroll" aria-hidden="true">Scopri</div>
-</section>
-
-<!-- ── VIDEO TESTIMONIANZE ── -->
-<section class="section section--navy video-section" aria-labelledby="video-testi-heading" style="padding:60px 0">
-  <div class="container">
-    <div class="text-center mb-4 fade-up">
-      <span class="eyebrow">Dicono di Noi</span>
-      <h2 id="video-testi-heading" style="color:var(--white)">Voci di Sposi Felici</h2>
-      <div class="divider divider--center"></div>
-      <p style="color:rgba(255,255,255,.72);max-width:620px;margin:0 auto">Ogni matrimonio a Cala dei Balcani è una storia unica. Guardate i video delle nostre coppie e lasciatevi ispirare dalla magia di questo luogo straordinario.</p>
-    </div>
-    <div style="display:grid;grid-template-columns:3fr 2fr;gap:32px;align-items:center" class="fade-up">
-      <div style="position:relative;aspect-ratio:16/9;border-radius:4px;overflow:hidden;box-shadow:0 16px 64px rgba(0,0,0,.5)">
-        <iframe src="https://www.youtube.com/embed/hQsG5s8cidM" title="Cala dei Balcani — Testimonianza sposi"
-          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen style="position:absolute;inset:0;width:100%;height:100%"></iframe>
-      </div>
-      <div style="padding:1rem">
-        <span class="eyebrow">Video Testimonianze</span>
-        <h3 style="color:var(--white);margin-bottom:1rem">Le Coppie Raccontano</h3>
-        <p style="color:rgba(255,255,255,.72)">Le emozioni dei matrimoni a Cala dei Balcani, in parole e immagini delle coppie che hanno scelto questo luogo unico. Guarda tutti i video sul canale YouTube.</p>
-        <div style="margin-top:1.5rem;display:flex;gap:12px;flex-wrap:wrap">
-          <a href="testimonianze.html" class="btn btn--gold" style="font-size:.82rem">Vedi in Pagina</a>
-          <a href="https://www.youtube.com/@cala-dei-balcani" target="_blank" rel="noopener" class="btn btn--outline" style="font-size:.82rem">Tutti i Video YouTube</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- SLIDESHOW -->
-<section class="section" style="padding-top:0;padding-bottom:0">
-<div class="container">
-<div class="slideshow" style="margin:40px 0;border-radius:6px;overflow:hidden;box-shadow:0 8px 48px rgba(12,26,46,.18)">
-  <div class="slideshow__track">
-    <div class="slideshow__slide">
-      <img src="img/Sam-Megan-2865-scaled.jpg" alt="Cala dei Balcani" loading="eager">
-      <div class="slideshow__caption slideshow__caption--center">
-        <h3 class="slideshow__caption-title">Cala dei Balcani</h3>
-        <p class="slideshow__caption-desc">L&#8217;unica location verticale, per sposi che desiderano un matrimonio mozzafiato, dinamico e sorprendente sul mare del Salento</p>
-        <a href="il-luogo.html" class="slideshow__caption-cta">CONTINUA</a>
-      </div>
-    </div>
-    <div class="slideshow__slide">
-      <img src="img/location-per-matrimini-cala-dei-balcani-santa-cesare-terme-costa-adriatica-salentina-salento-lecce-puglia-italia-.jpg" alt="La Location" loading="lazy">
-      <div class="slideshow__caption slideshow__caption--center">
-        <h3 class="slideshow__caption-title">La Location</h3>
-        <p class="slideshow__caption-desc">Unica location immersa tra la natura della macchia mediterranea e una vista mare mozzafiato</p>
-        <a href="il-luogo.html" class="slideshow__caption-cta">CONTINUA</a>
-      </div>
-    </div>
-    <div class="slideshow__slide">
-      <img src="img/1-terrazza-panoramica-cala-dei-balcani-ristoranti-per-matrimoni-santa-cesarea-terme-lecce-salento-puglia-italia-14-scaled.jpg" alt="Matrimoni" loading="lazy">
-      <div class="slideshow__caption slideshow__caption--center">
-        <h3 class="slideshow__caption-title">Matrimoni</h3>
-        <p class="slideshow__caption-desc">La realizzazione di un matrimonio perfetto è ciò che desideriamo, i vostri sguardi complici e innamorati saranno la più preziosa delle ricompense</p>
-        <a href="matrimoni.html" class="slideshow__caption-cta">CONTINUA</a>
-      </div>
-    </div>
-    <div class="slideshow__slide">
-      <img src="img/cala-dei-balcani-location-wedding-santa-cesarea-terme-lecce-salento-cerimonie-.jpg" alt="Cerimonia Civile" loading="lazy">
-      <div class="slideshow__caption slideshow__caption--center">
-        <h3 class="slideshow__caption-title">Cerimonia Civile</h3>
-        <p class="slideshow__caption-desc">Puoi celebrare il rito ufficiale con valore civile all&#8217;interno della location con una vista mare mozzafiato direttamente sul mare del Salento</p>
-        <a href="contatti.html" class="slideshow__caption-cta">CONTATTACI</a>
-      </div>
-    </div>
-    <div class="slideshow__slide">
-      <img src="img/INTERNATIONAL-AND-COZY-WEDDING-cala-dei-balcani-santa-cesarea-terme-lecce-salento-puglia-italia-.jpg" alt="International and Cozy Wedding" loading="lazy">
-      <div class="slideshow__caption slideshow__caption--center">
-        <h3 class="slideshow__caption-title">International and Cozy Wedding</h3>
-        <p class="slideshow__caption-desc">Sposa l&#8217;autenticità del Salento: un matrimonio tra muretti a secco, torri storiche e il mare cristallino.</p>
-        <a href="matrimoni-internazionali.html" class="slideshow__caption-cta">CONTINUA</a>
-      </div>
-    </div>
-    <div class="slideshow__slide">
-      <img src="img/14.jpg" alt="La Torre" loading="lazy">
-      <div class="slideshow__caption slideshow__caption--center">
-        <h3 class="slideshow__caption-title">La Torre</h3>
-        <p class="slideshow__caption-desc">Non si può pensare a Cala dei Balcani senza la sua Torre</p>
-        <a href="la-torre.html" class="slideshow__caption-cta">CONTINUA</a>
-      </div>
-    </div>
-    <div class="slideshow__slide">
-      <img src="img/27.jpg" alt="La Cucina" loading="lazy">
-      <div class="slideshow__caption slideshow__caption--center">
-        <h3 class="slideshow__caption-title">La Cucina</h3>
-        <p class="slideshow__caption-desc">Il Salento e la sua cucina tradizionale rappresentano la quintessenza della mediterraneità</p>
-        <a href="cucina.html" class="slideshow__caption-cta">CONTINUA</a>
-      </div>
-    </div>
-    <div class="slideshow__slide">
-      <img src="img/la-terrazza-di-cala-dei-balcani-ristorante-per-cerimonie-nuziali-santa-cesarea-gterme-lecce-salento-puglia-italia-1.jpg" alt="Gli Sposi di Cala dei Balcani" loading="lazy">
-      <div class="slideshow__caption slideshow__caption--center">
-        <h3 class="slideshow__caption-title">Gli Sposi di Cala dei Balcani</h3>
-        <p class="slideshow__caption-desc">Le nostre testimonianze</p>
-        <a href="testimonianze.html" class="slideshow__caption-cta">CONTINUA</a>
-      </div>
-    </div>
-    <div class="slideshow__slide">
-      <img src="img/sposi-cala-dei-balcani-santa-cesarea-terme-lecce-salento-puglia-italia--scaled.jpg" alt="Rivivi il Tuo Sì" loading="lazy">
-      <div class="slideshow__caption slideshow__caption--center">
-        <h3 class="slideshow__caption-title">Rivivi il Tuo Sì</h3>
-        <p class="slideshow__caption-desc">Un ricordo eterno del vostro giorno più bello — tornate nel luogo del vostro sì</p>
-        <a href="rivivi-il-tuo-si.html" class="slideshow__caption-cta">CONTINUA</a>
-      </div>
-    </div>
-  </div>
-  <button class="slideshow__prev" aria-label="Precedente">&#8249;</button>
-  <button class="slideshow__next" aria-label="Successivo">&#8250;</button>
-  <div class="slideshow__dots"><button class="slideshow__dot active" aria-label="Slide 1"></button><button class="slideshow__dot" aria-label="Slide 2"></button><button class="slideshow__dot" aria-label="Slide 3"></button><button class="slideshow__dot" aria-label="Slide 4"></button><button class="slideshow__dot" aria-label="Slide 5"></button><button class="slideshow__dot" aria-label="Slide 6"></button><button class="slideshow__dot" aria-label="Slide 7"></button><button class="slideshow__dot" aria-label="Slide 8"></button><button class="slideshow__dot" aria-label="Slide 9"></button></div>
-</div>
-</div>
-</section>
-<!-- ── INTRO ── -->
-<section class="section" aria-labelledby="intro-heading">
-  <div class="intro text-center fade-up">
-    <span class="eyebrow">La Nostra Essenza</span>
-    <h2 id="intro-heading">Un'Esperienza Unica nel suo Genere</h2>
-    <div class="divider divider--center"></div>
-    <p class="lead">Cala dei Balcani è l'unico luogo verticale sul mare Adriatico a Santa Cesarea Terme — dove la storica Torre Saracena di Monte Saracino veglia sul vostro giorno più bello. Dalla vetta, lo sguardo spazia da Capo di Leuca fino ai Balcani, in un panorama che toglie il respiro.</p>
-    <p style="margin-top:1.5rem">La famiglia Urso, custode di questo luogo dal 2003, ha trasformato una proprietà storica in un salotto a cielo aperto di raffinata eleganza, dove ogni matrimonio diventa un racconto eterno intessuto di luce, profumi mediterranei e ospitalità autentica.</p>
-  </div>
 </section>
 
 <!-- ── 3 BOX SABBIA ── -->
@@ -277,7 +229,7 @@
       </div>
       <!-- Box 2: Cerimonia Civile -->
       <div class="fade-up fade-up-d1" style="background:rgba(255,255,255,.18);border-radius:6px;overflow:hidden;display:flex;flex-direction:column">
-        <img src="img/cala-dei-balcani-location-wedding-santa-cesarea-terme-lecce-salento-cerimonie-.jpg"
+        <img src="img/sposi-cala-dei-balcani-santa-cesarea-terme-lecce-salento-puglia-italia--scaled.jpg"
           alt="Cerimonia civile vista mare Cala dei Balcani" loading="lazy"
           style="width:100%;height:200px;object-fit:cover">
         <div style="padding:1.5rem;flex:1;display:flex;flex-direction:column">
@@ -288,33 +240,69 @@
       </div>
       <!-- Box 3: Accommodation -->
       <div class="fade-up fade-up-d2" style="background:rgba(255,255,255,.18);border-radius:6px;overflow:hidden;display:flex;flex-direction:column">
-        <img src="img/location-per-matrimini-cala-dei-balcani-santa-cesare-terme-costa-adriatica-salentina-salento-lecce-puglia-italia-.jpg"
-          alt="Accommodation vicino Cala dei Balcani" loading="lazy"
+        <img src="img/Panoramica_senza-titolo-0026_web_1920.jpg"
+          alt="Santa Cesarea Terme — Accommodation vicino Cala dei Balcani" loading="lazy"
           style="width:100%;height:200px;object-fit:cover">
         <div style="padding:1.5rem;flex:1;display:flex;flex-direction:column">
           <h3 style="font-family:var(--font-display);color:var(--navy);font-size:1.1rem;margin-bottom:.75rem;letter-spacing:.05em">ACCOMMODATION</h3>
           <p style="color:var(--navy);opacity:.85;line-height:1.75;flex:1">A pochi metri da Cala ci sono tante strutture ricettive dove puoi far soggiornare i tuoi ospiti. Hanno l&#8217;opportunit&agrave; di vivere l&#8217;esperienza in maniera comoda e rilassata.</p>
-          <a href="contatti.html" style="display:inline-block;margin-top:1.25rem;color:var(--navy);font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;border-bottom:1px solid var(--navy);padding-bottom:2px;text-decoration:none">Informazioni &rarr;</a>
+          <a href="accommodation.html" style="display:inline-block;margin-top:1.25rem;color:var(--navy);font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;border-bottom:1px solid var(--navy);padding-bottom:2px;text-decoration:none">Scopri le strutture &rarr;</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── STORYBRAND COPY ── -->
-<section class="section" aria-label="Il nostro manifesto" style="padding:80px 24px">
-  <div class="container" style="max-width:860px">
-    <div class="fade-up">
-      <p style="line-height:1.95;color:var(--text-mid);margin-bottom:1.5rem">Cala dei Balcani non &egrave; una masseria adattata e non &egrave; una struttura turistica che fa anche matrimoni.</p>
-      <p style="line-height:1.95;color:var(--text-mid);margin-bottom:1.5rem">Il mare &egrave; sempre presente. Non tutte le strutture sono adatte a questo tipo di celebrazione. Molte nascono per altri scopi &mdash; erano hotel con una sala banchetti, lidi balneari con un dehors, ristoranti con una terrazza &mdash; e sono state &ldquo;adattate&rdquo; per ospitare anche matrimoni. Il risultato? Spazi condivisi con estranei, format rigidi, la sensazione amara di essere &ldquo;uno dei tanti eventi della stagione&rdquo;.</p>
-      <div style="background:var(--sand);border-radius:4px;padding:2rem 2.5rem;margin:2.5rem 0;text-align:center">
-        <p style="font-family:var(--font-display);font-size:1.35rem;color:var(--navy);font-weight:700;letter-spacing:.06em;margin:0">SE TORNI IN SALENTO PER QUALCOSA CHE CONTA. NON ACCONTENTARTI</p>
+<!-- ── STORYBRAND: IL VERO DNA DI CALA DEI BALCANI ── -->
+<section class="section" aria-label="Il DNA di Cala dei Balcani" style="padding:80px 24px">
+  <div class="container" style="max-width:1100px">
+
+    <!-- Parte 9: Non una masseria adattata -->
+    <div class="storybrand-split fade-up">
+      <div>
+        <span class="eyebrow">La Differenza</span>
+        <h2 style="margin-bottom:1.5rem">Non siamo una masseria adattata</h2>
+        <p style="line-height:1.95;color:var(--text-mid);margin-bottom:1.5rem"><strong>Cala dei Balcani non è una masseria adattata</strong> e non è una struttura turistica che fa anche matrimoni.</p>
+        <p style="line-height:1.95;color:var(--text-mid)"><strong>Il mare è sempre presente</strong>. Non tutte le strutture sono adatte a questo tipo di celebrazione. Molte nascono per altri scopi &mdash; erano hotel con una sala banchetti, lidi balneari con un dehors, ristoranti con una terrazza &mdash; e sono state &ldquo;adattate&rdquo; per ospitare anche matrimoni. Il risultato? Spazi condivisi con estranei, format rigidi, la sensazione amara di essere &ldquo;uno dei tanti eventi della stagione&rdquo;.</p>
       </div>
-      <p style="line-height:1.95;color:var(--text-mid);margin-bottom:1.5rem">Hai origini salentine. O il Salento ce l&#8217;hai nel cuore.<br>Vivi altrove. E hai deciso che quando ti sposi, torni qui.<br>Non perch&eacute; sia comodo. Perch&eacute; &egrave; importante.</p>
-      <p style="line-height:1.95;color:var(--text-mid);margin-bottom:1.5rem">Quando torni per un evento speciale, non vuoi la scelta che fanno tutti.<br>Non vuoi il matrimonio standard. Vuoi il mare. Vuoi l&rsquo;esclusivit&agrave;. Vuoi qualcosa che dica chi sei &mdash; e che i tuoi ospiti non dimentichino.</p>
-      <p style="line-height:1.95;color:var(--text-mid);margin-bottom:1.5rem">Il problema &egrave; che in Salento nessuno te lo dice chiaramente: devi scegliere:<br>O il mare &mdash; ma condiviso con turisti, bagnanti, altri matrimoni nello stesso giorno.<br>O l&rsquo;esclusivit&agrave; &mdash; ma nell&rsquo;entroterra, senza mare, senza quella vista che avevi in testa dall&rsquo;inizio.</p>
-      <p style="line-height:1.95;color:var(--navy);font-weight:500;margin-bottom:0">Cala dei Balcani &egrave; nata per eliminare questo bivio. Non una masseria adattata. Non una struttura turistica che fa anche matrimoni. Cinque ambienti che si scoprono uno dopo l&#8217;altro. Il mare sempre presente.</p>
+      <div class="storybrand-photo-stack">
+        <img src="img/cala-dei-balcani-ristorante-per-matrimoni-santa-cesarea-terme-salento-lecce-puglia-1.jpg"
+          alt="Cala dei Balcani — non una masseria adattata" loading="lazy">
+        <img src="img/cala-dei-balcani-la-torre-saracena-di-santa-cesarea-terme-lecce-salento.jpg"
+          alt="La Torre Saracena di Santa Cesarea Terme" loading="lazy">
+      </div>
     </div>
+
+    <!-- Parte 10: Hai origini salentine -->
+    <div class="bivio-block fade-up">
+      <div style="text-align:center;margin-bottom:2rem">
+        <span class="eyebrow" style="color:var(--gold)">Per chi torna in Salento per qualcosa che conta</span>
+        <p style="color:#fff;font-family:var(--font-italic);font-style:italic;font-size:1.2rem;line-height:1.8;max-width:680px;margin:.75rem auto 0">
+          Hai origini salentine. O il Salento ce l&#8217;hai nel cuore.<br>
+          Vivi altrove. E hai deciso che quando ti sposi, torni qui.<br>
+          Non perch&eacute; sia comodo. Perch&eacute; &egrave; importante.
+        </p>
+      </div>
+      <p style="color:rgba(255,255,255,.8);line-height:1.9;text-align:center;max-width:680px;margin:0 auto 2rem">
+        Quando torni per un evento speciale, non vuoi la scelta che fanno tutti.<br>
+        Non vuoi il matrimonio standard. <strong style="color:#fff">Vuoi il mare</strong>. <strong style="color:#fff">Vuoi l&rsquo;esclusivit&agrave;</strong>. Vuoi qualcosa che dica chi sei &mdash; e che i tuoi ospiti non dimentichino.
+      </p>
+      <p style="color:rgba(255,255,255,.75);text-align:center;margin-bottom:1.75rem;font-size:.9rem;letter-spacing:.06em;text-transform:uppercase">Il problema: in Salento devi scegliere tra</p>
+      <div class="bivio-choice">
+        <div class="bivio-choice-item">
+          <strong>O il mare</strong>
+          <p>ma condiviso con turisti, bagnanti, altri matrimoni nello stesso giorno.</p>
+        </div>
+        <div class="bivio-choice-item">
+          <strong>O l&rsquo;esclusivit&agrave;</strong>
+          <p>ma nell&rsquo;entroterra, senza mare, senza quella vista che avevi in testa dall&rsquo;inizio.</p>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:2rem;padding-top:2rem;border-top:1px solid rgba(196,162,74,.2)">
+        <p style="color:#fff;font-family:var(--font-italic);font-style:italic;font-size:1.25rem;line-height:1.7;max-width:700px;margin:0 auto"><strong style="color:var(--gold)">Cala dei Balcani è nata per eliminare questo bivio</strong>. Non una masseria adattata. Non una struttura turistica che fa anche matrimoni. <strong style="color:var(--gold)">Cinque ambienti che si scoprono uno dopo l&rsquo;altro. Il mare sempre presente</strong>.</p>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -373,16 +361,16 @@
   </div>
 </section>
 
-<!-- ── SPLIT: CHI SIAMO ── -->
+<!-- ── SPLIT: LA NOSTRA STORIA ── -->
 <section class="split" aria-labelledby="about-heading">
   <div class="split__visual split__visual--sea" role="img" aria-label="Il giardino mediterraneo di Cala dei Balcani con vista sul mare">
     <span class="split__visual-label">Il Giardino Sospeso sul Mare</span>
   </div>
   <div class="split__content fade-up">
     <span class="eyebrow">La Nostra Storia</span>
-    <h2 id="about-heading">La Famiglia Urso<br>e il Sogno di un Luogo Magico</h2>
+    <h2 id="about-heading">La Filosofia di un Luogo Unico</h2>
     <div class="divider divider--left"></div>
-    <p>Nel 2003 Maria Cristina Urso, guidata da una determinazione incrollabile, intraprese una radicale ristrutturazione che avrebbe trasformato questa proprietà in una location raffinata ed esclusiva. Oggi Francesco Urso dirige la struttura, continuando con orgoglio l'eredità materna.</p>
+    <p>Con una determinazione incrollabile e una visione chiara, questa proprietà storica è stata trasformata in una location raffinata ed esclusiva. Una ristrutturazione nata dalla volontà di restituire vita e bellezza a un luogo che già possedeva qualcosa di unico: la posizione, il mare, la Torre.</p>
     <p style="margin-top:1rem">La filosofia è semplice ma profonda: accogliere ogni coppia come ospiti di una grande famiglia, con calore genuino e attenzione ai dettagli che solo chi ama davvero questo posto può offrire.</p>
     <a href="chi-siamo.html" class="btn btn--dark" style="margin-top:2rem">La Nostra Storia</a>
   </div>
@@ -439,7 +427,7 @@
     <div class="gallery-grid fade-up">
       <div class="gallery-item">
         <div class="gallery-item__bg gi--1" style="height:100%"></div>
-        <div class="gallery-item__overlay"><span>Cerimonie & Ricevimenti</span></div>
+        <div class="gallery-item__overlay"><span>Cerimonie &amp; Ricevimenti</span></div>
       </div>
       <div class="gallery-item">
         <div class="gallery-item__bg gi--2" style="height:300px"></div>
@@ -464,19 +452,19 @@
   </div>
 </section>
 
-<!-- ── STATS ── -->
+<!-- ── STATS (senza anno di fondazione) ── -->
 <div class="stats" role="region" aria-label="Numeri di Cala dei Balcani">
   <div class="stat fade-up">
-    <div class="stat__number">2003</div>
-    <div class="stat__label">Anno di Fondazione</div>
-  </div>
-  <div class="stat fade-up fade-up-d1">
     <div class="stat__number">500+</div>
     <div class="stat__label">Matrimoni Celebrati</div>
   </div>
-  <div class="stat fade-up fade-up-d2">
+  <div class="stat fade-up fade-up-d1">
     <div class="stat__number">XVI</div>
     <div class="stat__label">Secolo — Torre Saracena</div>
+  </div>
+  <div class="stat fade-up fade-up-d2">
+    <div class="stat__number">1</div>
+    <div class="stat__label">Evento al Giorno — Solo Voi</div>
   </div>
   <div class="stat fade-up fade-up-d3">
     <div class="stat__number">∞</div>
@@ -484,61 +472,34 @@
   </div>
 </div>
 
-<!-- ── TESTIMONIALS ── -->
-<section class="section" aria-labelledby="testimonials-heading">
+<!-- ── DICONO DI NOI (spostato alla fine) ── -->
+<section class="section section--navy" aria-labelledby="video-testi-heading" style="padding:80px 0">
   <div class="container">
-    <div class="text-center mb-5 fade-up">
-      <span class="eyebrow">Recensioni</span>
-      <h2 id="testimonials-heading">Cosa Dicono le Nostre Coppie</h2>
+    <div class="text-center mb-4 fade-up">
+      <span class="eyebrow">Dicono di Noi</span>
+      <h2 id="video-testi-heading" style="color:var(--white)">Voci di Sposi Felici</h2>
       <div class="divider divider--center"></div>
+      <p style="color:rgba(255,255,255,.72);max-width:620px;margin:0 auto">Ogni matrimonio a Cala dei Balcani è una storia unica. Guardate i video delle nostre coppie e lasciatevi ispirare dalla magia di questo luogo straordinario.</p>
     </div>
-    <div class="grid-3">
-      <blockquote class="testimonial fade-up">
-        <div class="testimonial__stars">★★★★★</div>
-        <p class="testimonial__text">Un posto che non si dimentica. Il panorama sul mare, la torre, la cucina straordinaria… il nostro matrimonio è stato da favola. Grazie Francesco e a tutto il team!</p>
-        <cite class="testimonial__author">— Giulia & Marco, Milano</cite>
-      </blockquote>
-      <blockquote class="testimonial fade-up fade-up-d1">
-        <div class="testimonial__stars">★★★★★</div>
-        <p class="testimonial__text">Avevamo sognato un matrimonio in Puglia e Cala dei Balcani ha superato ogni aspettativa. La location è unica, il servizio impeccabile. Una giornata da sogno.</p>
-        <cite class="testimonial__author">— Sofia & Luca, Roma</cite>
-      </blockquote>
-      <blockquote class="testimonial fade-up fade-up-d2">
-        <div class="testimonial__stars">★★★★★</div>
-        <p class="testimonial__text">La Torre Saracena illuminata al tramonto con il blu cobalto… impossibile dimenticarlo. La famiglia Urso ci ha fatto sentire a casa. Tutto perfetto.</p>
-        <cite class="testimonial__author">— Anna & Riccardo, Torino</cite>
-      </blockquote>
-    </div>
-  </div>
-</section>
-
-<!-- ── VIDEO ── -->
-<section class="section section--cream" aria-labelledby="video-index-heading">
-  <div class="container">
-    <div class="text-center mb-5 fade-up">
-      <span class="eyebrow">Video</span>
-      <h2 id="video-index-heading">Rivivete la Magia</h2>
-      <div class="divider divider--center"></div>
-      <p style="max-width:580px;margin:0 auto">Le emozioni dei matrimoni a Cala dei Balcani, in parole e immagini delle coppie che hanno scelto questo luogo unico.</p>
-    </div>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;margin-top:2rem">
-      <div style="aspect-ratio:16/9;overflow:hidden;border-radius:4px">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hQsG5s8cidM" title="Video matrimoni Cala dei Balcani Salento" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%;height:100%"></iframe>
+    <div style="display:grid;grid-template-columns:3fr 2fr;gap:32px;align-items:center" class="fade-up">
+      <div style="position:relative;aspect-ratio:16/9;border-radius:4px;overflow:hidden;box-shadow:0 16px 64px rgba(0,0,0,.5)">
+        <iframe src="https://www.youtube.com/embed/hQsG5s8cidM" title="Cala dei Balcani — Testimonianza sposi"
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen style="position:absolute;inset:0;width:100%;height:100%"></iframe>
       </div>
-      <div style="display:flex;flex-direction:column;justify-content:center;padding:1rem">
-        <span class="eyebrow">Le Nostre Video Testimonianze</span>
-        <h3 style="margin-bottom:1rem">Voci di Sposi Felici</h3>
-        <p>Ogni coppia porta con sé una storia unica. Sui nostri canali social troverete video autentici di matrimoni celebrati a Cala dei Balcani, con le testimonianze dirette degli sposi.</p>
+      <div style="padding:1rem">
+        <span class="eyebrow">Video Testimonianze</span>
+        <h3 style="color:var(--white);margin-bottom:1rem">Le Coppie Raccontano</h3>
+        <p style="color:rgba(255,255,255,.72)">Le emozioni dei matrimoni a Cala dei Balcani, in parole e immagini delle coppie che hanno scelto questo luogo unico. Guarda tutti i video sul canale YouTube.</p>
         <div style="margin-top:1.5rem;display:flex;gap:12px;flex-wrap:wrap">
-          <a href="https://www.youtube.com/@cala-dei-balcani" target="_blank" rel="noopener" class="btn btn--dark">YouTube</a>
-          <a href="https://www.instagram.com/cala_dei_balcani/" target="_blank" rel="noopener" class="btn btn--ghost">Instagram</a>
+          <a href="testimonianze.html" class="btn btn--gold" style="font-size:.82rem">Leggi Tutte le Recensioni</a>
+          <a href="https://www.youtube.com/@cala-dei-balcani" target="_blank" rel="noopener" class="btn btn--outline" style="font-size:.82rem">YouTube</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── CTA BANNER ── -->
 <!-- ── CTA FORM ── -->
 <section class="section section--cream" aria-labelledby="cta-form-heading" style="padding:80px 24px">
   <div class="container" style="max-width:760px">
@@ -617,12 +578,11 @@
       </ul>
       <ul class="footer__row-links">
         <li><a href="il-luogo.html">Location</a></li>
+        <li><a href="accommodation.html">Accommodation</a></li>
         <li><a href="rivivi-il-tuo-si.html">Rivivi il Tuo S&#236;</a></li>
         <li><a href="faq.html">FAQ</a></li>
-        <li><a href="area-privata.html">Area Privata</a></li>
         <li><a href="salento.html">Salento</a></li>
         <li><a href="blog.html">Blog</a></li>
-        <li><a href="azienda-agricola.html">Azienda Agricola</a></li>
         <li><a href="contatti.html">Contatti</a></li>
       </ul>
     </div>
