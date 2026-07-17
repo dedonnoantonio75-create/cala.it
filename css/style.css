@@ -767,3 +767,86 @@ footer h5 {
   .slideshow__caption--center .slideshow__caption-title { font-size: .95rem; letter-spacing: .06em; }
   .slideshow__dots { bottom: 6px; }
 }
+
+/* ── Floating Contact Widget ── */
+.fcw {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  gap: 10px;
+}
+.fcw__toggle {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: var(--navy);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(7,15,30,.35);
+  transition: transform .25s, background .2s;
+  flex-shrink: 0;
+}
+.fcw__toggle:hover { background: var(--gold); }
+.fcw__toggle svg { transition: transform .3s; }
+.fcw.open .fcw__toggle svg { transform: rotate(45deg); }
+.fcw__menu {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height .35s ease, opacity .25s ease;
+  pointer-events: none;
+}
+.fcw.open .fcw__menu {
+  max-height: 340px;
+  opacity: 1;
+  pointer-events: auto;
+}
+.fcw__btn {
+  position: relative;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 3px 10px rgba(7,15,30,.25);
+  transition: transform .18s, box-shadow .18s;
+  flex-shrink: 0;
+}
+.fcw__btn:hover { transform: scale(1.12); box-shadow: 0 5px 16px rgba(7,15,30,.3); }
+.fcw__btn--maps    { background: #4285F4; }
+.fcw__btn--tel     { background: #25D366; }
+.fcw__btn--mail    { background: var(--gold); }
+.fcw__btn--msg     { background: #0084FF; }
+.fcw__btn--insta   { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
+.fcw__label {
+  position: absolute;
+  left: 54px;
+  white-space: nowrap;
+  background: rgba(7,15,30,.82);
+  color: #fff;
+  font-size: .72rem;
+  letter-spacing: .06em;
+  padding: 4px 10px;
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s;
+}
+.fcw__btn:hover .fcw__label { opacity: 1; }
+@media (max-width: 520px) {
+  .fcw { bottom: 16px; left: 16px; }
+  .fcw__toggle { width: 48px; height: 48px; }
+  .fcw__btn { width: 42px; height: 42px; }
+}

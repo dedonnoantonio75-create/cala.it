@@ -144,3 +144,63 @@ document.querySelectorAll('form[data-netlify="true"]').forEach(form => {
       });
   });
 });
+
+// ── Floating Contact Widget ──
+(function () {
+  const MAPS_URL = 'https://maps.google.com/maps?q=Via+Roma+5,+73020+Santa+Cesarea+Terme+LE+Italia';
+  const TEL      = 'tel:+393349985447';
+  const MAIL     = 'mailto:info@caladeibalcani.it';
+  const MESSENGER= 'https://m.me/caladeibalcani';
+  const INSTAGRAM= 'https://www.instagram.com/cala_dei_balcani/';
+
+  const widget = document.createElement('div');
+  widget.className = 'fcw';
+  widget.setAttribute('aria-label', 'Contatti rapidi');
+  widget.innerHTML = `
+    <button class="fcw__toggle" aria-label="Apri contatti rapidi" aria-expanded="false">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+      </svg>
+    </button>
+    <div class="fcw__menu" aria-hidden="true">
+      <a href="${MAPS_URL}" target="_blank" rel="noopener" class="fcw__btn fcw__btn--maps" aria-label="Vedi su mappa">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span class="fcw__label">Mappa</span>
+      </a>
+      <a href="${TEL}" class="fcw__btn fcw__btn--tel" aria-label="Chiama +39 334 998 5447">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.19h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.77a16 16 0 0 0 6.29 6.29l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span class="fcw__label">+39 334 998 5447</span>
+      </a>
+      <a href="${MAIL}" class="fcw__btn fcw__btn--mail" aria-label="Invia email">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span class="fcw__label">Email</span>
+      </a>
+      <a href="${MESSENGER}" target="_blank" rel="noopener" class="fcw__btn fcw__btn--msg" aria-label="Scrivi su Messenger">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M12 2C6.477 2 2 6.145 2 11.243c0 2.91 1.399 5.51 3.59 7.232V22l3.28-1.803A10.5 10.5 0 0 0 12 20.486c5.523 0 10-4.145 10-9.243S17.523 2 12 2zm1.084 12.457-2.557-2.726-4.988 2.726 5.49-5.83 2.62 2.726 4.924-2.726-5.489 5.83z"/></svg>
+        <span class="fcw__label">Messenger</span>
+      </a>
+      <a href="${INSTAGRAM}" target="_blank" rel="noopener" class="fcw__btn fcw__btn--insta" aria-label="Seguici su Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        <span class="fcw__label">Instagram</span>
+      </a>
+    </div>`;
+
+  document.body.appendChild(widget);
+
+  const toggle = widget.querySelector('.fcw__toggle');
+  const menu   = widget.querySelector('.fcw__menu');
+
+  toggle.addEventListener('click', () => {
+    const isOpen = widget.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(isOpen));
+    menu.setAttribute('aria-hidden', String(!isOpen));
+  });
+
+  document.addEventListener('click', e => {
+    if (!widget.contains(e.target)) {
+      widget.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+      menu.setAttribute('aria-hidden', 'true');
+    }
+  });
+})();

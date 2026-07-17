@@ -409,7 +409,8 @@
       <div class="divider divider--center"></div>
       <p style="max-width:560px;margin:0 auto">Raccontaci il vostro sogno. Vi risponderemo entro 24 ore con tutte le informazioni di cui avete bisogno.</p>
     </div>
-    <form class="contact-form fade-up" action="contatti.html" method="GET" novalidate aria-label="Modulo richiesta informazioni" name="cta-form" data-netlify="true">
+    <form class="contact-form fade-up" action="contatti.html" method="GET" novalidate aria-label="Modulo richiesta informazioni" name="cta-form" data-netlify="true" data-netlify-honeypot="bot-field">
+            <input name="bot-field" type="text" autocomplete="off" tabindex="-1" style="position:absolute;left:-9999px;width:0;height:0;overflow:hidden" aria-hidden="true">
       <div class="form-row">
         <div class="form-group">
           <label for="cta-nome">Nome *</label>
