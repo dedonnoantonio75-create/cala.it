@@ -946,22 +946,32 @@ footer h5 {
   gap: 10px;
 }
 .fcw__toggle {
-  width: 54px;
-  height: 54px;
-  border-radius: 50%;
+  width: auto;
+  height: 46px;
+  border-radius: 24px;
+  padding: 0 18px 0 14px;
   background: var(--navy);
   border: none;
   cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 8px;
   box-shadow: 0 4px 16px rgba(7,15,30,.35);
   transition: transform .25s, background .2s;
   flex-shrink: 0;
 }
 .fcw__toggle:hover { background: var(--gold); }
-.fcw__toggle svg { transition: transform .3s; }
+.fcw__toggle svg { transition: transform .3s; flex-shrink: 0; }
 .fcw.open .fcw__toggle svg { transform: rotate(45deg); }
+.fcw__toggle-label {
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
 .fcw__menu {
   display: flex;
   flex-direction: column-reverse;
@@ -1013,6 +1023,7 @@ footer h5 {
 .fcw__btn:hover .fcw__label { opacity: 1; }
 @media (max-width: 520px) {
   .fcw { bottom: 16px; left: 16px; }
-  .fcw__toggle { width: 48px; height: 48px; }
+  .fcw__toggle { height: 40px; padding: 0 14px 0 11px; gap: 6px; }
+  .fcw__toggle-label { font-size: .65rem; }
   .fcw__btn { width: 42px; height: 42px; }
 }

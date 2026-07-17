@@ -193,9 +193,10 @@ document.querySelectorAll('form[data-netlify="true"]').forEach(form => {
   widget.setAttribute('aria-label', 'Contatti rapidi');
   widget.innerHTML = `
     <button class="fcw__toggle" aria-label="Apri contatti rapidi" aria-expanded="false">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
         <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
       </svg>
+      <span class="fcw__toggle-label">Contatti</span>
     </button>
     <div class="fcw__menu" aria-hidden="true">
       <a href="${MAPS_URL}" target="_blank" rel="noopener" class="fcw__btn fcw__btn--maps" aria-label="Vedi su mappa">
