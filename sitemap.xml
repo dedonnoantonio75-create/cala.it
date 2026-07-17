@@ -155,6 +155,13 @@
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/area-privata.html"/>
   </url>
+  <url>
+    <loc>https://www.caladeibalcani.it/accommodation.html</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/accommodation.html"/>
+  </url>
 
   <!-- ══ ENGLISH ══ -->
   <url>
