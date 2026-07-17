@@ -36,7 +36,42 @@ const observer = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
 }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
 
-document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+document.querySelectorAll('.fade-up, .fade-left, .fade-right, .scale-in').forEach(el => observer.observe(el));
+
+// ── Stat counter animation ──
+(function () {
+  function easeOut(t) { return 1 - Math.pow(1 - t, 3); }
+
+  function animateCount(el, target, duration) {
+    const start = performance.now();
+    const suffix = el.dataset.suffix || '';
+    (function tick(now) {
+      const t = Math.min((now - start) / duration, 1);
+      const val = Math.round(target * easeOut(t));
+      el.textContent = val.toLocaleString('it-IT') + suffix;
+      if (t < 1) requestAnimationFrame(tick);
+      else el.textContent = el.dataset.original;
+    })(start);
+  }
+
+  const statObserver = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      statObserver.unobserve(e.target);
+      const numEl = e.target.querySelector('.stat__number');
+      if (!numEl) return;
+      const raw = numEl.textContent.trim();
+      const numeric = parseFloat(raw.replace(/[^0-9.]/g, ''));
+      if (!numeric || isNaN(numeric)) return;
+      numEl.dataset.original = raw;
+      numEl.dataset.suffix = raw.replace(/[0-9.,\s]/g, '');
+      e.target.classList.add('counting');
+      animateCount(numEl, numeric, 1400);
+    });
+  }, { threshold: 0.35 });
+
+  document.querySelectorAll('.stat').forEach(el => statObserver.observe(el));
+})();
 
 // ── FAQ accordion ──
 document.querySelectorAll('.faq-question').forEach(btn => {
