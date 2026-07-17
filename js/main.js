@@ -182,6 +182,19 @@ document.querySelectorAll('form[data-netlify="true"]').forEach(form => {
 
 // ── Floating Contact Widget ──
 (function () {
+  // Inject toggle pill styles inline so they always match the JS version,
+  // regardless of browser CSS cache state.
+  const fcwStyle = document.createElement('style');
+  fcwStyle.textContent = [
+    '.fcw__toggle{width:auto!important;height:46px!important;border-radius:24px!important;',
+    'padding:0 18px 0 14px!important;display:flex!important;align-items:center!important;',
+    'gap:8px!important;overflow:visible!important;}',
+    '.fcw__toggle-label{color:#fff!important;font-size:.72rem!important;font-weight:700!important;',
+    'letter-spacing:.1em!important;text-transform:uppercase!important;white-space:nowrap!important;',
+    'display:inline!important;}',
+  ].join('');
+  document.head.appendChild(fcwStyle);
+
   const MAPS_URL = 'https://maps.google.com/maps?q=Via+Roma+5,+73020+Santa+Cesarea+Terme+LE+Italia';
   const TEL      = 'tel:+393349985447';
   const MAIL     = 'mailto:info@caladeibalcani.it';
