@@ -162,6 +162,13 @@
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/accommodation.html"/>
   </url>
+  <url>
+    <loc>https://www.caladeibalcani.it/privacy.html</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.caladeibalcani.it/privacy.html"/>
+  </url>
 
   <!-- ══ ENGLISH ══ -->
   <url>
