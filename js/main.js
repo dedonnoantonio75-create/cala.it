@@ -180,6 +180,23 @@ document.querySelectorAll('form[data-netlify="true"]').forEach(form => {
   });
 });
 
+// ── YouTube lazy facade ──
+document.querySelectorAll('.yt-facade').forEach(function(facade) {
+  facade.addEventListener('click', function() {
+    var ytid = facade.dataset.ytid;
+    var title = facade.dataset.title || 'YouTube video';
+    var iframe = document.createElement('iframe');
+    iframe.src = 'https://www.youtube.com/embed/' + ytid + '?autoplay=1&rel=0';
+    iframe.title = title;
+    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    iframe.allowFullscreen = true;
+    iframe.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:none';
+    facade.innerHTML = '';
+    facade.style.cursor = 'default';
+    facade.appendChild(iframe);
+  });
+});
+
 // ── Floating Contact Widget ──
 (function () {
   // Inject toggle pill styles inline so they always match the JS version,
