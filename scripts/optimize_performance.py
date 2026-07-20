@@ -1,259 +1,142 @@
 #!/usr/bin/env python3
-"""
-ING-342 — Performance optimization: WebP, CSS/JS minification, HTML updates.
-Run once from repo root: python3 scripts/optimize_performance.py
+"""ING-342 — Performance optimization for cala.it.
+
+Applies:
+  1. Non-blocking Google Fonts on all 54 HTML files
+  2. fetchpriority="high" on LCP preload (index.html IT only)
+  3. video preload="none" (index.html IT only) — saves 21 MB on mobile
+  4. YouTube dns-prefetch (index.html IT only, has yt-facade)
+  Run from repo root or scripts/: python3 scripts/optimize_performance.py
 """
 
 import os
 import re
-from pathlib import Path
-from PIL import Image
+import glob
 
-REPO = Path(__file__).parent.parent
-IMG_DIR = REPO / 'img'
-CSS_SRC = REPO / 'css' / 'style.css'
-CSS_MIN = REPO / 'css' / 'style.min.css'
-JS_SRC  = REPO / 'js' / 'main.js'
-JS_MIN  = REPO / 'js' / 'main.min.js'
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+FONT_URL = (
+    'https://fonts.googleapis.com/css2?family=Playfair+Display'
+    ':ital,wght@0,400;0,500;0,700;1,400&family=Lato:wght@300;400;700'
+    '&family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap'
+)
 
-# ── 1. Convert all JPG/PNG → WebP ───────────────────────────────────────────
-
-print("=== 1/4  Converting images to WebP ===")
-converted = 0
-skipped   = 0
-saved_kb  = 0
-
-for p in sorted(IMG_DIR.iterdir()):
-    if p.suffix.lower() not in ('.jpg', '.jpeg', '.png'):
-        continue
-    webp = p.with_suffix('.webp')
-    if webp.exists():
-        skipped += 1
-        continue
-    try:
-        with Image.open(p) as img:
-            if img.mode in ('RGBA', 'LA', 'P'):
-                bg = Image.new('RGB', img.size, (255, 255, 255))
-                if img.mode == 'P':
-                    img = img.convert('RGBA')
-                if img.mode in ('RGBA', 'LA'):
-                    bg.paste(img, mask=img.split()[-1])
-                img = bg
-            elif img.mode != 'RGB':
-                img = img.convert('RGB')
-            img.save(webp, 'WEBP', quality=82, method=4)
-        orig = p.stat().st_size
-        new  = webp.stat().st_size
-        saved_kb += (orig - new) // 1024
-        converted += 1
-        print(f"  {p.name}: {orig//1024}KB → {new//1024}KB  (-{100*(orig-new)//orig}%)")
-    except Exception as exc:
-        print(f"  ERROR {p.name}: {exc}")
-
-print(f"  Done: {converted} converted, {skipped} already existed, {saved_kb}KB saved\n")
+# Matches both attribute orders: href first or rel first
+FONT_BLOCKING_RE = re.compile(
+    r'<link\b[^>]*?\bhref=["\']' + re.escape(FONT_URL) + r'["\'][^>]*?\brel=["\']stylesheet["\'][^>]*?>|'
+    r'<link\b[^>]*?\brel=["\']stylesheet["\'][^>]*?\bhref=["\']' + re.escape(FONT_URL) + r'["\'][^>]*?>',
+    re.IGNORECASE | re.DOTALL
+)
 
 
-# ── 2. Minify CSS ────────────────────────────────────────────────────────────
-
-print("=== 2/4  Minifying CSS ===")
-
-def minify_css(src: str) -> str:
-    # Remove block comments
-    out = re.sub(r'/\*[\s\S]*?\*/', '', src)
-    # Collapse tabs/spaces to single space (preserve newlines briefly)
-    out = re.sub(r'[ \t]+', ' ', out)
-    # Remove space around CSS punctuation (not inside strings — simple but good enough)
-    out = re.sub(r' *([\{\};,>~+]) *', r'\1', out)
-    # Colon: only between property and value, not inside url() or image-set()
-    # Safe: remove space after : except inside parentheses — too complex, skip colon squeeze
-    # Instead just compress newlines
-    out = re.sub(r'\n+', '', out)
-    # Remove trailing semicolons before }
-    out = out.replace(';}', '}')
-    return out.strip()
-
-css_src_text = CSS_SRC.read_text('utf-8')
-CSS_MIN.write_text(minify_css(css_src_text), 'utf-8')
-print(f"  style.css: {CSS_SRC.stat().st_size//1024}KB → {CSS_MIN.stat().st_size//1024}KB\n")
+def async_font_tag(indent='  '):
+    return (
+        f'{indent}<link rel="preload" as="style" href="{FONT_URL}"'
+        f' onload="this.onload=null;this.rel=\'stylesheet\'">\n'
+        f'{indent}<noscript><link rel="stylesheet" href="{FONT_URL}"></noscript>'
+    )
 
 
-# ── 3. Update CSS: add image-set() WebP for background-image JPG/PNG refs ───
-
-print("=== 3/4  Updating CSS background-image to image-set() ===")
-
-def add_webp_imageset(line: str) -> str:
-    """
-    Transforms:
-      url('../img/foo.jpg')
-    into:
-      image-set(url('../img/foo.webp') type("image/webp"),url('../img/foo.jpg') type("image/jpeg"))
-    Skips URLs that are already WebP or remote.
-    """
-    def replace_url(m):
-        raw = m.group(1)
-        low = raw.lower()
-        if low.startswith('http') or low.endswith('.webp'):
-            return m.group(0)
-        base, ext = os.path.splitext(raw)
-        webp = base + '.webp'
-        fmt  = 'image/jpeg' if ext.lower() in ('.jpg', '.jpeg') else 'image/png'
-        return (
-            f'image-set(url("{webp}") type("image/webp"),'
-            f'url("{raw}") type("{fmt}"))'
-        )
-    # Only transform url() calls that hold an image path
-    return re.sub(r"url\(['\"]([^'\"]+\.(jpg|jpeg|png))['\"]?\)", replace_url, line,
-                  flags=re.IGNORECASE)
-
-css_lines   = css_src_text.split('\n')
-updated     = []
-bg_count    = 0
-for line in css_lines:
-    if 'background-image:' in line and re.search(r"url\(['\"]?[^)]+\.(jpg|jpeg|png)['\"]?\)",
-                                                   line, re.IGNORECASE):
-        # Don't double-transform
-        if 'image-set(' not in line:
-            new_line = add_webp_imageset(line)
-            updated.append(new_line)
-            bg_count += 1
-            print(f"  ✓ {line.strip()[:70]}")
-            continue
-    updated.append(line)
-
-new_css_src = '\n'.join(updated)
-CSS_SRC.write_text(new_css_src, 'utf-8')
-# Re-minify with updated content
-CSS_MIN.write_text(minify_css(new_css_src), 'utf-8')
-print(f"  {bg_count} background-image declarations updated; re-minified style.min.css\n")
+def fix_fonts(html):
+    m = FONT_BLOCKING_RE.search(html)
+    if not m:
+        return html, False
+    pos = m.start()
+    line_start = html.rfind('\n', 0, pos) + 1
+    indent = re.match(r'(\s*)', html[line_start:]).group(1)
+    replacement = async_font_tag(indent)
+    new_html = FONT_BLOCKING_RE.sub(replacement, html, count=1)
+    return new_html, new_html != html
 
 
-# ── 4. Minify JS ─────────────────────────────────────────────────────────────
-
-print("=== (JS) Minifying JS ===")
-
-def minify_js(src: str) -> str:
-    # Remove block comments
-    out = re.sub(r'/\*[\s\S]*?\*/', '', src)
-    lines_out = []
-    for ln in out.split('\n'):
-        stripped = ln.strip()
-        if not stripped or stripped.startswith('//'):
-            continue
-        lines_out.append(stripped)
-    return '\n'.join(lines_out)
-
-JS_MIN.write_text(minify_js(JS_SRC.read_text('utf-8')), 'utf-8')
-print(f"  main.js: {JS_SRC.stat().st_size//1024}KB → {JS_MIN.stat().st_size//1024}KB\n")
+def fix_lcp_preload(html):
+    """Add fetchpriority=high to image preload hints that lack it."""
+    new_html = re.sub(
+        r'(<link\s+rel=["\']preload["\']\s+as=["\']image["\']\s+href=["\'][^"\']+["\'])(\s*>)',
+        r'\1 fetchpriority="high"\2',
+        html
+    )
+    return new_html, new_html != html
 
 
-# ── 5. Update HTML files ─────────────────────────────────────────────────────
+def fix_video_preload(html):
+    """Switch hero video from preload=metadata to preload=none.
+    main.js will re-enable it on desktop only."""
+    new_html = re.sub(
+        r'(<video\b[^>]+)\bpreload=["\']metadata["\']',
+        r'\1preload="none"',
+        html,
+        flags=re.DOTALL
+    )
+    return new_html, new_html != html
 
-print("=== 4/4  Updating HTML files ===")
 
-HTML_FILES = sorted(REPO.rglob('*.html'))
+def add_yt_prefetch(html):
+    """Insert YouTube dns-prefetch before fonts preconnect block."""
+    if 'ytimg.com' in html:
+        return html, False  # already present
+    YT_HINTS = (
+        '<link rel="dns-prefetch" href="https://i.ytimg.com">\n'
+        '  <link rel="dns-prefetch" href="https://www.youtube.com">\n'
+        '  '
+    )
+    anchor = '<link rel="preconnect" href="https://fonts.googleapis.com">'
+    if anchor not in html:
+        return html, False
+    new_html = html.replace(anchor, YT_HINTS + anchor, 1)
+    return new_html, new_html != html
 
-# CSS/JS path pairs: (old, new) — handle both root and subdirectory variants
-CSS_PAIRS = [
-    ('href="css/style.css"',    'href="css/style.min.css"'),
-    ("href='css/style.css'",    "href='css/style.min.css'"),
-    ('href="../css/style.css"', 'href="../css/style.min.css"'),
-    ("href='../css/style.css'", "href='../css/style.min.css'"),
-]
-JS_PAIRS = [
-    ('src="js/main.js"',    'src="js/main.min.js"'),
-    ("src='js/main.js'",    "src='js/main.min.js'"),
-    ('src="../js/main.js"', 'src="../js/main.min.js"'),
-    ("src='../js/main.js'", "src='../js/main.min.js'"),
-]
 
-def wrap_imgs_in_picture(html: str) -> tuple[str, int]:
-    """
-    Wraps <img src="…img/….jpg"> in <picture><source webp>…</picture>.
-    Skips images already inside <picture> and non-local / non-JPG/PNG refs.
-    """
-    result   = []
-    i        = 0
-    wrapped  = 0
-    length   = len(html)
+def process_file(path):
+    with open(path, 'r', encoding='utf-8') as f:
+        html = f.read()
 
-    while i < length:
-        pic_pos = html.find('<picture', i)
-        img_pos = html.find('<img ', i)
+    original = html
+    changes = []
 
-        if img_pos == -1:
-            result.append(html[i:])
-            break
+    html, ch = fix_fonts(html)
+    if ch:
+        changes.append('non-blocking fonts')
 
-        if pic_pos != -1 and pic_pos < img_pos:
-            # Consume the entire <picture>…</picture> block unchanged
-            pic_end = html.find('</picture>', pic_pos)
-            if pic_end == -1:
-                result.append(html[i:])
-                break
-            result.append(html[i: pic_end + len('</picture>')])
-            i = pic_end + len('</picture>')
-            continue
+    # IT index-specific fixes
+    is_it_index = (
+        os.path.basename(path) == 'index.html'
+        and os.path.dirname(path) == ROOT
+    )
+    if is_it_index:
+        html, ch = fix_lcp_preload(html)
+        if ch:
+            changes.append('fetchpriority=high on LCP preload')
 
-        # Parse the <img …> tag, respecting quoted attributes
-        end = img_pos + 5
-        in_q = None
-        while end < length:
-            c = html[end]
-            if c in ('"', "'") and in_q is None:
-                in_q = c
-            elif c == in_q:
-                in_q = None
-            elif c == '>' and in_q is None:
-                end += 1
-                break
-            end += 1
+        html, ch = fix_video_preload(html)
+        if ch:
+            changes.append('video preload=none')
 
-        tag = html[img_pos:end]
-        src_m = re.search(r'\bsrc=["\']([^"\']+)["\']', tag)
-        if src_m:
-            src = src_m.group(1)
-            low = src.lower()
-            if (('img/' in src or src.startswith('/img/'))
-                    and low.endswith(('.jpg', '.jpeg', '.png'))
-                    and not src.startswith('http')):
-                base, _ = os.path.splitext(src)
-                webp_src = base + '.webp'
-                result.append(html[i:img_pos])
-                result.append(
-                    f'<picture>'
-                    f'<source srcset="{webp_src}" type="image/webp">'
-                    f'{tag}'
-                    f'</picture>'
-                )
-                i = end
-                wrapped += 1
-                continue
+        html, ch = add_yt_prefetch(html)
+        if ch:
+            changes.append('YouTube dns-prefetch')
 
-        result.append(html[i:end])
-        i = end
+    if html != original:
+        with open(path, 'w', encoding='utf-8') as f:
+            f.write(html)
+        print(f'  UPDATED {os.path.relpath(path, ROOT)}: {", ".join(changes)}')
+        return True
 
-    return ''.join(result), wrapped
+    return False
 
-total_files   = 0
-total_wrapped = 0
 
-for html_file in HTML_FILES:
-    text     = html_file.read_text('utf-8')
-    original = text
+def main():
+    pattern = os.path.join(ROOT, '**', '*.html')
+    html_files = [f for f in sorted(glob.glob(pattern, recursive=True))
+                  if '/.git/' not in f]
 
-    # Update CSS/JS refs
-    for old, new in CSS_PAIRS + JS_PAIRS:
-        text = text.replace(old, new)
+    updated = 0
+    for path in html_files:
+        if process_file(path):
+            updated += 1
 
-    # Wrap <img> tags
-    text, wrapped = wrap_imgs_in_picture(text)
-    total_wrapped += wrapped
+    print(f'\nDone. {updated}/{len(html_files)} files updated.')
 
-    if text != original:
-        html_file.write_text(text, 'utf-8')
-        total_files += 1
-        print(f"  {html_file.relative_to(REPO)} — {wrapped} imgs wrapped")
 
-print(f"\n  {total_files} HTML files updated, {total_wrapped} <img> tags wrapped in <picture>\n")
-print("=== All done! ===")
+if __name__ == '__main__':
+    main()

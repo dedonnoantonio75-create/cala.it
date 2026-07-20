@@ -1,5 +1,19 @@
 /* Cala dei Balcani — Main JavaScript */
 
+// ── Hero video: load on desktop only (saves 21 MB on mobile) ──
+(function () {
+  var v = document.querySelector('.hero__video-iframe');
+  if (!v) return;
+  var skip = window.matchMedia('(max-width: 768px)').matches ||
+    (navigator.connection && (navigator.connection.saveData ||
+      ['slow-2g', '2g'].includes(navigator.connection.effectiveType)));
+  if (!skip) {
+    v.setAttribute('preload', 'auto');
+    v.load();
+    v.play().catch(function () {});
+  }
+})();
+
 // ── Navigation ──
 const nav = document.querySelector('.nav');
 const navToggle = document.querySelector('.nav__toggle');
