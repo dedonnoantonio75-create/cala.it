@@ -168,7 +168,7 @@
       <div class="divider divider--center fade-up fade-up-d2"></div>
       <p class="lead fade-up fade-up-d2">Completad el formulario con vuestros datos y los detalles de vuestra boda. Os contactaremos en menos de 24 horas.</p>
     </div>
-    <form action="#" method="POST" class="fade-up fade-up-d3" style="max-width: 700px; margin: 0 auto;" aria-label="Formulario de contacto para información sobre bodas" name="contacto-es" data-netlify="true">
+    <form action="#" method="POST" class="fade-up fade-up-d3" style="max-width: 700px; margin: 0 auto;" aria-label="Formulario de contacto para información sobre bodas" name="contacto-es" data-netlify="true" data-netlify-recaptcha="true">
           <input type="hidden" name="form-name" value="contacto-es">
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
         <div>
@@ -222,6 +222,9 @@
           <input type="checkbox" name="privacidad" required style="margin-top:0.25rem; flex-shrink:0;">
           <span style="font-size:0.875rem; color:#666;">He leído y acepto la <a href="#">Política de Privacidad</a> de Cala dei Balcani y consiento el tratamiento de mis datos personales para recibir información sobre servicios de bodas. *</span>
         </label>
+      </div>
+      <div style="margin-bottom:16px">
+        <div data-netlify-recaptcha="true"></div>
       </div>
       <div class="text-center">
         <button type="submit" class="btn btn--gold" style="width:100%; max-width:300px; cursor:pointer; border:none;">Enviar Mensaje</button>

@@ -132,7 +132,7 @@
         <p>Francesco Urso ou un membre de notre équipe vous répondra personnellement dans les 24 heures avec une première réponse sur les disponibilités et les possibilités pour votre projet.</p>
 
         <!-- Formulaire de contact -->
-        <form action="#" method="POST" novalidate style="margin-top: 2rem;" aria-label="Formulaire de contact" name="contact-fr" data-netlify="true">
+        <form action="#" method="POST" novalidate style="margin-top: 2rem;" aria-label="Formulaire de contact" name="contact-fr" data-netlify="true" data-netlify-recaptcha="true">
         <input type="hidden" name="form-name" value="contact-fr">
           <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
             <div>
@@ -189,6 +189,7 @@
           <div style="margin-bottom: 1.5rem; font-size:0.85rem; color: var(--text-muted, #666);">
             <p>* Champs obligatoires. Vos données sont traitées conformément à notre <a href="#" style="text-decoration:underline;">Politique de Confidentialité</a>. Nous ne les partageons jamais avec des tiers.</p>
           </div>
+          <div data-netlify-recaptcha="true" style="margin-bottom:16px"></div>
           <button type="submit" class="btn btn--gold" style="width:100%; cursor:pointer; border:none; font-size:1rem;">Envoyer le Message</button>
         </form>
       </div>
