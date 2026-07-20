@@ -269,7 +269,7 @@ p  { color: var(--text-mid); line-height: 1.85; }
 /* ── PAGE HERO (inner pages) ── */
 .page-hero {
   padding: 160px 24px 80px;
-  background-image: url('../img/cala-dei-balcani-location-matrimoni-wedding-salento-santa-cesarea-terme-lecce-7-scaled.jpg'), linear-gradient(rgba(7,15,30,.7), rgba(7,15,30,.7));
+  background-image: image-set(url("../img/cala-dei-balcani-location-matrimoni-wedding-salento-santa-cesarea-terme-lecce-7-scaled.webp") type("image/webp"),url("../img/cala-dei-balcani-location-matrimoni-wedding-salento-santa-cesarea-terme-lecce-7-scaled.jpg") type("image/jpeg")), linear-gradient(rgba(7,15,30,.7), rgba(7,15,30,.7));
   background-size: cover;
   background-position: center;
   text-align: center; position: relative; overflow: hidden;
@@ -311,10 +311,10 @@ p  { color: var(--text-mid); line-height: 1.85; }
   min-height: 420px; display: flex; align-items: center; justify-content: center;
   overflow: hidden; position: relative;
 }
-.split__visual--sea    { background-image: url('../img/location-wedding-santa-cesarea-terme-salento-lecce-puglia-italia-7-1024x682.jpg'); background-size: cover; background-position: center; }
-.split__visual--green  { background-image: url('../img/la-terrazza-di-cala-dei-balcani-ristorante-per-cerimonie-nuziali-santa-cesarea-gterme-lecce-salento-puglia-italia-1_1.jpg'); background-size: cover; background-position: center; }
-.split__visual--stone  { background-image: url('../img/cala-dei-balcani-la-torre-saracena-di-santa-cesarea-terme-lecce-salento.jpg'); background-size: cover; background-position: center; }
-.split__visual--warm   { background-image: url('../img/CAN_6775-Modifica.jpg'); background-size: cover; background-position: center; }
+.split__visual--sea    { background-image: image-set(url("../img/location-wedding-santa-cesarea-terme-salento-lecce-puglia-italia-7-1024x682.webp") type("image/webp"),url("../img/location-wedding-santa-cesarea-terme-salento-lecce-puglia-italia-7-1024x682.jpg") type("image/jpeg")); background-size: cover; background-position: center; }
+.split__visual--green  { background-image: image-set(url("../img/la-terrazza-di-cala-dei-balcani-ristorante-per-cerimonie-nuziali-santa-cesarea-gterme-lecce-salento-puglia-italia-1_1.webp") type("image/webp"),url("../img/la-terrazza-di-cala-dei-balcani-ristorante-per-cerimonie-nuziali-santa-cesarea-gterme-lecce-salento-puglia-italia-1_1.jpg") type("image/jpeg")); background-size: cover; background-position: center; }
+.split__visual--stone  { background-image: image-set(url("../img/cala-dei-balcani-la-torre-saracena-di-santa-cesarea-terme-lecce-salento.webp") type("image/webp"),url("../img/cala-dei-balcani-la-torre-saracena-di-santa-cesarea-terme-lecce-salento.jpg") type("image/jpeg")); background-size: cover; background-position: center; }
+.split__visual--warm   { background-image: image-set(url("../img/CAN_6775-Modifica.webp") type("image/webp"),url("../img/CAN_6775-Modifica.jpg") type("image/jpeg")); background-size: cover; background-position: center; }
 .split__visual::after {
   content: ''; position: absolute; inset: 0;
   background: radial-gradient(ellipse at 40% 60%, rgba(196,162,74,.1) 0%, transparent 60%);
@@ -343,9 +343,9 @@ p  { color: var(--text-mid); line-height: 1.85; }
   position: relative; overflow: hidden;
 }
 .card__visual--wedding { background-image: url('../img/STI04416-768x512.webp'); background-size: cover; background-position: center; }
-.card__visual--sea     { background-image: url('../img/Panoramica_senza-titolo-135_web_1920-1024x683.jpg'); background-size: cover; background-position: center; }
-.card__visual--food    { background-image: url('../img/cala-dei-balcani-ristorante-matrimoni-salento-lecce-santa-cesarea-terme-puglia-italia-7-768x512.jpg'); background-size: cover; background-position: center; }
-.card__visual--garden  { background-image: url('../img/cala-dei-balcani-salento-1-1024x683.jpg'); background-size: cover; background-position: center; }
+.card__visual--sea     { background-image: image-set(url("../img/Panoramica_senza-titolo-135_web_1920-1024x683.webp") type("image/webp"),url("../img/Panoramica_senza-titolo-135_web_1920-1024x683.jpg") type("image/jpeg")); background-size: cover; background-position: center; }
+.card__visual--food    { background-image: image-set(url("../img/cala-dei-balcani-ristorante-matrimoni-salento-lecce-santa-cesarea-terme-puglia-italia-7-768x512.webp") type("image/webp"),url("../img/cala-dei-balcani-ristorante-matrimoni-salento-lecce-santa-cesarea-terme-puglia-italia-7-768x512.jpg") type("image/jpeg")); background-size: cover; background-position: center; }
+.card__visual--garden  { background-image: image-set(url("../img/cala-dei-balcani-salento-1-1024x683.webp") type("image/webp"),url("../img/cala-dei-balcani-salento-1-1024x683.jpg") type("image/jpeg")); background-size: cover; background-position: center; }
 .card__visual--tower   { background-image: url('../img/la-torre-di-cala-dei-balcani-santa-cesare-aterme-lecce-salento-3-768x512.webp'); background-size: cover; background-position: center; }
 .card__visual::after {
   content: ''; position: absolute; inset: 0;
@@ -394,11 +394,11 @@ p  { color: var(--text-mid); line-height: 1.85; }
 .gallery-item:hover .gallery-item__overlay span { opacity: 1; }
 
 /* Gallery color themes */
-.gi--1 { background-image: url('../img/la-location-per-i-matrimoni-di-cala-dei-balacani-di-santa-cesarea-terme-lecce-5-1024x768.jpg'); background-size: cover; background-position: center; }
-.gi--2 { background-image: url('../img/Panoramica_senza-titolo-135_web_1920-1024x683.jpg'); background-size: cover; background-position: center; }
-.gi--3 { background-image: url('../img/cala-dei-balcani-salento-1-1024x683.jpg'); background-size: cover; background-position: center; }
-.gi--4 { background-image: url('../img/CAN_6775-Modifica.jpg'); background-size: cover; background-position: center; }
-.gi--5 { background-image: url('../img/cala-dei-balcani-la-torre-saracena-di-santa-cesarea-terme-lecce-salento.jpg'); background-size: cover; background-position: center; }
+.gi--1 { background-image: image-set(url("../img/la-location-per-i-matrimoni-di-cala-dei-balacani-di-santa-cesarea-terme-lecce-5-1024x768.webp") type("image/webp"),url("../img/la-location-per-i-matrimoni-di-cala-dei-balacani-di-santa-cesarea-terme-lecce-5-1024x768.jpg") type("image/jpeg")); background-size: cover; background-position: center; }
+.gi--2 { background-image: image-set(url("../img/Panoramica_senza-titolo-135_web_1920-1024x683.webp") type("image/webp"),url("../img/Panoramica_senza-titolo-135_web_1920-1024x683.jpg") type("image/jpeg")); background-size: cover; background-position: center; }
+.gi--3 { background-image: image-set(url("../img/cala-dei-balcani-salento-1-1024x683.webp") type("image/webp"),url("../img/cala-dei-balcani-salento-1-1024x683.jpg") type("image/jpeg")); background-size: cover; background-position: center; }
+.gi--4 { background-image: image-set(url("../img/CAN_6775-Modifica.webp") type("image/webp"),url("../img/CAN_6775-Modifica.jpg") type("image/jpeg")); background-size: cover; background-position: center; }
+.gi--5 { background-image: image-set(url("../img/cala-dei-balcani-la-torre-saracena-di-santa-cesarea-terme-lecce-salento.webp") type("image/webp"),url("../img/cala-dei-balcani-la-torre-saracena-di-santa-cesarea-terme-lecce-salento.jpg") type("image/jpeg")); background-size: cover; background-position: center; }
 
 /* ── TESTIMONIALS ── */
 .testimonial {
