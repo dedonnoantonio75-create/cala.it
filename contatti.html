@@ -181,6 +181,12 @@
             <div style="margin-bottom:20px;font-size:.8rem;color:var(--text-light)">
               * Campi obbligatori. I vostri dati saranno trattati ai sensi del Reg. EU 2016/679 (GDPR). <a href="privacy.html" style="color:var(--gold)">Privacy Policy</a>.
             </div>
+            <div style="margin-bottom:16px">
+              <label style="display:flex;align-items:flex-start;gap:10px;cursor:pointer;font-size:.82rem;color:var(--text-light)">
+                <input type="checkbox" name="privacy" required style="margin-top:3px;flex-shrink:0;width:15px;height:15px;accent-color:var(--gold)">
+                <span>Ho letto e accetto la <a href="privacy.html" style="color:var(--gold)">Privacy &amp; Cookie Policy</a> ai sensi del Reg. UE 2016/679 (GDPR). *</span>
+              </label>
+            </div>
             <div data-netlify-recaptcha="true" style="margin-bottom:16px"></div>
             <button type="submit" class="btn btn--gold" style="width:100%;justify-content:center">Invia il Messaggio</button>
           </form>
@@ -268,5 +274,6 @@
   </div>
 </footer>
 <script src="js/main.min.js" defer></script>
+<script src="js/cookie-consent.js"></script>
 </body>
 </html>
