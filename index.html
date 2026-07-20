@@ -130,11 +130,13 @@
     .storybrand-photo-stack {
       position: relative;
     }
+    .storybrand-photo-stack picture:first-child img,
     .storybrand-photo-stack img:first-child {
       width: 100%;
       border-radius: 4px;
       box-shadow: 0 8px 48px rgba(12,26,46,.18);
     }
+    .storybrand-photo-stack picture:last-child img,
     .storybrand-photo-stack img:last-child {
       position: absolute;
       bottom: -28px;
@@ -145,6 +147,7 @@
       box-shadow: 0 8px 32px rgba(12,26,46,.22);
     }
     @media (max-width: 860px) {
+      .storybrand-photo-stack picture:last-child img,
       .storybrand-photo-stack img:last-child { display: none; }
     }
     .bivio-block {
