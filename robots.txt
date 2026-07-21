@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://www.caladeibalcani.it/sitemap.xml
+Sitemap: https://caladeibalcani.it/sitemap.xml
 
 # Allow all AI crawlers for AI search visibility
 User-agent: GPTBot
@@ -26,6 +26,21 @@ Allow: /
 User-agent: Applebot
 Allow: /
 
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
 # Google
 User-agent: Googlebot
 Allow: /
@@ -39,3 +54,6 @@ Allow: /
 
 # Block only admin paths (none currently)
 Disallow: /.paperflow-runtime/
+
+# AI search engine context file
+# See: https://caladeibalcani.it/llms.txt
