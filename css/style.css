@@ -212,15 +212,15 @@ p  { color: var(--text-mid); line-height: 1.85; }
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
   width: 100%; height: 100%;
-  /* sorgente video nativa 960x720 — oltre ~1.2x di upscale diventa visibilmente
-     sgranata; max-width+max-height limitano l'ingrandimento a 1.2x su entrambi
-     gli assi, object-fit:contain evita che venga tagliato in verticale sugli
-     schermi da laptop (bassi e larghi rispetto al 4:3 del video) — lo sfondo
-     navy riempie lo spazio residuo invece di stirare o ritagliare il video
+  /* sorgente video nativa 1440x1080 (aggiornata 2026-07-22, video-banner-hd.mp4) —
+     risoluzione ampia, non serve più limitare l'ingrandimento come per la vecchia
+     sorgente 960x720. object-fit:cover riempie sempre l'hero senza barre laterali;
+     object-position in basso ritaglia dall'alto quando necessario (richiesta esplicita
+     del cliente: "se serve tagliarlo taglia sopra") invece del ritaglio centrato di default
      (l'immagine statica HD resta la copertina finché il video non parte, vedi main.js) */
-  max-width: 1152px;
-  max-height: 864px;
-  object-fit: contain;
+  max-width: 1920px;
+  object-fit: cover;
+  object-position: center bottom;
   pointer-events: none; z-index: 0;
 }
 .hero__bg::before {
