@@ -676,6 +676,14 @@ footer h5 {
 }
 @media (max-width: 480px) {
   .torre-mura-grid { grid-template-columns: 1fr !important; }
+  /* Top bar (logo + lang switcher + hamburger) doesn't fit on narrow phones at full size —
+     logo (~154px) + lang switcher (~159px) + toggle (~32px) = ~345px content, but only
+     ~272-327px is available on 320-375px screens, causing overlap. */
+  .nav__logo img { height: 30px; }
+  .nav__right { gap: 8px; }
+  .nav__lang { gap: 3px; }
+  .nav__lang a { padding: 2px 5px; border-width: 0; }
+  .nav__toggle { padding: 2px; }
 }
 @media (max-width: 520px) {
   .grid-4   { grid-template-columns: 1fr; }
