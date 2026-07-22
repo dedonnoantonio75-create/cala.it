@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
   <!-- ══ ITALIANO (lingua principale) ══ -->
   <url>
@@ -8,12 +10,43 @@
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="it"        href="https://caladeibalcani.it/"/>
-    <xhtml:link rel="alternate" hreflang="en"        href="https://caladeibalcani.it/en/"/>
-    <xhtml:link rel="alternate" hreflang="fr"        href="https://caladeibalcani.it/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es"        href="https://caladeibalcani.it/es/"/>
-    <xhtml:link rel="alternate" hreflang="de"        href="https://caladeibalcani.it/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://caladeibalcani.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caladeibalcani.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://caladeibalcani.it/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://caladeibalcani.it/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://caladeibalcani.it/de/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caladeibalcani.it/"/>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/1-terrazza-panoramica-cala-dei-balcani-ristoranti-per-matrimoni-santa-cesarea-terme-lecce-salento-puglia-italia-1terrazza-panoramica-matrimoni-mare-adriatico-cala-dei-balcani-salento.jpg</image:loc>
+      <image:caption>Terrazza panoramica sul mare Adriatico per matrimoni di lusso — Cala dei Balcani, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cerimonia-civile-vista-mare-cala-dei-balcani-santa-cesarea-terme.jpg</image:loc>
+      <image:caption>Cerimonia civile con arco floreale e vista sul mare Adriatico — location matrimoni Cala dei Balcani, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/santa-cesarea-terme-vista-aerea-accommodation-cala-dei-balcani.jpg</image:loc>
+      <image:caption>Vista aerea di Santa Cesarea Terme sul mare Adriatico — accommodation vicino alla location matrimoni Cala dei Balcani, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-ristorante-per-matrimoni-santa-cesarea-terme-salento-lecce-puglia-1.jpg</image:loc>
+      <image:caption>Ristorante per matrimoni Cala dei Balcani — ricevimenti nuziali con vista mare, Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-la-torre-saracena-di-santa-cesarea-terme-lecce-salento.jpg</image:loc>
+      <image:caption>Torre Saracena di Monte Saracino del XVI secolo a Cala dei Balcani, Santa Cesarea Terme, Salento, Lecce</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/INTERNATIONAL-AND-COZY-WEDDING-cala-dei-balcani-santa-cesarea-terme-lecce-salento-puglia-italia-.jpg</image:loc>
+      <image:caption>International and Cozy Wedding a Cala dei Balcani — matrimoni internazionali sul mare Adriatico, Salento, Puglia</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://caladeibalcani.it/img/og-home.jpg</video:thumbnail_loc>
+      <video:title>Cala dei Balcani — Location per Matrimoni di Lusso, Santa Cesarea Terme, Salento</video:title>
+      <video:description>Video presentazione di Cala dei Balcani, location esclusiva per matrimoni di lusso a Santa Cesarea Terme, Salento, Puglia. Torre Saracena del XVI secolo, terrazze panoramiche sul mare Adriatico, alta cucina salentina. Un solo evento al giorno in esclusiva totale.</video:description>
+      <video:content_loc>https://caladeibalcani.it/video/video-banner.mp4</video:content_loc>
+      <video:duration>60</video:duration>
+    </video:video>
   </url>
   <url>
     <loc>https://caladeibalcani.it/chi-siamo.html</loc>
@@ -25,6 +58,46 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://caladeibalcani.it/fr/qui-nous-sommes.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://caladeibalcani.it/es/quienes-somos.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://caladeibalcani.it/de/ueber-uns.html"/>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-storia-di-cala-dei-balcani-location-matrimoni-salento-santa-cesarea-terme-lecce-puglia-italia-1-1-scaled.jpg</image:loc>
+      <image:caption>La storia di Cala dei Balcani: Maria Cristina Urso e la location matrimoni di lusso a Salento dal 2003</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-storia-di-cala-dei-balcani-location-matrimoni-salento-santa-cesarea-terme-lecce-puglia-italia-5-1-scaled.jpg</image:loc>
+      <image:caption>La famiglia Urso — custodi di Cala dei Balcani, location matrimoni esclusiva sul mare Adriatico, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-storia-di-cala-dei-balcani-location-matrimoni-salento-santa-cesarea-terme-lecce-puglia-italia-7-scaled.jpg</image:loc>
+      <image:caption>Maria Cristina Urso fondatrice di Cala dei Balcani, location matrimoni di lusso Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-storia-di-cala-dei-balcani-location-matrimoni-salento-santa-cesarea-terme-lecce-puglia-italia-9-scaled.jpg</image:loc>
+      <image:caption>Cala dei Balcani: oltre 20 anni di matrimoni sul mare Adriatico del Salento — Santa Cesarea Terme, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-storia-di-cala-dei-balcani-location-matrimoni-salento-santa-cesarea-terme-lecce-puglia-italia-1terrazza-panoramica-matrimoni-mare-adriatico-cala-dei-balcani-salento.jpg</image:loc>
+      <image:caption>Evento fotografico a Cala dei Balcani — location matrimoni Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-storia-di-cala-dei-balcani-location-matrimoni-salento-santa-cesarea-terme-lecce-puglia-italia-18-scaled.jpg</image:loc>
+      <image:caption>Panoramica di Cala dei Balcani con la famiglia Urso — 20+ anni di matrimoni sul mare Adriatico, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-storia-di-cala-dei-balcani-location-matrimoni-salento-santa-cesarea-terme-lecce-puglia-italia-18-1-scaled.jpg</image:loc>
+      <image:caption>La famiglia Urso celebra i 20+ anni di Cala dei Balcani — location matrimoni dal 2003 a Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-torre-di-cala-dei-balcani-santa-cesarea-terme-ristorante-per-matrimoni-e-ricevimenti-salento-lecce-puglia-italia-40-scaled.jpg</image:loc>
+      <image:caption>Terrazza con Torre Saracena per matrimoni di lusso — Cala dei Balcani, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/veduta-location-cala-dei-balcani-santa-cesarea-terme-salento.jpg</image:loc>
+      <image:caption>Veduta della location Cala dei Balcani a Santa Cesarea Terme — matrimoni esclusivi vista mare Adriatico, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/terrazza-panoramica-matrimoni-mare-adriatico-cala-dei-balcani-salento.jpg</image:loc>
+      <image:caption>Terrazza panoramica per matrimoni a Cala dei Balcani — cerimonie nuziali vista mare Adriatico, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://caladeibalcani.it/il-luogo.html</loc>
@@ -36,6 +109,58 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://caladeibalcani.it/fr/le-lieu.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://caladeibalcani.it/es/el-lugar.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://caladeibalcani.it/de/der-ort.html"/>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/panoramica-notturna-costa-salentina-cala-dei-balcani.jpg</image:loc>
+      <image:caption>Panoramica notturna della costa salentina da Cala dei Balcani — location matrimoni Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/1-terrazza-panoramica-cala-dei-balcani-ristoranti-per-matrimoni-santa-cesarea-terme-lecce-salento-puglia-italia-1terrazza-panoramica-matrimoni-mare-adriatico-cala-dei-balcani-salento.jpg</image:loc>
+      <image:caption>Terrazza panoramica sul mare Adriatico per matrimoni di lusso — Cala dei Balcani, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-terrazza-di-cala-dei-balcani-ristorante-per-cerimonie-nuziali-santa-cesarea-gterme-lecce-salento-puglia-italia-1.jpg</image:loc>
+      <image:caption>Terrazza verde per cerimonie nuziali con vista sul mare Adriatico — Cala dei Balcani, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/location-wedding-santa-cesarea-terme-salento-lecce-puglia-italia-2.jpg</image:loc>
+      <image:caption>Location matrimoni Santa Cesarea Terme con vista mare Adriatico — Cala dei Balcani, Salento, Lecce, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/location-wedding-santa-cesarea-terme-salento-lecce-puglia-italia-7.jpg</image:loc>
+      <image:caption>Vista del mare Adriatico dalla location matrimoni Cala dei Balcani, Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/giardino-cala-dei-balcani-ristorante-per-matrimoni-location-matrimonio-salento-lecce-29.jpg</image:loc>
+      <image:caption>Giardino della Quercia di Cala dei Balcani per cerimonie all</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/terrazza-di-cala-dei-balcani-location-matrimoni-slaento-santa-cesarea-terme-lecce-16.jpg</image:loc>
+      <image:caption>Terrazza di Cala dei Balcani con allestimento matrimonio — Santa Cesarea Terme, Salento, Lecce, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-location-per-i-matrimoni-di-cala-dei-balacani-di-santa-cesarea-terme-lecce-1.jpg</image:loc>
+      <image:caption>Location matrimoni Cala dei Balcani — Torre Saracena, terrazze panoramiche e mare Adriatico, Santa Cesarea Terme</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-torre-di-cala-dei-balcani-santa-cesare-aterme-lecce-salento-terrazza-panoramica-matrimoni-mare-adriatico-cala-dei-balcani-salento.jpg</image:loc>
+      <image:caption>Torre Saracena di Cala dei Balcani illuminata di notte — location matrimoni Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/vista-drone-cala-dei-balcani-costa-santa-cesarea-terme-salento.jpg</image:loc>
+      <image:caption>Vista drone dell</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-ristorante-per-matrimoni-santa-cesarea-terme-salento-lecce-puglia-1.jpg</image:loc>
+      <image:caption>Ristorante per matrimoni Cala dei Balcani — ricevimenti nuziali con vista mare, Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/panorama-costa-salentina-mare-adriatico-cala-dei-balcani.jpg</image:loc>
+      <image:caption>Panorama della costa salentina e del mare Adriatico da Cala dei Balcani, Santa Cesarea Terme, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-sala-interna-ristorante-per-ricevimenti-location-eventi-lecce-salento-.jpg</image:loc>
+      <image:caption>Sala interna del ristorante Cala dei Balcani per ricevimenti nuziali, Lecce, Salento, Puglia</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://caladeibalcani.it/matrimoni.html</loc>
@@ -47,6 +172,58 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://caladeibalcani.it/fr/mariages.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://caladeibalcani.it/es/bodas.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://caladeibalcani.it/de/hochzeiten.html"/>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-matrimoni-santa-cesarea-terme-lecce-salento.jpg</image:loc>
+      <image:caption>Matrimonio sul mare Adriatico a Cala dei Balcani — location esclusiva Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-ristorante-per-matrimoni-santa-cesarea-terme-salento-lecce-puglia-3.jpg</image:loc>
+      <image:caption>Terrazza panoramica del ristorante per matrimoni Cala dei Balcani, Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-ristorante-per-matrimoni-santa-cesarea-terme-salento-lecce-puglia-1.jpg</image:loc>
+      <image:caption>Ristorante per matrimoni Cala dei Balcani — ricevimenti nuziali con vista mare, Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-ristorante-per-matrimoni-santa-cesarea-terme-salento-lecce-puglia-2.jpg</image:loc>
+      <image:caption>Sala ristorante per matrimoni e ricevimenti a Cala dei Balcani, Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-ristorante-per-matrimoni-santa-cesarea-terme-salento-lecce-puglia-4.jpg</image:loc>
+      <image:caption>Sala allestita per ricevimento nuziale — Cala dei Balcani, Santa Cesarea Terme, Lecce, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-ristorante-per-matrimoni-santa-cesarea-terme-salento-lecce-puglia-5.jpg</image:loc>
+      <image:caption>Vista notturna della location matrimoni Cala dei Balcani sul mare Adriatico, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/location-wedding-santa-cesarea-terme-salento-lecce-puglia-italia-5.jpg</image:loc>
+      <image:caption>Sposi in un momento speciale alla location matrimoni Cala dei Balcani, Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/location-wedding-santa-cesarea-terme-salento-lecce-puglia-italia-8.jpg</image:loc>
+      <image:caption>Tramonto sul mare Adriatico dalla terrazza location matrimoni Cala dei Balcani, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/vista-mare-adriatico-esclusiva-location-cala-dei-balcani-salento.jpg</image:loc>
+      <image:caption>Vista esclusiva sul mare Adriatico dalla location per matrimoni Cala dei Balcani, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/giorno-speciale-matrimonio-cala-dei-balcani-santa-cesarea-terme.jpg</image:loc>
+      <image:caption>Giorno speciale degli sposi — matrimonio di lusso a Cala dei Balcani, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/Location-sul-Mare-o-Matrimonio-in-Spiaggia-cala-dei-balcani-wedding-santa-cesarea-terme-salento-lecce-puglia-italia-2.webp</image:loc>
+      <image:caption>Matrimonio sul mare Adriatico alla location esclusiva Cala dei Balcani — Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/wedding-location-santa-ceasrea-terme-salento-lecce-matrimoni-al-mare-puglia-9.jpg</image:loc>
+      <image:caption>Sposi durante cerimonia con vista mare Adriatico — wedding location Cala dei Balcani, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-civile-cala-dei-balcani-santa-cesarea-terme-salento.jpg</image:loc>
+      <image:caption>Matrimonio civile in riva al mare Adriatico a Cala dei Balcani, Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://caladeibalcani.it/la-torre.html</loc>
@@ -58,6 +235,54 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://caladeibalcani.it/fr/la-tour.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://caladeibalcani.it/es/la-torre.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://caladeibalcani.it/de/der-turm.html"/>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-la-torre-saracena-di-santa-cesarea-terme-lecce-salento.jpg</image:loc>
+      <image:caption>Torre Saracena di Monte Saracino del XVI secolo a Cala dei Balcani, Santa Cesarea Terme, Salento, Lecce</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-torre-di-cala-dei-balcani-santa-cesare-aterme-lecce-salento-1.webp</image:loc>
+      <image:caption>La Torre Saracena del XVI secolo di Cala dei Balcani vista dal basso — location matrimoni esclusiva, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-torre-di-cala-dei-balcani-santa-cesare-aterme-lecce-salento-terrazza-panoramica-matrimoni-mare-adriatico-cala-dei-balcani-salento.jpg</image:loc>
+      <image:caption>Torre Saracena di Cala dei Balcani illuminata di notte — location matrimoni Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-torre-di-cala-dei-balcani-santa-cesare-aterme-lecce-salento-6.jpg</image:loc>
+      <image:caption>Torre Saracena del XVI secolo con vista sul mare Adriatico — Cala dei Balcani, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-torre-di-cala-dei-balcani-santa-cesare-aterme-lecce-salento-7.jpg</image:loc>
+      <image:caption>La Torre Saracena di Monte Saracino e la costa salentina — Cala dei Balcani, Santa Cesarea Terme, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-torre-di-cala-dei-balcani-santa-cesare-aterme-lecce-salento-8.jpg</image:loc>
+      <image:caption>Dettaglio della Torre Saracena — simbolo storico di Santa Cesarea Terme, Cala dei Balcani, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-torre-di-cala-dei-balcani-santa-cesare-aterme-lecce-salento-9.jpg</image:loc>
+      <image:caption>Vista della Torre Saracena dal mare Adriatico — Cala dei Balcani, Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/vista-aerea-drone-torre-saracena-santa-cesarea-terme-salento.jpg</image:loc>
+      <image:caption>Vista aerea drone della Torre Saracena del XVI secolo di Cala dei Balcani — location matrimoni esclusiva, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-torre-di-cala-dei-balcani-santa-cesarea-terme-ristorante-per-matrimoni-e-ricevimenti-salento-lecce-puglia-italia-40-scaled.jpg</image:loc>
+      <image:caption>Terrazza con Torre Saracena per matrimoni di lusso — Cala dei Balcani, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-torre-di-cala-dei-balcani-santa-cesarea-terme-ristorante-per-matrimoni-e-ricevimenti-salento-lecce-puglia-italia-2terrazza-panoramica-matrimoni-mare-adriatico-cala-dei-balcani-salento.jpg</image:loc>
+      <image:caption>Torre Saracena e sala ristorante per matrimoni Cala dei Balcani, Santa Cesarea Terme, Lecce, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-torre-di-cala-dei-balcani-santa-cesare-aterme-lecce-salento-2.jpg</image:loc>
+      <image:caption>Torre Saracena di Monte Saracino del XVI secolo — Cala dei Balcani, Santa Cesarea Terme, Salento, Lecce</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/panorama-costa-salentina-mare-adriatico-cala-dei-balcani.jpg</image:loc>
+      <image:caption>Panorama della costa salentina e del mare Adriatico da Cala dei Balcani, Santa Cesarea Terme, Puglia</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://caladeibalcani.it/cucina.html</loc>
@@ -69,6 +294,78 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://caladeibalcani.it/fr/cuisine.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://caladeibalcani.it/es/cocina.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://caladeibalcani.it/de/kueche.html"/>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/chef-alta-cucina-salentina-cala-dei-balcani-salento.jpg</image:loc>
+      <image:caption>Chef di Cala dei Balcani al lavoro nella cucina salentina d</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/ingredienti-freschi-cucina-salentina-cala-dei-balcani.jpg</image:loc>
+      <image:caption>Ingredienti freschi e materie prime km zero dell</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/sposi-cerimonia-location-matrimoni-cala-dei-balcani-salento.jpg</image:loc>
+      <image:caption>Sposi alla cerimonia di Cala dei Balcani — location matrimoni esclusiva Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cucina-piatti-ristorazione-cala-dei-balcani-santa-cesarea-terme-lecce-salento-puglia-italia-1.jpg</image:loc>
+      <image:caption>Alta cucina salentina per matrimoni e ricevimenti a Cala dei Balcani — piatti tipici della tradizione pugliese</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cucina-piatti-ristorazione-cala-dei-balcani-santa-cesarea-terme-lecce-salento-puglia-italia-2.jpg</image:loc>
+      <image:caption>Antipasti tradizionali del Salento per banchetti nuziali a Cala dei Balcani, Santa Cesarea Terme, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cucina-piatti-ristorazione-cala-dei-balcani-santa-cesarea-terme-lecce-salento-puglia-italia-3.jpg</image:loc>
+      <image:caption>Secondi piatti di pesce adriatico per menu nozze — alta ristorazione Cala dei Balcani, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/primi-piatti-cala-dei-balcani.jpg</image:loc>
+      <image:caption>Primi piatti della cucina salentina per matrimoni di lusso a Cala dei Balcani, Santa Cesarea Terme, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/Ricci-di-polpo-su-doppia-consistenza-di-caciocavallo-podolico-rotolini-di-peperoni-e-pomodorini.jpg</image:loc>
+      <image:caption>Ricci di polpo su doppia consistenza di caciocavallo podolico — alta cucina salentina per matrimoni Cala dei Balcani</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/Panciotti-di-melanzane-e-scamorza-con-filetti-di-pomodoro-di-bue-e-carpaccio-di-cernia.jpg</image:loc>
+      <image:caption>Panciotti di melanzane e scamorza con filetti di pomodoro — cucina gourmet per nozze Cala dei Balcani, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/Tagliolini-al-nero-di-seppia-su-foglia-di-tonno.jpg</image:loc>
+      <image:caption>Tagliolini al nero di seppia su foglia di tonno — menu matrimonio gourmet Cala dei Balcani, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/Tortino-di-pesce-spada-con-soppressata-di-polpo-crema-di-pecorino-finocchio-marinato-e-chicchi-di-melagrana.jpg</image:loc>
+      <image:caption>Tortino di pesce spada con soppressata di polpo — haute cuisine per banchetti nuziali Cala dei Balcani, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/Darna-di-ombrina-con-cubo-di-carota-al-Roquefort-miele-e-noci.jpg</image:loc>
+      <image:caption>Darna di ombrina con cubo di carota al Roquefort, miele e noci — menu esclusivo nozze Cala dei Balcani, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/Scaloppa-di-orata-su-insalata-liquida-di-bietola-rossa-cilindro-di-patata-in-olio-cottura-e-cicorelle.jpg</image:loc>
+      <image:caption>Scaloppa di orata su insalata liquida di bietola rossa — alta cucina per matrimoni Cala dei Balcani, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/Riso-Vialone-Nano-con-gamberetti-vongole-e-coriandoli-di-verdure-con-cialda-di-corallo.jpg</image:loc>
+      <image:caption>Riso Vialone Nano con gamberetti e vongole — primo piatto matrimoni Cala dei Balcani, Santa Cesarea Terme</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/Tagliatelle-di-seppia-e-patate-ratta.jpg</image:loc>
+      <image:caption>Tagliatelle di seppia e patate ratta — eccellenza culinaria salentina per ricevimenti nuziali Cala dei Balcani</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cucina-gourmet-ricevimento-matrimonio-cala-dei-balcani-salento.jpg</image:loc>
+      <image:caption>Cucina gourmet per ricevimenti nuziali a Cala dei Balcani — alta ristorazione Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cucina-piatti-ristorazione-cala-dei-balcani-santa-cesarea-terme-lecce-salento-puglia-italia-6.jpg</image:loc>
+      <image:caption>Piatti della tradizione salentina per matrimoni di lusso a Cala dei Balcani, Puglia, Italia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cucina-piatti-ristorazione-cala-dei-balcani-santa-cesarea-terme-lecce-salento-puglia-italia-7.jpg</image:loc>
+      <image:caption>Alta gastronomia salentina per banchetti nuziali a Cala dei Balcani, Santa Cesarea Terme, Lecce, Salento</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://caladeibalcani.it/galleria.html</loc>
@@ -80,6 +377,390 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://caladeibalcani.it/fr/galerie.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://caladeibalcani.it/es/galeria.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://caladeibalcani.it/de/galerie.html"/>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/evento-matrimonio-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/evento-matrimonio-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-lusso-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-lusso-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-lusso-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-lusso-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-lusso-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-lusso-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/location-matrimoni-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Location matrimoni cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/galleria-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-07.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 07</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-08.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 08</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-09.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 09</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/vista-aerea-drone-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-07.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 07</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-08.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 08</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/evento-matrimonio-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/evento-matrimonio-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/evento-matrimonio-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/evento-matrimonio-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-esclusivo-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio esclusivo cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-esclusivo-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio esclusivo cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-esclusivo-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Matrimonio esclusivo cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/location-matrimoni-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Location matrimoni cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-10.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 10</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-11.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 11</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-12.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 12</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-13.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 13</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-14.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 14</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-15.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 15</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-16.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 16</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-17.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 17</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-internazionale-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio internazionale cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/galleria-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-09.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 09</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-10.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 10</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/galleria-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/galleria-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/evento-matrimonio-cala-dei-balcani-salento-07.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 07</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/vista-aerea-drone-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/vista-aerea-drone-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-vista-mare-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio vista mare cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-vista-mare-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio vista mare cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-18.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 18</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-19.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 19</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-20.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 20</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-21.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 21</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-22.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 22</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-23.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 23</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-24.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 24</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-25.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 25</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-26.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 26</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-27.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 27</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-11.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 11</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/vista-aerea-drone-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/vista-aerea-drone-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/vista-aerea-drone-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/galleria-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-12.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 12</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/evento-matrimonio-cala-dei-balcani-salento-08.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 08</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/evento-matrimonio-cala-dei-balcani-salento-09.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 09</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/evento-matrimonio-cala-dei-balcani-salento-10.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 10</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/location-evento-matrimonio-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/location-evento-matrimonio-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/location-evento-matrimonio-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/location-evento-matrimonio-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/location-matrimoni-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Location matrimoni cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-28.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 28</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-cala-dei-balcani-salento-29.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 29</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-13.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 13</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-14.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 14</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-internazionale-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio internazionale cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-15.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 15</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-16.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 16</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-17.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 17</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/foto-matrimonio-professionale-cala-dei-balcani-salento-18.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 18</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-location-matrimoni-lusso-salento-lecce-puglia.jpg</image:loc>
+      <image:caption>Location matrimoni di lusso Cala dei Balcani — sala eventi con vista mare Adriatico, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/vista-aerea-drone-cala-dei-balcani-santa-cesarea-terme-salento-puglia.jpg</image:loc>
+      <image:caption>Vista aerea drone di Cala dei Balcani — terrazza matrimoni panoramica sul mare Adriatico, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/serata-matrimonio-cala-dei-balcani-salento-mare-adriatico-vista-panoramica.jpg</image:loc>
+      <image:caption>Serata di matrimonio a Cala dei Balcani con vista panoramica sul mare Adriatico — Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-sposi-cala-dei-balcani-location-esclusiva-salento-lecce.jpg</image:loc>
+      <image:caption>Sposi nel giorno del loro matrimonio a Cala dei Balcani — location esclusiva sul mare, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/ricevimento-nuziale-cala-dei-balcani-salento-lecce-puglia-01.jpg</image:loc>
+      <image:caption>Ricevimento nuziale elegante a Cala dei Balcani — location matrimoni Santa Cesarea Terme, Lecce, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/ricevimento-nuziale-cala-dei-balcani-salento-lecce-puglia-02.jpg</image:loc>
+      <image:caption>Banchetto di matrimonio a Cala dei Balcani — alta cucina salentina per ricevimenti nuziali, Santa Cesarea Terme</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/ricevimento-nuziale-cala-dei-balcani-salento-lecce-puglia-03.jpg</image:loc>
+      <image:caption>Cerimonia e ricevimento nuziale a Cala dei Balcani — location eventi esclusiva Salento, Lecce, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/location-cala-dei-balcani-santa-cesarea-terme-salento-puglia-terrazza.jpg</image:loc>
+      <image:caption>Terrazza panoramica di Cala dei Balcani per matrimoni di lusso — Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://caladeibalcani.it/contatti.html</loc>
@@ -119,6 +800,26 @@
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://caladeibalcani.it/salento.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caladeibalcani.it/salento.html"/>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-location-matrimoni-wedding-salento-santa-cesarea-terme-lecce-1.jpg</image:loc>
+      <image:caption>Terrazza panoramica sul mare Adriatico — location matrimoni esclusiva Cala dei Balcani, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-salento-culturale-8.jpg</image:loc>
+      <image:caption>Santa Cesarea Terme &amp;mdash; vista mare</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-salento-1-1024x683.jpg</image:loc>
+      <image:caption>Panorama della costa del Salento con la location matrimoni Cala dei Balcani, Santa Cesarea Terme, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-salento-culturale-11.jpg</image:loc>
+      <image:caption>Panorama del Salento — Costa Adriatica, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/santa-cesarea-terme-vista-aerea-accommodation-cala-dei-balcani.jpg</image:loc>
+      <image:caption>Vista aerea di Santa Cesarea Terme sul mare Adriatico — accommodation vicino alla location matrimoni Cala dei Balcani, Salento</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://caladeibalcani.it/rivivi-il-tuo-si.html</loc>
@@ -126,6 +827,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://caladeibalcani.it/rivivi-il-tuo-si.html"/>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/rivivi-il-tuo-si-del-tuo-giorno-speciale-in-cala-dei-balcani-ristorante-per-matrimoni-santa-cesarea-terme-lecce-salento-puglia-italia.jpg</image:loc>
+      <image:caption>Rinnova le promesse e rivivi il tuo Sì a Cala dei Balcani — anniversario di matrimonio a Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/sposi-cala-dei-balcani-santa-cesarea-terme-lecce-salento-puglia-italia--scaled.jpg</image:loc>
+      <image:caption>Sposi felici dopo la cerimonia di matrimonio a Cala dei Balcani, Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/matrimonio-civile-cala-dei-balcani-santa-cesarea-terme-salento.jpg</image:loc>
+      <image:caption>Matrimonio civile in riva al mare Adriatico a Cala dei Balcani, Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cerimonia-civile-vista-mare-cala-dei-balcani-santa-cesarea-terme.jpg</image:loc>
+      <image:caption>Cerimonia civile con arco floreale e vista sul mare Adriatico — location matrimoni Cala dei Balcani, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://caladeibalcani.it/matrimoni-internazionali.html</loc>
@@ -133,6 +850,30 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://caladeibalcani.it/matrimoni-internazionali.html"/>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/INTERNATIONAL-AND-COZY-WEDDING-cala-dei-balcani-santa-cesarea-terme-lecce-salento-puglia-italia-2.jpg</image:loc>
+      <image:caption>Matrimonio internazionale intimo ed elegante a Cala dei Balcani, Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/INTERNATIONAL-AND-COZY-WEDDING-cala-dei-balcani-santa-cesarea-terme-lecce-salento-puglia-italia-.jpg</image:loc>
+      <image:caption>International and Cozy Wedding a Cala dei Balcani — matrimoni internazionali sul mare Adriatico, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-ristorante-per-matrimoni-santa-cesarea-terme-salento-lecce-puglia-1.jpg</image:loc>
+      <image:caption>Ristorante per matrimoni Cala dei Balcani — ricevimenti nuziali con vista mare, Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/location-wedding-santa-cesarea-terme-salento-lecce-puglia-italia-7-1024x682.jpg</image:loc>
+      <image:caption>Vista sul mare Adriatico di Santa Cesarea Terme dalla location Cala dei Balcani — wedding destination Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/la-torre-di-cala-dei-balcani-santa-cesare-aterme-lecce-salento-terrazza-panoramica-matrimoni-mare-adriatico-cala-dei-balcani-salento.jpg</image:loc>
+      <image:caption>Torre Saracena di Cala dei Balcani illuminata di notte — location matrimoni Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-location-matrimoni-wedding-salento-lecce-.jpg</image:loc>
+      <image:caption>Location matrimoni Cala dei Balcani con vista sul mare Adriatico, Santa Cesarea Terme, Salento, Lecce, Puglia</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://caladeibalcani.it/azienda-agricola.html</loc>
@@ -147,6 +888,18 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://caladeibalcani.it/blog.html"/>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/sposi-internazionali-wedding-cala-dei-balcani-salento.jpg</image:loc>
+      <image:caption>Matrimonio al tramonto sul mare Adriatico a Cala dei Balcani, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cala-dei-balcani-ristorante-matrimoni-salento-lecce-santa-cesarea-terme-puglia-italia-7-768x512.jpg</image:loc>
+      <image:caption>Dettaglio sala ristorante matrimoni Cala dei Balcani, Santa Cesarea Terme, Lecce, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/cerimonia-nuziale-arco-floreale-terrazza-cala-dei-balcani-salento.webp</image:loc>
+      <image:caption>Piatti della cucina salentina serviti durante un matrimonio a Cala dei Balcani</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://caladeibalcani.it/area-privata.html</loc>
@@ -161,6 +914,18 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="it" href="https://caladeibalcani.it/accommodation.html"/>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/panoramica-notturna-costa-salentina-cala-dei-balcani.jpg</image:loc>
+      <image:caption>Santa Cesarea Terme vista dal mare</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/location-wedding-santa-cesarea-terme-salento-lecce-puglia-italia-2.jpg</image:loc>
+      <image:caption>Location matrimoni Santa Cesarea Terme con vista mare Adriatico — Cala dei Balcani, Salento, Lecce, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/img/campo-grano-azienda-agricola-la-brunitta-cala-dei-balcani-salento.jpg</image:loc>
+      <image:caption>Vista aerea Santa Cesarea Terme</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://caladeibalcani.it/privacy.html</loc>
@@ -176,13 +941,409 @@
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <video:video>
+      <video:thumbnail_loc>https://caladeibalcani.it/img/og-index.jpg</video:thumbnail_loc>
+      <video:title>Cala dei Balcani — Luxury Wedding Venue, Santa Cesarea Terme, Salento</video:title>
+      <video:description>Video presentation of Cala dei Balcani, the exclusive luxury wedding venue in Santa Cesarea Terme, Salento, Puglia. 16th-century Saracen Tower, panoramic terraces over the Adriatic Sea, fine Salentine cuisine. One exclusive event per day.</video:description>
+      <video:content_loc>https://caladeibalcani.it/video/video-banner.mp4</video:content_loc>
+      <video:duration>60</video:duration>
+    </video:video>
   </url>
   <url><loc>https://caladeibalcani.it/en/about.html</loc><lastmod>2026-07-20</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://caladeibalcani.it/en/venue.html</loc><lastmod>2026-07-20</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://caladeibalcani.it/en/weddings.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://caladeibalcani.it/en/tower.html</loc><lastmod>2026-07-20</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://caladeibalcani.it/en/cuisine.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://caladeibalcani.it/en/gallery.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url>
+    <loc>https://caladeibalcani.it/en/gallery.html</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/evento-matrimonio-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 01 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/evento-matrimonio-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 02 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-lusso-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 01 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-lusso-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 02 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-lusso-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 03 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-lusso-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 04 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-lusso-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 05 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-lusso-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 06 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/location-matrimoni-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Location matrimoni cala dei balcani, Salento 01 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/galleria-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 01 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 01 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 02 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 03 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 04 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 05 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 06 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-07.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 07 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-08.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 08 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-09.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 09 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 01 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 02 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/vista-aerea-drone-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 01 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 03 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 04 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 05 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 06 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-07.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 07 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-08.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 08 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/evento-matrimonio-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 03 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/evento-matrimonio-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 04 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/evento-matrimonio-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 05 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/evento-matrimonio-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 06 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-esclusivo-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio esclusivo cala dei balcani, Salento 01 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-esclusivo-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio esclusivo cala dei balcani, Salento 02 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-esclusivo-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Matrimonio esclusivo cala dei balcani, Salento 03 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/location-matrimoni-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Location matrimoni cala dei balcani, Salento 02 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-10.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 10 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-11.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 11 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-12.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 12 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-13.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 13 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-14.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 14 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-15.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 15 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-16.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 16 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-17.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 17 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-internazionale-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio internazionale cala dei balcani, Salento 01 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/galleria-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 02 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-09.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 09 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-10.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 10 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/galleria-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 03 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/galleria-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 04 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/evento-matrimonio-cala-dei-balcani-salento-07.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 07 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/vista-aerea-drone-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 02 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/vista-aerea-drone-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 03 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-vista-mare-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio vista mare cala dei balcani, Salento 01 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-vista-mare-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio vista mare cala dei balcani, Salento 02 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-18.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 18 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-19.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 19 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-20.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 20 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-21.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 21 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-22.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 22 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-23.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 23 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-24.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 24 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-25.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 25 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-26.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 26 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-27.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 27 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-11.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 11 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/vista-aerea-drone-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 04 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/vista-aerea-drone-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 05 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/vista-aerea-drone-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 06 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/galleria-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 05 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-12.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 12 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/evento-matrimonio-cala-dei-balcani-salento-08.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 08 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/evento-matrimonio-cala-dei-balcani-salento-09.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 09 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/evento-matrimonio-cala-dei-balcani-salento-10.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 10 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/location-evento-matrimonio-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 01 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/location-evento-matrimonio-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 02 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/location-evento-matrimonio-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 03 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/location-evento-matrimonio-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 04 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/location-matrimoni-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Location matrimoni cala dei balcani, Salento 03 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-28.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 28 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-cala-dei-balcani-salento-29.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 29 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-13.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 13 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-14.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 14 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-internazionale-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio internazionale cala dei balcani, Salento 02 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-15.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 15 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-16.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 16 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-17.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 17 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-18.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 18 — Cala dei Balcani wedding venue, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/cala-dei-balcani-location-matrimoni-lusso-salento-lecce-puglia.jpg</image:loc>
+      <image:caption>Luxury wedding venue Cala dei Balcani — event hall with Adriatic sea view, Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/vista-aerea-drone-cala-dei-balcani-santa-cesarea-terme-salento-puglia.jpg</image:loc>
+      <image:caption>Aerial drone view of Cala dei Balcani — panoramic wedding terrace over the Adriatic Sea, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/serata-matrimonio-cala-dei-balcani-salento-mare-adriatico-vista-panoramica.jpg</image:loc>
+      <image:caption>Evening wedding at Cala dei Balcani with panoramic view of the Adriatic Sea — Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/matrimonio-sposi-cala-dei-balcani-location-esclusiva-salento-lecce.jpg</image:loc>
+      <image:caption>Wedding couple at Cala dei Balcani — exclusive seaside wedding venue, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/ricevimento-nuziale-cala-dei-balcani-salento-lecce-puglia-01.jpg</image:loc>
+      <image:caption>Elegant wedding reception at Cala dei Balcani — luxury venue Santa Cesarea Terme, Lecce, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/ricevimento-nuziale-cala-dei-balcani-salento-lecce-puglia-02.jpg</image:loc>
+      <image:caption>Wedding banquet at Cala dei Balcani — Salentine fine dining for wedding receptions, Santa Cesarea Terme</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/ricevimento-nuziale-cala-dei-balcani-salento-lecce-puglia-03.jpg</image:loc>
+      <image:caption>Wedding ceremony and reception at Cala dei Balcani — exclusive event venue Salento, Lecce, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/en/../img/location-cala-dei-balcani-santa-cesarea-terme-salento-puglia-terrazza.jpg</image:loc>
+      <image:caption>Panoramic terrace of Cala dei Balcani for luxury weddings — Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+  </url>
   <url><loc>https://caladeibalcani.it/en/contact.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://caladeibalcani.it/en/faq.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
 
@@ -192,13 +1353,409 @@
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <video:video>
+      <video:thumbnail_loc>https://caladeibalcani.it/img/og-home.jpg</video:thumbnail_loc>
+      <video:title>Cala dei Balcani — Domaine de Mariage de Luxe, Santa Cesarea Terme, Salento</video:title>
+      <video:description>Vidéo de présentation de Cala dei Balcani, le domaine de mariage exclusif à Santa Cesarea Terme, Salento, Puglia. Tour Sarrasine du XVIe siècle, terrasses panoramiques sur la mer Adriatique, haute cuisine salentine. Un seul événement exclusif par jour.</video:description>
+      <video:content_loc>https://caladeibalcani.it/video/video-banner.mp4</video:content_loc>
+      <video:duration>60</video:duration>
+    </video:video>
   </url>
   <url><loc>https://caladeibalcani.it/fr/qui-nous-sommes.html</loc><lastmod>2026-07-20</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://caladeibalcani.it/fr/le-lieu.html</loc><lastmod>2026-07-20</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://caladeibalcani.it/fr/mariages.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://caladeibalcani.it/fr/la-tour.html</loc><lastmod>2026-07-20</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://caladeibalcani.it/fr/cuisine.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://caladeibalcani.it/fr/galerie.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url>
+    <loc>https://caladeibalcani.it/fr/galerie.html</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/evento-matrimonio-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/evento-matrimonio-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-lusso-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-lusso-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-lusso-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-lusso-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-lusso-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-lusso-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/location-matrimoni-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Location matrimoni cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/galleria-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-07.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 07</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-08.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 08</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-09.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 09</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/vista-aerea-drone-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-07.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 07</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-08.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 08</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/evento-matrimonio-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/evento-matrimonio-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/evento-matrimonio-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/evento-matrimonio-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-esclusivo-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio esclusivo cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-esclusivo-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio esclusivo cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-esclusivo-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Matrimonio esclusivo cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/location-matrimoni-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Location matrimoni cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-10.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 10</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-11.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 11</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-12.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 12</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-13.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 13</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-14.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 14</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-15.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 15</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-16.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 16</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-17.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 17</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-internazionale-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio internazionale cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/galleria-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-09.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 09</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-10.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 10</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/galleria-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/galleria-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/evento-matrimonio-cala-dei-balcani-salento-07.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 07</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/vista-aerea-drone-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/vista-aerea-drone-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-vista-mare-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio vista mare cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-vista-mare-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio vista mare cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-18.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 18</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-19.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 19</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-20.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 20</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-21.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 21</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-22.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 22</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-23.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 23</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-24.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 24</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-25.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 25</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-26.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 26</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-27.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 27</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-11.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 11</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/vista-aerea-drone-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/vista-aerea-drone-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/vista-aerea-drone-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/galleria-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-12.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 12</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/evento-matrimonio-cala-dei-balcani-salento-08.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 08</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/evento-matrimonio-cala-dei-balcani-salento-09.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 09</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/evento-matrimonio-cala-dei-balcani-salento-10.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 10</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/location-evento-matrimonio-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/location-evento-matrimonio-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/location-evento-matrimonio-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/location-evento-matrimonio-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/location-matrimoni-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Location matrimoni cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-28.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 28</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-cala-dei-balcani-salento-29.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 29</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-13.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 13</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-14.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 14</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-internazionale-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio internazionale cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-15.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 15</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-16.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 16</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-17.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 17</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-18.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 18</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/cala-dei-balcani-location-matrimoni-lusso-salento-lecce-puglia.jpg</image:loc>
+      <image:caption>Lieu de mariage de luxe Cala dei Balcani — salle d</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/vista-aerea-drone-cala-dei-balcani-santa-cesarea-terme-salento-puglia.jpg</image:loc>
+      <image:caption>Vue aérienne drone de Cala dei Balcani — terrasse mariage panoramique sur la mer Adriatique, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/serata-matrimonio-cala-dei-balcani-salento-mare-adriatico-vista-panoramica.jpg</image:loc>
+      <image:caption>Soirée de mariage à Cala dei Balcani avec vue panoramique sur la mer Adriatique — Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/matrimonio-sposi-cala-dei-balcani-location-esclusiva-salento-lecce.jpg</image:loc>
+      <image:caption>Mariés à Cala dei Balcani — lieu de mariage exclusif en bord de mer, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/ricevimento-nuziale-cala-dei-balcani-salento-lecce-puglia-01.jpg</image:loc>
+      <image:caption>Réception nuptiale élégante à Cala dei Balcani — lieu de mariage de luxe, Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/ricevimento-nuziale-cala-dei-balcani-salento-lecce-puglia-02.jpg</image:loc>
+      <image:caption>Banquet de mariage à Cala dei Balcani — haute cuisine salentine pour réceptions nuptiales, Santa Cesarea Terme</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/ricevimento-nuziale-cala-dei-balcani-salento-lecce-puglia-03.jpg</image:loc>
+      <image:caption>Cérémonie et réception de mariage à Cala dei Balcani — lieu événementiel exclusif Salento, Lecce, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/fr/../img/location-cala-dei-balcani-santa-cesarea-terme-salento-puglia-terrazza.jpg</image:loc>
+      <image:caption>Terrasse panoramique de Cala dei Balcani pour mariages de luxe — Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+  </url>
   <url><loc>https://caladeibalcani.it/fr/contact.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://caladeibalcani.it/fr/faq.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
 
@@ -208,13 +1765,409 @@
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <video:video>
+      <video:thumbnail_loc>https://caladeibalcani.it/img/og-home.jpg</video:thumbnail_loc>
+      <video:title>Cala dei Balcani — Location de Bodas de Lujo, Santa Cesarea Terme, Salento</video:title>
+      <video:description>Vídeo de presentación de Cala dei Balcani, la location exclusiva para bodas de lujo en Santa Cesarea Terme, Salento, Puglia. Torre Sarracena del siglo XVI, terrazas panorámicas sobre el Adriático, alta cocina salentina. Un solo evento en exclusiva al día.</video:description>
+      <video:content_loc>https://caladeibalcani.it/video/video-banner.mp4</video:content_loc>
+      <video:duration>60</video:duration>
+    </video:video>
   </url>
   <url><loc>https://caladeibalcani.it/es/quienes-somos.html</loc><lastmod>2026-07-20</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://caladeibalcani.it/es/el-lugar.html</loc><lastmod>2026-07-20</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://caladeibalcani.it/es/bodas.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://caladeibalcani.it/es/la-torre.html</loc><lastmod>2026-07-20</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://caladeibalcani.it/es/cocina.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://caladeibalcani.it/es/galeria.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url>
+    <loc>https://caladeibalcani.it/es/galeria.html</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/evento-matrimonio-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/evento-matrimonio-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-lusso-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-lusso-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-lusso-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-lusso-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-lusso-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-lusso-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/location-matrimoni-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Location matrimoni cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/galleria-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-07.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 07</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-08.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 08</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-09.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 09</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/vista-aerea-drone-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-07.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 07</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-08.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 08</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/evento-matrimonio-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/evento-matrimonio-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/evento-matrimonio-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/evento-matrimonio-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-esclusivo-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio esclusivo cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-esclusivo-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio esclusivo cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-esclusivo-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Matrimonio esclusivo cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/location-matrimoni-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Location matrimoni cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-10.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 10</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-11.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 11</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-12.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 12</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-13.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 13</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-14.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 14</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-15.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 15</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-16.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 16</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-17.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 17</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-internazionale-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio internazionale cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/galleria-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-09.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 09</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-10.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 10</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/galleria-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/galleria-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/evento-matrimonio-cala-dei-balcani-salento-07.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 07</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/vista-aerea-drone-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/vista-aerea-drone-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-vista-mare-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio vista mare cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-vista-mare-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio vista mare cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-18.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 18</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-19.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 19</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-20.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 20</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-21.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 21</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-22.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 22</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-23.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 23</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-24.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 24</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-25.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 25</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-26.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 26</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-27.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 27</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-11.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 11</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/vista-aerea-drone-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/vista-aerea-drone-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/vista-aerea-drone-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/galleria-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-12.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 12</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/evento-matrimonio-cala-dei-balcani-salento-08.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 08</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/evento-matrimonio-cala-dei-balcani-salento-09.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 09</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/evento-matrimonio-cala-dei-balcani-salento-10.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 10</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/location-evento-matrimonio-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/location-evento-matrimonio-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/location-evento-matrimonio-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/location-evento-matrimonio-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/location-matrimoni-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Location matrimoni cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-28.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 28</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-cala-dei-balcani-salento-29.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 29</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-13.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 13</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-14.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 14</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-internazionale-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio internazionale cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-15.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 15</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-16.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 16</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-17.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 17</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-18.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 18</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/cala-dei-balcani-location-matrimoni-lusso-salento-lecce-puglia.jpg</image:loc>
+      <image:caption>Lugar de boda de lujo Cala dei Balcani — sala de eventos con vista al mar Adriático, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/vista-aerea-drone-cala-dei-balcani-santa-cesarea-terme-salento-puglia.jpg</image:loc>
+      <image:caption>Vista aérea drone de Cala dei Balcani — terraza panorámica de bodas sobre el mar Adriático, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/serata-matrimonio-cala-dei-balcani-salento-mare-adriatico-vista-panoramica.jpg</image:loc>
+      <image:caption>Noche de boda en Cala dei Balcani con vista panorámica al mar Adriático — Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/matrimonio-sposi-cala-dei-balcani-location-esclusiva-salento-lecce.jpg</image:loc>
+      <image:caption>Novios en Cala dei Balcani — lugar de boda exclusivo frente al mar, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/ricevimento-nuziale-cala-dei-balcani-salento-lecce-puglia-01.jpg</image:loc>
+      <image:caption>Recepción nupcial elegante en Cala dei Balcani — lugar de boda de lujo, Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/ricevimento-nuziale-cala-dei-balcani-salento-lecce-puglia-02.jpg</image:loc>
+      <image:caption>Banquete de boda en Cala dei Balcani — alta cocina salentina para recepciones nupciales, Santa Cesarea Terme</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/ricevimento-nuziale-cala-dei-balcani-salento-lecce-puglia-03.jpg</image:loc>
+      <image:caption>Ceremonia y recepción nupcial en Cala dei Balcani — lugar exclusivo Salento, Lecce, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/es/../img/location-cala-dei-balcani-santa-cesarea-terme-salento-puglia-terrazza.jpg</image:loc>
+      <image:caption>Terraza panorámica de Cala dei Balcani para bodas de lujo — Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+  </url>
   <url><loc>https://caladeibalcani.it/es/contacto.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://caladeibalcani.it/es/faq.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
 
@@ -224,13 +2177,409 @@
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <video:video>
+      <video:thumbnail_loc>https://caladeibalcani.it/img/og-home.jpg</video:thumbnail_loc>
+      <video:title>Cala dei Balcani — Luxus-Hochzeitslocation, Santa Cesarea Terme, Salento, Apulien</video:title>
+      <video:description>Videopräsentation von Cala dei Balcani, der exklusiven Luxus-Hochzeitslocation in Santa Cesarea Terme, Salento, Apulien. Historischer Sarazenturm aus dem 16. Jahrhundert, Panoramaterrassen am Adriatischen Meer, gehobene salentinische Küche. Exklusiv ein Event pro Tag.</video:description>
+      <video:content_loc>https://caladeibalcani.it/video/video-banner.mp4</video:content_loc>
+      <video:duration>60</video:duration>
+    </video:video>
   </url>
   <url><loc>https://caladeibalcani.it/de/ueber-uns.html</loc><lastmod>2026-07-20</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://caladeibalcani.it/de/der-ort.html</loc><lastmod>2026-07-20</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://caladeibalcani.it/de/hochzeiten.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://caladeibalcani.it/de/der-turm.html</loc><lastmod>2026-07-20</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://caladeibalcani.it/de/kueche.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://caladeibalcani.it/de/galerie.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url>
+    <loc>https://caladeibalcani.it/de/galerie.html</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/evento-matrimonio-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/evento-matrimonio-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-lusso-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-lusso-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-lusso-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-lusso-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-lusso-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-lusso-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Matrimonio lusso cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/location-matrimoni-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Location matrimoni cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/galleria-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-07.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 07</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-08.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 08</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-09.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 09</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/vista-aerea-drone-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-07.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 07</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-08.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 08</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/evento-matrimonio-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/evento-matrimonio-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/evento-matrimonio-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/evento-matrimonio-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-esclusivo-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio esclusivo cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-esclusivo-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio esclusivo cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-esclusivo-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Matrimonio esclusivo cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/location-matrimoni-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Location matrimoni cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-10.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 10</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-11.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 11</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-12.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 12</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-13.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 13</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-14.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 14</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-15.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 15</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-16.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 16</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-17.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 17</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-internazionale-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio internazionale cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/galleria-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-09.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 09</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-10.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 10</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/galleria-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/galleria-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/evento-matrimonio-cala-dei-balcani-salento-07.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 07</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/vista-aerea-drone-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/vista-aerea-drone-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-vista-mare-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Matrimonio vista mare cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-vista-mare-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio vista mare cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-18.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 18</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-19.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 19</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-20.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 20</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-21.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 21</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-22.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 22</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-23.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 23</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-24.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 24</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-25.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 25</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-26.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 26</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-27.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 27</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-11.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 11</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/vista-aerea-drone-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/vista-aerea-drone-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/vista-aerea-drone-cala-dei-balcani-salento-06.jpg</image:loc>
+      <image:caption>Vista aerea drone cala dei balcani, Salento 06</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/galleria-cala-dei-balcani-salento-05.jpg</image:loc>
+      <image:caption>Galleria cala dei balcani, Salento 05</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-12.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 12</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/evento-matrimonio-cala-dei-balcani-salento-08.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 08</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/evento-matrimonio-cala-dei-balcani-salento-09.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 09</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/evento-matrimonio-cala-dei-balcani-salento-10.jpg</image:loc>
+      <image:caption>Evento matrimonio cala dei balcani, Salento 10</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/location-evento-matrimonio-cala-dei-balcani-salento-01.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 01</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/location-evento-matrimonio-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/location-evento-matrimonio-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/location-evento-matrimonio-cala-dei-balcani-salento-04.jpg</image:loc>
+      <image:caption>Location evento matrimonio cala dei balcani, Salento 04</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/location-matrimoni-cala-dei-balcani-salento-03.jpg</image:loc>
+      <image:caption>Location matrimoni cala dei balcani, Salento 03</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-28.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 28</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-cala-dei-balcani-salento-29.jpg</image:loc>
+      <image:caption>Matrimonio cala dei balcani, Salento 29</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-13.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 13</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-14.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 14</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-internazionale-cala-dei-balcani-salento-02.jpg</image:loc>
+      <image:caption>Matrimonio internazionale cala dei balcani, Salento 02</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-15.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 15</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-16.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 16</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-17.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 17</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/foto-matrimonio-professionale-cala-dei-balcani-salento-18.jpg</image:loc>
+      <image:caption>Foto matrimonio professionale cala dei balcani, Salento 18</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/cala-dei-balcani-location-matrimoni-lusso-salento-lecce-puglia.jpg</image:loc>
+      <image:caption>Luxus-Hochzeitslocation Cala dei Balcani — Veranstaltungssaal mit Blick auf die Adria, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/vista-aerea-drone-cala-dei-balcani-santa-cesarea-terme-salento-puglia.jpg</image:loc>
+      <image:caption>Drohnen-Luftaufnahme von Cala dei Balcani — Panoramaterrasse für Hochzeiten über der Adria, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/serata-matrimonio-cala-dei-balcani-salento-mare-adriatico-vista-panoramica.jpg</image:loc>
+      <image:caption>Hochzeitsabend bei Cala dei Balcani mit Panoramablick auf die Adria — Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/matrimonio-sposi-cala-dei-balcani-location-esclusiva-salento-lecce.jpg</image:loc>
+      <image:caption>Brautpaar bei Cala dei Balcani — exklusive Hochzeitslocation am Meer, Santa Cesarea Terme, Salento</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/ricevimento-nuziale-cala-dei-balcani-salento-lecce-puglia-01.jpg</image:loc>
+      <image:caption>Eleganter Hochzeitsempfang bei Cala dei Balcani — Luxushochzeitslocation, Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/ricevimento-nuziale-cala-dei-balcani-salento-lecce-puglia-02.jpg</image:loc>
+      <image:caption>Hochzeitsbankett bei Cala dei Balcani — Salentinische Spitzenküche für Hochzeitsempfänge, Santa Cesarea Terme</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/ricevimento-nuziale-cala-dei-balcani-salento-lecce-puglia-03.jpg</image:loc>
+      <image:caption>Hochzeitszeremonie und Empfang bei Cala dei Balcani — exklusive Eventvenue Salento, Lecce, Puglia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://caladeibalcani.it/de/../img/location-cala-dei-balcani-santa-cesarea-terme-salento-puglia-terrazza.jpg</image:loc>
+      <image:caption>Panoramaterrasse von Cala dei Balcani für Luxushochzeiten — Santa Cesarea Terme, Salento, Puglia</image:caption>
+    </image:image>
+  </url>
   <url><loc>https://caladeibalcani.it/de/kontakt.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://caladeibalcani.it/de/faq.html</loc><lastmod>2026-07-20</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
 
