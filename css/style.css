@@ -209,18 +209,16 @@ p  { color: var(--text-mid); line-height: 1.85; }
 }
 .hero__video-iframe {
   position: absolute;
-  inset: 0;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%; height: 100%;
+  /* sorgente video nativa 960x720 — oltre ~1.2x di upscale diventa visibilmente
+     sgranata; sopra questa soglia mostriamo lo sfondo navy ai lati invece di
+     stirare il video (l'immagine statica HD resta la copertina finché il
+     video non parte, vedi main.js) */
+  max-width: 1152px;
   object-fit: cover;
   pointer-events: none; z-index: 0;
-  animation: hero-kenburns 26s ease-in-out infinite;
-  will-change: transform;
-}
-@keyframes hero-kenburns {
-  0%   { transform: scale(1.04) translate(0%,    0%   ); }
-  35%  { transform: scale(1.09) translate(-1.2%, -0.6%); }
-  70%  { transform: scale(1.06) translate(0.8%,  0.4%); }
-  100% { transform: scale(1.04) translate(0%,    0%   ); }
 }
 .hero__bg::before {
   content: ''; position: absolute; inset: 0; z-index: 1;

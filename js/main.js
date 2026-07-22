@@ -1,5 +1,19 @@
 /* Cala dei Balcani — Main JavaScript */
 
+// ── Hero video: start immediately, skip only on detected slow connections ──
+// (guarded by tagName so this can never crash again if the hero markup changes)
+(function () {
+  var v = document.querySelector('.hero__video-iframe');
+  if (!v || v.tagName !== 'VIDEO') return;
+  var slowConnection = navigator.connection && (navigator.connection.saveData ||
+    ['slow-2g', '2g'].includes(navigator.connection.effectiveType));
+  if (!slowConnection) {
+    v.setAttribute('preload', 'auto');
+    v.load();
+    v.play().catch(function () {});
+  }
+})();
+
 // ── Navigation ──
 const nav = document.querySelector('.nav');
 const navToggle = document.querySelector('.nav__toggle');
