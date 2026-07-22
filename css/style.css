@@ -662,6 +662,7 @@ footer h5 {
 }
 @media (max-width: 768px) {
   .video-testi-grid { grid-template-columns: 1fr !important; }
+  .video-testi-grid .yt-facade { margin-left: -24px; margin-right: -24px; border-radius: 0; }
   .torre-mura-grid { grid-template-columns: 1fr 1fr !important; }
 }
 @media (max-width: 480px) {
