@@ -106,19 +106,7 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
   });
 });
 
-// ── Active language link ──
-(function () {
-  const path = window.location.pathname;
-  document.querySelectorAll('.nav__lang a').forEach(a => {
-    a.classList.remove('active');
-    const href = a.getAttribute('href');
-    if (href === '/' && !path.startsWith('/en') && !path.startsWith('/fr') && !path.startsWith('/es') && !path.startsWith('/de')) {
-      a.classList.add('active');
-    } else if (href !== '/' && path.startsWith(href)) {
-      a.classList.add('active');
-    }
-  });
-})();
+// Active language link is set statically in each page's HTML — no JS override needed.
 
 // ── Slideshow ──
 function initSlideshow(el) {

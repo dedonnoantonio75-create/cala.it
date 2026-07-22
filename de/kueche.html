@@ -65,11 +65,24 @@
 
 <!-- ── NAVIGATION ── -->
 <nav class="nav" role="navigation" aria-label="Hauptnavigation">
-  <div class="nav__inner">
-    <a href="/de/" class="nav__logo">Cala dei <span>Balcani</span></a>
-    <button class="nav__toggle" aria-label="Menü öffnen" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
+  <!-- TOP BAR: logo + lang -->
+  <div class="nav__top">
+    <a href="index.html" class="nav__logo" aria-label="Cala dei Balcani">
+      <picture><source srcset="../img/logo-cala-dei-balcani-nuovo-ristorante-per-ricevimenti-santa-cesarea-terme-lecce-salento-puglia-italia-2-180x49.webp" type="image/webp"><img src="../img/logo-cala-dei-balcani-nuovo-ristorante-per-ricevimenti-santa-cesarea-terme-lecce-salento-puglia-italia-2-180x49.png" alt="Logo Cala dei Balcani — Luxus-Hochzeitslocation Santa Cesarea Terme Salento Puglia Italien" width="180" height="49" loading="lazy"></picture>
+    </a>
+    <div class="nav__right">
+      <nav class="nav__lang" aria-label="Sprache wählen">
+        <a href="../cucina.html"    hreflang="it">IT</a>
+        <a href="../en/cuisine.html" hreflang="en">EN</a>
+        <a href="../fr/cuisine.html" hreflang="fr">FR</a>
+        <a href="../es/cocina.html" hreflang="es">ES</a>
+        <a href="kueche.html" hreflang="de" class="active">DE</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Menü öffnen" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <!-- PRIMARY NAV -->
+  <div class="nav__row nav__row--primary">
     <ul class="nav__menu" role="list">
       <li><a href="/de/">Startseite</a></li>
       <li><a href="ueber-uns.html">Über Uns</a></li>
@@ -82,15 +95,6 @@
         <li><a href="kontakt.html">Kontakt</a></li>
       <li><a href="https://www.caladeibalcani.info" target="_blank" rel="noopener" class="nav__cta-item">Starte hier</a></li>
     </ul>
-    <div class="nav__right">
-      <nav class="nav__lang" aria-label="Sprache wählen">
-        <a href="../cucina.html"    hreflang="it">IT</a>
-        <a href="../en/cuisine.html" hreflang="en">EN</a>
-        <a href="../fr/cuisine.html" hreflang="fr">FR</a>
-        <a href="../es/cocina.html" hreflang="es">ES</a>
-        <a href="kueche.html" hreflang="de" class="active">DE</a>
-      </nav>
-    </div>
   </div>
 </nav>
 

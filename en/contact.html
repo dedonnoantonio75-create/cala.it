@@ -84,10 +84,25 @@
 <body>
 
   <!-- NAVIGATION -->
-  <nav class="nav" role="navigation" aria-label="Main navigation">
-    <div class="nav__inner">
-      <a href="/en/" class="nav__logo" aria-label="Cala dei Balcani — Home">Cala dei <span>Balcani</span></a>
-      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+    <!-- TOP BAR: logo + lang -->
+    <div class="nav__top">
+      <a href="index.html" class="nav__logo" aria-label="Cala dei Balcani — Home">
+        <picture><source srcset="../img/logo-cala-dei-balcani-nuovo-ristorante-per-ricevimenti-santa-cesarea-terme-lecce-salento-puglia-italia-2-180x49.webp" type="image/webp"><img src="../img/logo-cala-dei-balcani-nuovo-ristorante-per-ricevimenti-santa-cesarea-terme-lecce-salento-puglia-italia-2-180x49.png" alt="Logo Cala dei Balcani — luxury wedding venue Santa Cesarea Terme Salento Puglia Italy" width="180" height="49" loading="lazy"></picture>
+      </a>
+      <div class="nav__right">
+        <nav class="nav__lang" aria-label="Select language">
+          <a href="../contatti.html" hreflang="it" aria-label="Italiano">IT</a>
+          <a href="contact.html" class="active" hreflang="en" aria-label="English">EN</a>
+          <a href="../fr/contact.html" hreflang="fr" aria-label="Français">FR</a>
+          <a href="../es/contacto.html" hreflang="es" aria-label="Español">ES</a>
+          <a href="../de/kontakt.html" hreflang="de" aria-label="Deutsch">DE</a>
+        </nav>
+        <button class="nav__toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <!-- PRIMARY NAV -->
+    <div class="nav__row nav__row--primary">
       <ul class="nav__menu" role="list">
         <li><a href="/en/">Home</a></li>
         <li><a href="about.html">About Us</a></li>
@@ -99,15 +114,6 @@
         <li><a href="contact.html" aria-current="page">Contact</a></li>
       <li><a href="https://www.caladeibalcani.info" target="_blank" rel="noopener" class="nav__cta-item">Start From Here</a></li>
       </ul>
-      <div class="nav__right">
-        <nav class="nav__lang" aria-label="Select language">
-          <a href="../contatti.html" hreflang="it" aria-label="Italiano">IT</a>
-          <a href="contact.html" class="active" hreflang="en" aria-label="English">EN</a>
-          <a href="../fr/contact.html" hreflang="fr" aria-label="Français">FR</a>
-          <a href="../es/contacto.html" hreflang="es" aria-label="Español">ES</a>
-          <a href="../de/kontakt.html" hreflang="de" aria-label="Deutsch">DE</a>
-        </nav>
-      </div>
     </div>
   </nav>
 
