@@ -213,6 +213,8 @@ p  { color: var(--text-mid); line-height: 1.85; }
   width: 100%; height: 100%;
   object-fit: cover;
   border: none; pointer-events: none; z-index: 0;
+  /* sorgente 960×720 — contrasto lieve riduce la percezione di sfocatura da upscaling */
+  filter: contrast(1.08) brightness(1.02);
 }
 .hero__bg::before {
   content: ''; position: absolute; inset: 0; z-index: 1;
