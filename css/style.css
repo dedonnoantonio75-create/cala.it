@@ -661,7 +661,11 @@ footer h5 {
   .btn       { justify-content: center; }
 }
 @media (max-width: 768px) {
-  .video-section [style*="grid-template-columns:3fr 2fr"] { grid-template-columns: 1fr !important; }
+  .video-testi-grid { grid-template-columns: 1fr !important; }
+  .torre-mura-grid { grid-template-columns: 1fr 1fr !important; }
+}
+@media (max-width: 480px) {
+  .torre-mura-grid { grid-template-columns: 1fr !important; }
 }
 @media (max-width: 520px) {
   .grid-4   { grid-template-columns: 1fr; }

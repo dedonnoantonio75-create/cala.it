@@ -200,7 +200,7 @@ document.querySelectorAll('.yt-facade').forEach(function(facade) {
     var ytid = facade.dataset.ytid;
     var title = facade.dataset.title || 'YouTube video';
     var iframe = document.createElement('iframe');
-    iframe.src = 'https://www.youtube.com/embed/' + ytid + '?autoplay=1&rel=0';
+    iframe.src = 'https://www.youtube-nocookie.com/embed/' + ytid + '?autoplay=1&rel=0';
     iframe.title = title;
     iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
     iframe.allowFullscreen = true;
