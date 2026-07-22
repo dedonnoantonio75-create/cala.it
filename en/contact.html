@@ -148,6 +148,59 @@
             <hr class="divider">
             <p>Whether you are beginning to plan your wedding and simply want to know more, or you have a specific date in mind and are ready to discuss details, we welcome your contact. Our team — led by Francesco Urso — responds to all enquiries personally and promptly. We understand that planning a wedding is one of life's most significant undertakings, and we treat every enquiry with the seriousness and warmth it deserves. We invite you to write, call, or visit us in person at our venue on the Salentine coast.</p>
 
+            <form class="contact-form" action="#" method="POST" novalidate aria-label="Cala dei Balcani contact form" name="contact-en" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true" style="margin-top:2rem">
+              <input name="bot-field" type="text" autocomplete="off" tabindex="-1" style="position:absolute;left:-9999px;width:0;height:0;overflow:hidden" aria-hidden="true">
+              <input type="hidden" name="form-name" value="contact-en">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name *</label>
+                  <input type="text" id="firstName" name="firstName" placeholder="Your first name" required autocomplete="given-name">
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name *</label>
+                  <input type="text" id="lastName" name="lastName" placeholder="Your last name" required autocomplete="family-name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="+44 000 000 0000" autocomplete="tel">
+              </div>
+              <div class="form-group">
+                <label for="date">Wedding Date</label>
+                <input type="date" id="date" name="date">
+              </div>
+              <div class="form-group">
+                <label for="guests">Expected Number of Guests</label>
+                <select id="guests" name="guests">
+                  <option value="">Select...</option>
+                  <option value="under-50">Under 50</option>
+                  <option value="50-100">50 – 100</option>
+                  <option value="100-150">100 – 150</option>
+                  <option value="150-200">150 – 200</option>
+                  <option value="over-200">Over 200</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" placeholder="Tell us about your dream wedding... dates, ceremony style, guest numbers, questions..." required></textarea>
+              </div>
+              <div style="margin-bottom:20px;font-size:.8rem;color:var(--text-light)">
+                * Required fields. Your data will be processed in accordance with EU Regulation 2016/679 (GDPR). <a href="#" style="color:var(--gold)">Privacy Policy</a>.
+              </div>
+              <div style="margin-bottom:16px">
+                <label style="display:flex;align-items:flex-start;gap:10px;cursor:pointer;font-size:.82rem;color:var(--text-light)">
+                  <input type="checkbox" name="privacy" required style="margin-top:3px;flex-shrink:0;width:15px;height:15px;accent-color:var(--gold)">
+                  <span>I have read and accept the <a href="#" style="color:var(--gold)">Privacy &amp; Cookie Policy</a> in accordance with EU Regulation 2016/679 (GDPR). *</span>
+                </label>
+              </div>
+              <div data-netlify-recaptcha="true" style="margin-bottom:16px"></div>
+              <button type="submit" class="btn btn--gold" style="width:100%;justify-content:center">Send Message</button>
+            </form>
+
             <address class="contact-details" style="font-style:normal; margin-top: 2rem;">
               <dl>
                 <dt style="font-weight:600; margin-top:1rem;">Address</dt>
