@@ -1,9 +1,23 @@
 (function () {
   var KEY = 'cdb_cookie_consent';
   var CONSENT = localStorage.getItem(KEY);
+  var GA_ID = 'G-1M0FTSFDX7';
 
   var isSubdir = /\/(en|fr|es|de)\//.test(location.pathname);
   var privacyUrl = isSubdir ? '../privacy.html' : 'privacy.html';
+
+  function loadAnalytics() {
+    if (window.__cdbAnalyticsLoaded) return;
+    window.__cdbAnalyticsLoaded = true;
+    var ga = document.createElement('script');
+    ga.async = true;
+    ga.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+    document.head.appendChild(ga);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { window.dataLayer.push(arguments); };
+    gtag('js', new Date());
+    gtag('config', GA_ID);
+  }
 
   var s = document.createElement('style');
   s.textContent =
@@ -62,7 +76,7 @@
       }, 350);
     }
 
-    document.getElementById('cdb-accept').addEventListener('click', function () { dismiss('accepted'); });
+    document.getElementById('cdb-accept').addEventListener('click', function () { dismiss('accepted'); loadAnalytics(); });
     document.getElementById('cdb-necessary').addEventListener('click', function () { dismiss('necessary'); });
   }
 
@@ -70,5 +84,6 @@
     showBanner();
   } else {
     createMini();
+    if (CONSENT === 'accepted') loadAnalytics();
   }
 })();
