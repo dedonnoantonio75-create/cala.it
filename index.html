@@ -240,10 +240,14 @@
 <!-- ── HERO ── -->
 <section class="hero" aria-label="Benvenuti a Cala dei Balcani">
   <div class="hero__bg">
-    <video class="hero__video-iframe" autoplay muted loop playsinline preload="auto"
-      poster="img/sposi-matrimonio-internazionale-cala-dei-balcani-salento-puglia.jpg">
-      <source src="video/video-banner.mp4" type="video/mp4">
-    </video>
+    <picture>
+      <source srcset="img/sposi-matrimonio-internazionale-cala-dei-balcani-salento-puglia.webp" type="image/webp">
+      <img class="hero__video-iframe"
+        src="img/sposi-matrimonio-internazionale-cala-dei-balcani-salento-puglia.jpg"
+        alt="" aria-hidden="true"
+        width="2560" height="1707"
+        loading="eager" fetchpriority="high">
+    </picture>
   </div>
   <div class="hero__content">
     <span class="eyebrow">Santa Cesarea Terme · Salento · Puglia</span>
