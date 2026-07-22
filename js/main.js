@@ -154,7 +154,10 @@ const SUCCESS_MSG = {
 const pageLang = (document.documentElement.lang || 'it').slice(0, 2);
 const successText = SUCCESS_MSG[pageLang] || SUCCESS_MSG.it;
 
-document.querySelectorAll('form[data-netlify="true"]').forEach(form => {
+// Netlify's build post-processing strips data-netlify="true" from served HTML
+// (replaced by a hidden form-name field for no-JS fallback), so match on name
+// instead — every real form here has one; the area-privata placeholder form does not.
+document.querySelectorAll('form[name]').forEach(form => {
   form.addEventListener('submit', e => {
     e.preventDefault();
     const required = form.querySelectorAll('[required]');
