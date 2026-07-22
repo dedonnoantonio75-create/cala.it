@@ -10,7 +10,8 @@
   if (!slowConnection) {
     v.setAttribute('preload', 'auto');
     v.load();
-    v.play().catch(function () {});
+    var playPromise = v.play();
+    if (playPromise && playPromise.catch) playPromise.catch(function () {});
   }
 })();
 
